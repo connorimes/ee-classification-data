@@ -1,0 +1,2263 @@
+Waiting for PID file: actuator_pid
+Got base PID: 75974
+Begin: 2018-01-12T09:43:32,219210732-0800
+Waiting for standard input...
+Request begin: 2018-01-12T09:43:42,376020916-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '75974 75975 75977 75976 75979 75978 75982'
+pid 75974's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75974's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75975's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75975's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75977's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75977's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75976's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75976's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75979's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75979's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75978's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75978's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75982's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75982's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-12T09:43:42,449210828-0800
+Request begin: 2018-01-12T09:43:47,376240502-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:43:47,377852222-0800
+Request begin: 2018-01-12T09:43:52,392382533-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:43:52,394048457-0800
+Request begin: 2018-01-12T09:43:57,404361201-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:43:57,405812049-0800
+Request begin: 2018-01-12T09:44:02,418634800-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:44:02,420116388-0800
+Request begin: 2018-01-12T09:44:07,431808631-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:44:07,433488042-0800
+Request begin: 2018-01-12T09:44:12,446681072-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:44:12,448352780-0800
+Request begin: 2018-01-12T09:44:17,458525309-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:44:17,460299904-0800
+Request begin: 2018-01-12T09:44:22,469473739-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:44:22,471033231-0800
+Request begin: 2018-01-12T09:44:27,485414763-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:44:27,486982325-0800
+Request begin: 2018-01-12T09:44:32,518447734-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:44:32,520212251-0800
+Request begin: 2018-01-12T09:44:37,531191053-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:44:37,532862698-0800
+Request begin: 2018-01-12T09:44:42,542698782-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:44:42,544470990-0800
+Request begin: 2018-01-12T09:44:47,554946723-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:44:47,556450613-0800
+Request begin: 2018-01-12T09:44:52,574084176-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:44:52,575849291-0800
+Request begin: 2018-01-12T09:44:57,588524187-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:44:57,590250131-0800
+Request begin: 2018-01-12T09:45:02,603907401-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:45:02,605675890-0800
+Request begin: 2018-01-12T09:45:07,619153135-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:45:07,620760370-0800
+Request begin: 2018-01-12T09:45:12,634801963-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:45:12,636483341-0800
+Request begin: 2018-01-12T09:45:17,648657609-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:45:17,650249852-0800
+Request begin: 2018-01-12T09:45:22,663861525-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:45:22,665428527-0800
+Request begin: 2018-01-12T09:45:27,699475386-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:45:27,703117126-0800
+Request begin: 2018-01-12T09:45:32,707336158-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:45:32,709020952-0800
+Request begin: 2018-01-12T09:45:37,724396889-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:45:37,726732564-0800
+Request begin: 2018-01-12T09:45:42,736961096-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:45:42,739087741-0800
+Request begin: 2018-01-12T09:45:47,748705208-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:45:47,750952883-0800
+Request begin: 2018-01-12T09:45:52,770001084-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:45:52,771974072-0800
+Request begin: 2018-01-12T09:45:57,782576019-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:45:57,784279308-0800
+Request begin: 2018-01-12T09:46:02,797679032-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:46:02,799276346-0800
+Request begin: 2018-01-12T09:46:07,813434131-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:46:07,814923871-0800
+Request begin: 2018-01-12T09:46:12,829167480-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:46:12,831186811-0800
+Request begin: 2018-01-12T09:46:17,909683930-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:46:17,911288771-0800
+Request begin: 2018-01-12T09:46:22,923649804-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:46:22,925518943-0800
+Request begin: 2018-01-12T09:46:27,936219611-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:46:27,938269388-0800
+Request begin: 2018-01-12T09:46:32,949799892-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:46:32,951754965-0800
+Request begin: 2018-01-12T09:46:38,211342896-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:46:38,212764382-0800
+Request begin: 2018-01-12T09:46:43,220455408-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:46:43,221567005-0800
+Request begin: 2018-01-12T09:46:48,229148142-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:46:48,236547515-0800
+Request begin: 2018-01-12T09:46:53,244000858-0800
+Setting taskset '0x00000000000000000000FFFFFFFFFFFFFFFFFFFF' on PIDs '75974 75975 75977 75976 75979 75978 75982 76374 76420 76421 76422 76423 76424 76425 76426 76427 76428 76429 76430 76431 76432 76433 76434 76435 76436 76437 76438 76439 76440 76441 76442 76443 76444 76445 76446 76447 76448 76449 76450 76451 76452 76453 76454 76455 76456 76457 76458 76459 76460 76461 76462 76463 76464 76465 76466 76467 76468 76469 76470 76471 76472 76473 76474 76475 76476 76477 76478 76479 76480 76481 76482 76483 76484 76485 76486 76487 76488 76489 76490 76491 76492 76493 76494 76495 76496 76497 76498'
+pid 75974's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75974's new affinity mask: ffffffffffffffffffff
+pid 75975's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75975's new affinity mask: ffffffffffffffffffff
+pid 75977's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75977's new affinity mask: ffffffffffffffffffff
+pid 75976's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75976's new affinity mask: ffffffffffffffffffff
+pid 75979's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75979's new affinity mask: ffffffffffffffffffff
+pid 75978's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75978's new affinity mask: ffffffffffffffffffff
+pid 75982's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75982's new affinity mask: ffffffffffffffffffff
+pid 76374's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76374's new affinity mask: ffffffffffffffffffff
+pid 76420's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76420's new affinity mask: ffffffffffffffffffff
+pid 76421's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76421's new affinity mask: ffffffffffffffffffff
+pid 76422's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76422's new affinity mask: ffffffffffffffffffff
+pid 76423's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76423's new affinity mask: ffffffffffffffffffff
+pid 76424's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76424's new affinity mask: ffffffffffffffffffff
+pid 76425's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76425's new affinity mask: ffffffffffffffffffff
+pid 76426's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76426's new affinity mask: ffffffffffffffffffff
+pid 76427's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76427's new affinity mask: ffffffffffffffffffff
+pid 76428's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76428's new affinity mask: ffffffffffffffffffff
+pid 76429's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76429's new affinity mask: ffffffffffffffffffff
+pid 76430's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76430's new affinity mask: ffffffffffffffffffff
+pid 76431's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76431's new affinity mask: ffffffffffffffffffff
+pid 76432's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76432's new affinity mask: ffffffffffffffffffff
+pid 76433's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76433's new affinity mask: ffffffffffffffffffff
+pid 76434's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76434's new affinity mask: ffffffffffffffffffff
+pid 76435's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76435's new affinity mask: ffffffffffffffffffff
+pid 76436's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76436's new affinity mask: ffffffffffffffffffff
+pid 76437's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76437's new affinity mask: ffffffffffffffffffff
+pid 76438's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76438's new affinity mask: ffffffffffffffffffff
+pid 76439's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76439's new affinity mask: ffffffffffffffffffff
+pid 76440's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76440's new affinity mask: ffffffffffffffffffff
+pid 76441's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76441's new affinity mask: ffffffffffffffffffff
+pid 76442's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76442's new affinity mask: ffffffffffffffffffff
+pid 76443's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76443's new affinity mask: ffffffffffffffffffff
+pid 76444's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76444's new affinity mask: ffffffffffffffffffff
+pid 76445's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76445's new affinity mask: ffffffffffffffffffff
+pid 76446's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76446's new affinity mask: ffffffffffffffffffff
+pid 76447's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76447's new affinity mask: ffffffffffffffffffff
+pid 76448's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76448's new affinity mask: ffffffffffffffffffff
+pid 76449's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76449's new affinity mask: ffffffffffffffffffff
+pid 76450's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76450's new affinity mask: ffffffffffffffffffff
+pid 76451's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76451's new affinity mask: ffffffffffffffffffff
+pid 76452's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76452's new affinity mask: ffffffffffffffffffff
+pid 76453's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76453's new affinity mask: ffffffffffffffffffff
+pid 76454's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76454's new affinity mask: ffffffffffffffffffff
+pid 76455's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76455's new affinity mask: ffffffffffffffffffff
+pid 76456's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76456's new affinity mask: ffffffffffffffffffff
+pid 76457's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76457's new affinity mask: ffffffffffffffffffff
+pid 76458's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76458's new affinity mask: ffffffffffffffffffff
+pid 76459's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76459's new affinity mask: ffffffffffffffffffff
+pid 76460's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76460's new affinity mask: ffffffffffffffffffff
+pid 76461's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76461's new affinity mask: ffffffffffffffffffff
+pid 76462's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76462's new affinity mask: ffffffffffffffffffff
+pid 76463's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76463's new affinity mask: ffffffffffffffffffff
+pid 76464's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76464's new affinity mask: ffffffffffffffffffff
+pid 76465's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76465's new affinity mask: ffffffffffffffffffff
+pid 76466's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76466's new affinity mask: ffffffffffffffffffff
+pid 76467's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76467's new affinity mask: ffffffffffffffffffff
+pid 76468's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76468's new affinity mask: ffffffffffffffffffff
+pid 76469's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76469's new affinity mask: ffffffffffffffffffff
+pid 76470's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76470's new affinity mask: ffffffffffffffffffff
+pid 76471's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76471's new affinity mask: ffffffffffffffffffff
+pid 76472's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76472's new affinity mask: ffffffffffffffffffff
+pid 76473's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76473's new affinity mask: ffffffffffffffffffff
+pid 76474's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76474's new affinity mask: ffffffffffffffffffff
+pid 76475's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76475's new affinity mask: ffffffffffffffffffff
+pid 76476's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76476's new affinity mask: ffffffffffffffffffff
+pid 76477's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76477's new affinity mask: ffffffffffffffffffff
+pid 76478's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76478's new affinity mask: ffffffffffffffffffff
+pid 76479's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76479's new affinity mask: ffffffffffffffffffff
+pid 76480's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76480's new affinity mask: ffffffffffffffffffff
+pid 76481's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76481's new affinity mask: ffffffffffffffffffff
+pid 76482's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76482's new affinity mask: ffffffffffffffffffff
+pid 76483's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76483's new affinity mask: ffffffffffffffffffff
+pid 76484's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76484's new affinity mask: ffffffffffffffffffff
+pid 76485's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76485's new affinity mask: ffffffffffffffffffff
+pid 76486's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76486's new affinity mask: ffffffffffffffffffff
+pid 76487's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76487's new affinity mask: ffffffffffffffffffff
+pid 76488's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76488's new affinity mask: ffffffffffffffffffff
+pid 76489's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76489's new affinity mask: ffffffffffffffffffff
+pid 76490's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76490's new affinity mask: ffffffffffffffffffff
+pid 76491's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76491's new affinity mask: ffffffffffffffffffff
+pid 76492's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76492's new affinity mask: ffffffffffffffffffff
+pid 76493's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76493's new affinity mask: ffffffffffffffffffff
+pid 76494's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76494's new affinity mask: ffffffffffffffffffff
+pid 76495's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76495's new affinity mask: ffffffffffffffffffff
+pid 76496's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76496's new affinity mask: ffffffffffffffffffff
+pid 76497's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76497's new affinity mask: ffffffffffffffffffff
+pid 76498's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76498's new affinity mask: ffffffffffffffffffff
+Request end  : 2018-01-12T09:46:53,463009732-0800
+Request begin: 2018-01-12T09:46:58,258685791-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '75974 75975 75977 75976 75979 75978 75982 76374 76420 76421 76422 76423 76424 76425 76426 76427 76428 76429 76430 76431 76432 76433 76434 76435 76436 76437 76438 76439 76440 76441 76442 76443 76444 76445 76446 76447 76448 76449 76450 76451 76452 76453 76454 76455 76456 76457 76458 76459 76460 76461 76462 76463 76464 76465 76466 76467 76468 76469 76470 76471 76472 76473 76474 76475 76476 76477 76478 76479 76480 76481 76482 76483 76484 76485 76486 76487 76488 76489 76490 76491 76492 76493 76494 76495 76496 76497 76498'
+pid 75974's current affinity mask: ffffffffffffffffffff
+pid 75974's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75975's current affinity mask: ffffffffffffffffffff
+pid 75975's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75977's current affinity mask: ffffffffffffffffffff
+pid 75977's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75976's current affinity mask: ffffffffffffffffffff
+pid 75976's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75979's current affinity mask: ffffffffffffffffffff
+pid 75979's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75978's current affinity mask: ffffffffffffffffffff
+pid 75978's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75982's current affinity mask: ffffffffffffffffffff
+pid 75982's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76374's current affinity mask: ffffffffffffffffffff
+pid 76374's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76420's current affinity mask: ffffffffffffffffffff
+pid 76420's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76421's current affinity mask: ffffffffffffffffffff
+pid 76421's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76422's current affinity mask: ffffffffffffffffffff
+pid 76422's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76423's current affinity mask: ffffffffffffffffffff
+pid 76423's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76424's current affinity mask: ffffffffffffffffffff
+pid 76424's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76425's current affinity mask: ffffffffffffffffffff
+pid 76425's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76426's current affinity mask: ffffffffffffffffffff
+pid 76426's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76427's current affinity mask: ffffffffffffffffffff
+pid 76427's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76428's current affinity mask: ffffffffffffffffffff
+pid 76428's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76429's current affinity mask: ffffffffffffffffffff
+pid 76429's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76430's current affinity mask: ffffffffffffffffffff
+pid 76430's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76431's current affinity mask: ffffffffffffffffffff
+pid 76431's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76432's current affinity mask: ffffffffffffffffffff
+pid 76432's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76433's current affinity mask: ffffffffffffffffffff
+pid 76433's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76434's current affinity mask: ffffffffffffffffffff
+pid 76434's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76435's current affinity mask: ffffffffffffffffffff
+pid 76435's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76436's current affinity mask: ffffffffffffffffffff
+pid 76436's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76437's current affinity mask: ffffffffffffffffffff
+pid 76437's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76438's current affinity mask: ffffffffffffffffffff
+pid 76438's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76439's current affinity mask: ffffffffffffffffffff
+pid 76439's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76440's current affinity mask: ffffffffffffffffffff
+pid 76440's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76441's current affinity mask: ffffffffffffffffffff
+pid 76441's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76442's current affinity mask: ffffffffffffffffffff
+pid 76442's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76443's current affinity mask: ffffffffffffffffffff
+pid 76443's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76444's current affinity mask: ffffffffffffffffffff
+pid 76444's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76445's current affinity mask: ffffffffffffffffffff
+pid 76445's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76446's current affinity mask: ffffffffffffffffffff
+pid 76446's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76447's current affinity mask: ffffffffffffffffffff
+pid 76447's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76448's current affinity mask: ffffffffffffffffffff
+pid 76448's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76449's current affinity mask: ffffffffffffffffffff
+pid 76449's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76450's current affinity mask: ffffffffffffffffffff
+pid 76450's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76451's current affinity mask: ffffffffffffffffffff
+pid 76451's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76452's current affinity mask: ffffffffffffffffffff
+pid 76452's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76453's current affinity mask: ffffffffffffffffffff
+pid 76453's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76454's current affinity mask: ffffffffffffffffffff
+pid 76454's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76455's current affinity mask: ffffffffffffffffffff
+pid 76455's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76456's current affinity mask: ffffffffffffffffffff
+pid 76456's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76457's current affinity mask: ffffffffffffffffffff
+pid 76457's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76458's current affinity mask: ffffffffffffffffffff
+pid 76458's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76459's current affinity mask: ffffffffffffffffffff
+pid 76459's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76460's current affinity mask: ffffffffffffffffffff
+pid 76460's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76461's current affinity mask: ffffffffffffffffffff
+pid 76461's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76462's current affinity mask: ffffffffffffffffffff
+pid 76462's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76463's current affinity mask: ffffffffffffffffffff
+pid 76463's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76464's current affinity mask: ffffffffffffffffffff
+pid 76464's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76465's current affinity mask: ffffffffffffffffffff
+pid 76465's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76466's current affinity mask: ffffffffffffffffffff
+pid 76466's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76467's current affinity mask: ffffffffffffffffffff
+pid 76467's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76468's current affinity mask: ffffffffffffffffffff
+pid 76468's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76469's current affinity mask: ffffffffffffffffffff
+pid 76469's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76470's current affinity mask: ffffffffffffffffffff
+pid 76470's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76471's current affinity mask: ffffffffffffffffffff
+pid 76471's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76472's current affinity mask: ffffffffffffffffffff
+pid 76472's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76473's current affinity mask: ffffffffffffffffffff
+pid 76473's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76474's current affinity mask: ffffffffffffffffffff
+pid 76474's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76475's current affinity mask: ffffffffffffffffffff
+pid 76475's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76476's current affinity mask: ffffffffffffffffffff
+pid 76476's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76477's current affinity mask: ffffffffffffffffffff
+pid 76477's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76478's current affinity mask: ffffffffffffffffffff
+pid 76478's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76479's current affinity mask: ffffffffffffffffffff
+pid 76479's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76480's current affinity mask: ffffffffffffffffffff
+pid 76480's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76481's current affinity mask: ffffffffffffffffffff
+pid 76481's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76482's current affinity mask: ffffffffffffffffffff
+pid 76482's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76483's current affinity mask: ffffffffffffffffffff
+pid 76483's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76484's current affinity mask: ffffffffffffffffffff
+pid 76484's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76485's current affinity mask: ffffffffffffffffffff
+pid 76485's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76486's current affinity mask: ffffffffffffffffffff
+pid 76486's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76487's current affinity mask: ffffffffffffffffffff
+pid 76487's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76488's current affinity mask: ffffffffffffffffffff
+pid 76488's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76489's current affinity mask: ffffffffffffffffffff
+pid 76489's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76490's current affinity mask: ffffffffffffffffffff
+pid 76490's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76491's current affinity mask: ffffffffffffffffffff
+pid 76491's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76492's current affinity mask: ffffffffffffffffffff
+pid 76492's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76493's current affinity mask: ffffffffffffffffffff
+pid 76493's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76494's current affinity mask: ffffffffffffffffffff
+pid 76494's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76495's current affinity mask: ffffffffffffffffffff
+pid 76495's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76496's current affinity mask: ffffffffffffffffffff
+pid 76496's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76497's current affinity mask: ffffffffffffffffffff
+pid 76497's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76498's current affinity mask: ffffffffffffffffffff
+pid 76498's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-12T09:46:58,446362868-0800
+Request begin: 2018-01-12T09:47:03,270801729-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:47:03,272417082-0800
+Request begin: 2018-01-12T09:47:08,287568451-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:47:08,289369521-0800
+Request begin: 2018-01-12T09:47:13,296575381-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:47:13,297714931-0800
+Request begin: 2018-01-12T09:47:18,311261492-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:47:18,312916765-0800
+Request begin: 2018-01-12T09:47:23,322998825-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:47:23,324800459-0800
+Request begin: 2018-01-12T09:47:28,656049230-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:47:28,657560406-0800
+Request begin: 2018-01-12T09:47:34,003434357-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:47:34,004910950-0800
+Request begin: 2018-01-12T09:47:39,012348861-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:47:39,013339648-0800
+Request begin: 2018-01-12T09:47:44,025254621-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:47:44,026933669-0800
+Request begin: 2018-01-12T09:47:49,038069688-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:47:49,039557636-0800
+Request begin: 2018-01-12T09:47:54,055716988-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:47:54,057380059-0800
+Request begin: 2018-01-12T09:47:59,049776401-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:47:59,051262709-0800
+Request begin: 2018-01-12T09:48:04,062133787-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:48:04,063726459-0800
+Request begin: 2018-01-12T09:48:09,074322354-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:48:09,075817436-0800
+Request begin: 2018-01-12T09:48:14,090292200-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:48:14,091803853-0800
+Request begin: 2018-01-12T09:48:19,102374063-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:48:19,103950017-0800
+Request begin: 2018-01-12T09:48:24,118785455-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:48:24,120453006-0800
+Request begin: 2018-01-12T09:48:29,134849002-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:48:29,136520254-0800
+Request begin: 2018-01-12T09:48:34,150773349-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:48:34,152403058-0800
+Request begin: 2018-01-12T09:48:39,168379361-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:48:39,170015334-0800
+Request begin: 2018-01-12T09:48:44,181443799-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:48:44,182495144-0800
+Request begin: 2018-01-12T09:48:49,193695751-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:48:49,195222948-0800
+Request begin: 2018-01-12T09:48:54,206764053-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:48:54,207906856-0800
+Request begin: 2018-01-12T09:48:59,222862690-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:48:59,224215818-0800
+Request begin: 2018-01-12T09:49:04,238065923-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:49:04,239432338-0800
+Request begin: 2018-01-12T09:49:09,488038642-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:49:09,491173628-0800
+Request begin: 2018-01-12T09:49:14,493604115-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:49:14,494762722-0800
+Request begin: 2018-01-12T09:49:19,520531773-0800
+Setting taskset '0x000000000000000FFFFF000000000000000FFFFF' on PIDs '75974 75975 75977 75976 75979 75978 75982 76374 76420 76421 76422 76423 76424 76425 76426 76427 76428 76429 76430 76431 76432 76433 76434 76435 76436 76437 76438 76439 76440 76441 76442 76443 76444 76445 76446 76447 76448 76449 76450 76451 76452 76453 76454 76455 76456 76457 76458 76459 76460 76461 76462 76463 76464 76465 76466 76467 76468 76469 76470 76471 76472 76473 76474 76475 76476 76477 76478 76479 76480 76481 76482 76483 76484 76485 76486 76487 76488 76489 76490 76491 76492 76493 76494 76495 76496 76497 76498'
+pid 75974's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75974's new affinity mask: fffff000000000000000fffff
+pid 75975's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75975's new affinity mask: fffff000000000000000fffff
+pid 75977's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75977's new affinity mask: fffff000000000000000fffff
+pid 75976's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75976's new affinity mask: fffff000000000000000fffff
+pid 75979's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75979's new affinity mask: fffff000000000000000fffff
+pid 75978's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75978's new affinity mask: fffff000000000000000fffff
+pid 75982's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75982's new affinity mask: fffff000000000000000fffff
+pid 76374's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76374's new affinity mask: fffff000000000000000fffff
+pid 76420's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76420's new affinity mask: fffff000000000000000fffff
+pid 76421's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76421's new affinity mask: fffff000000000000000fffff
+pid 76422's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76422's new affinity mask: fffff000000000000000fffff
+pid 76423's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76423's new affinity mask: fffff000000000000000fffff
+pid 76424's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76424's new affinity mask: fffff000000000000000fffff
+pid 76425's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76425's new affinity mask: fffff000000000000000fffff
+pid 76426's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76426's new affinity mask: fffff000000000000000fffff
+pid 76427's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76427's new affinity mask: fffff000000000000000fffff
+pid 76428's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76428's new affinity mask: fffff000000000000000fffff
+pid 76429's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76429's new affinity mask: fffff000000000000000fffff
+pid 76430's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76430's new affinity mask: fffff000000000000000fffff
+pid 76431's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76431's new affinity mask: fffff000000000000000fffff
+pid 76432's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76432's new affinity mask: fffff000000000000000fffff
+pid 76433's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76433's new affinity mask: fffff000000000000000fffff
+pid 76434's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76434's new affinity mask: fffff000000000000000fffff
+pid 76435's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76435's new affinity mask: fffff000000000000000fffff
+pid 76436's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76436's new affinity mask: fffff000000000000000fffff
+pid 76437's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76437's new affinity mask: fffff000000000000000fffff
+pid 76438's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76438's new affinity mask: fffff000000000000000fffff
+pid 76439's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76439's new affinity mask: fffff000000000000000fffff
+pid 76440's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76440's new affinity mask: fffff000000000000000fffff
+pid 76441's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76441's new affinity mask: fffff000000000000000fffff
+pid 76442's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76442's new affinity mask: fffff000000000000000fffff
+pid 76443's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76443's new affinity mask: fffff000000000000000fffff
+pid 76444's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76444's new affinity mask: fffff000000000000000fffff
+pid 76445's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76445's new affinity mask: fffff000000000000000fffff
+pid 76446's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76446's new affinity mask: fffff000000000000000fffff
+pid 76447's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76447's new affinity mask: fffff000000000000000fffff
+pid 76448's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76448's new affinity mask: fffff000000000000000fffff
+pid 76449's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76449's new affinity mask: fffff000000000000000fffff
+pid 76450's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76450's new affinity mask: fffff000000000000000fffff
+pid 76451's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76451's new affinity mask: fffff000000000000000fffff
+pid 76452's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76452's new affinity mask: fffff000000000000000fffff
+pid 76453's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76453's new affinity mask: fffff000000000000000fffff
+pid 76454's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76454's new affinity mask: fffff000000000000000fffff
+pid 76455's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76455's new affinity mask: fffff000000000000000fffff
+pid 76456's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76456's new affinity mask: fffff000000000000000fffff
+pid 76457's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76457's new affinity mask: fffff000000000000000fffff
+pid 76458's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76458's new affinity mask: fffff000000000000000fffff
+pid 76459's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76459's new affinity mask: fffff000000000000000fffff
+pid 76460's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76460's new affinity mask: fffff000000000000000fffff
+pid 76461's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76461's new affinity mask: fffff000000000000000fffff
+pid 76462's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76462's new affinity mask: fffff000000000000000fffff
+pid 76463's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76463's new affinity mask: fffff000000000000000fffff
+pid 76464's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76464's new affinity mask: fffff000000000000000fffff
+pid 76465's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76465's new affinity mask: fffff000000000000000fffff
+pid 76466's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76466's new affinity mask: fffff000000000000000fffff
+pid 76467's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76467's new affinity mask: fffff000000000000000fffff
+pid 76468's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76468's new affinity mask: fffff000000000000000fffff
+pid 76469's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76469's new affinity mask: fffff000000000000000fffff
+pid 76470's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76470's new affinity mask: fffff000000000000000fffff
+pid 76471's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76471's new affinity mask: fffff000000000000000fffff
+pid 76472's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76472's new affinity mask: fffff000000000000000fffff
+pid 76473's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76473's new affinity mask: fffff000000000000000fffff
+pid 76474's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76474's new affinity mask: fffff000000000000000fffff
+pid 76475's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76475's new affinity mask: fffff000000000000000fffff
+pid 76476's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76476's new affinity mask: fffff000000000000000fffff
+pid 76477's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76477's new affinity mask: fffff000000000000000fffff
+pid 76478's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76478's new affinity mask: fffff000000000000000fffff
+pid 76479's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76479's new affinity mask: fffff000000000000000fffff
+pid 76480's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76480's new affinity mask: fffff000000000000000fffff
+pid 76481's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76481's new affinity mask: fffff000000000000000fffff
+pid 76482's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76482's new affinity mask: fffff000000000000000fffff
+pid 76483's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76483's new affinity mask: fffff000000000000000fffff
+pid 76484's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76484's new affinity mask: fffff000000000000000fffff
+pid 76485's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76485's new affinity mask: fffff000000000000000fffff
+pid 76486's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76486's new affinity mask: fffff000000000000000fffff
+pid 76487's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76487's new affinity mask: fffff000000000000000fffff
+pid 76488's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76488's new affinity mask: fffff000000000000000fffff
+pid 76489's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76489's new affinity mask: fffff000000000000000fffff
+pid 76490's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76490's new affinity mask: fffff000000000000000fffff
+pid 76491's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76491's new affinity mask: fffff000000000000000fffff
+pid 76492's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76492's new affinity mask: fffff000000000000000fffff
+pid 76493's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76493's new affinity mask: fffff000000000000000fffff
+pid 76494's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76494's new affinity mask: fffff000000000000000fffff
+pid 76495's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76495's new affinity mask: fffff000000000000000fffff
+pid 76496's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76496's new affinity mask: fffff000000000000000fffff
+pid 76497's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76497's new affinity mask: fffff000000000000000fffff
+pid 76498's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76498's new affinity mask: fffff000000000000000fffff
+Request end  : 2018-01-12T09:49:19,883633074-0800
+Request begin: 2018-01-12T09:49:24,527323862-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '75974 75975 75977 75976 75979 75978 75982 76374 76420 76421 76422 76423 76424 76425 76426 76427 76428 76429 76430 76431 76432 76433 76434 76435 76436 76437 76438 76439 76440 76441 76442 76443 76444 76445 76446 76447 76448 76449 76450 76451 76452 76453 76454 76455 76456 76457 76458 76459 76460 76461 76462 76463 76464 76465 76466 76467 76468 76469 76470 76471 76472 76473 76474 76475 76476 76477 76478 76479 76480 76481 76482 76483 76484 76485 76486 76487 76488 76489 76490 76491 76492 76493 76494 76495 76496 76497 76498'
+pid 75974's current affinity mask: fffff000000000000000fffff
+pid 75974's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75975's current affinity mask: fffff000000000000000fffff
+pid 75975's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75977's current affinity mask: fffff000000000000000fffff
+pid 75977's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75976's current affinity mask: fffff000000000000000fffff
+pid 75976's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75979's current affinity mask: fffff000000000000000fffff
+pid 75979's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75978's current affinity mask: fffff000000000000000fffff
+pid 75978's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75982's current affinity mask: fffff000000000000000fffff
+pid 75982's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76374's current affinity mask: fffff000000000000000fffff
+pid 76374's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76420's current affinity mask: fffff000000000000000fffff
+pid 76420's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76421's current affinity mask: fffff000000000000000fffff
+pid 76421's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76422's current affinity mask: fffff000000000000000fffff
+pid 76422's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76423's current affinity mask: fffff000000000000000fffff
+pid 76423's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76424's current affinity mask: fffff000000000000000fffff
+pid 76424's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76425's current affinity mask: fffff000000000000000fffff
+pid 76425's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76426's current affinity mask: fffff000000000000000fffff
+pid 76426's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76427's current affinity mask: fffff000000000000000fffff
+pid 76427's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76428's current affinity mask: fffff000000000000000fffff
+pid 76428's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76429's current affinity mask: fffff000000000000000fffff
+pid 76429's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76430's current affinity mask: fffff000000000000000fffff
+pid 76430's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76431's current affinity mask: fffff000000000000000fffff
+pid 76431's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76432's current affinity mask: fffff000000000000000fffff
+pid 76432's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76433's current affinity mask: fffff000000000000000fffff
+pid 76433's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76434's current affinity mask: fffff000000000000000fffff
+pid 76434's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76435's current affinity mask: fffff000000000000000fffff
+pid 76435's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76436's current affinity mask: fffff000000000000000fffff
+pid 76436's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76437's current affinity mask: fffff000000000000000fffff
+pid 76437's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76438's current affinity mask: fffff000000000000000fffff
+pid 76438's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76439's current affinity mask: fffff000000000000000fffff
+pid 76439's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76440's current affinity mask: fffff000000000000000fffff
+pid 76440's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76441's current affinity mask: fffff000000000000000fffff
+pid 76441's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76442's current affinity mask: fffff000000000000000fffff
+pid 76442's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76443's current affinity mask: fffff000000000000000fffff
+pid 76443's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76444's current affinity mask: fffff000000000000000fffff
+pid 76444's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76445's current affinity mask: fffff000000000000000fffff
+pid 76445's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76446's current affinity mask: fffff000000000000000fffff
+pid 76446's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76447's current affinity mask: fffff000000000000000fffff
+pid 76447's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76448's current affinity mask: fffff000000000000000fffff
+pid 76448's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76449's current affinity mask: fffff000000000000000fffff
+pid 76449's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76450's current affinity mask: fffff000000000000000fffff
+pid 76450's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76451's current affinity mask: fffff000000000000000fffff
+pid 76451's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76452's current affinity mask: fffff000000000000000fffff
+pid 76452's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76453's current affinity mask: fffff000000000000000fffff
+pid 76453's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76454's current affinity mask: fffff000000000000000fffff
+pid 76454's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76455's current affinity mask: fffff000000000000000fffff
+pid 76455's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76456's current affinity mask: fffff000000000000000fffff
+pid 76456's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76457's current affinity mask: fffff000000000000000fffff
+pid 76457's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76458's current affinity mask: fffff000000000000000fffff
+pid 76458's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76459's current affinity mask: fffff000000000000000fffff
+pid 76459's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76460's current affinity mask: fffff000000000000000fffff
+pid 76460's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76461's current affinity mask: fffff000000000000000fffff
+pid 76461's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76462's current affinity mask: fffff000000000000000fffff
+pid 76462's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76463's current affinity mask: fffff000000000000000fffff
+pid 76463's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76464's current affinity mask: fffff000000000000000fffff
+pid 76464's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76465's current affinity mask: fffff000000000000000fffff
+pid 76465's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76466's current affinity mask: fffff000000000000000fffff
+pid 76466's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76467's current affinity mask: fffff000000000000000fffff
+pid 76467's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76468's current affinity mask: fffff000000000000000fffff
+pid 76468's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76469's current affinity mask: fffff000000000000000fffff
+pid 76469's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76470's current affinity mask: fffff000000000000000fffff
+pid 76470's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76471's current affinity mask: fffff000000000000000fffff
+pid 76471's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76472's current affinity mask: fffff000000000000000fffff
+pid 76472's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76473's current affinity mask: fffff000000000000000fffff
+pid 76473's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76474's current affinity mask: fffff000000000000000fffff
+pid 76474's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76475's current affinity mask: fffff000000000000000fffff
+pid 76475's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76476's current affinity mask: fffff000000000000000fffff
+pid 76476's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76477's current affinity mask: fffff000000000000000fffff
+pid 76477's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76478's current affinity mask: fffff000000000000000fffff
+pid 76478's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76479's current affinity mask: fffff000000000000000fffff
+pid 76479's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76480's current affinity mask: fffff000000000000000fffff
+pid 76480's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76481's current affinity mask: fffff000000000000000fffff
+pid 76481's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76482's current affinity mask: fffff000000000000000fffff
+pid 76482's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76483's current affinity mask: fffff000000000000000fffff
+pid 76483's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76484's current affinity mask: fffff000000000000000fffff
+pid 76484's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76485's current affinity mask: fffff000000000000000fffff
+pid 76485's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76486's current affinity mask: fffff000000000000000fffff
+pid 76486's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76487's current affinity mask: fffff000000000000000fffff
+pid 76487's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76488's current affinity mask: fffff000000000000000fffff
+pid 76488's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76489's current affinity mask: fffff000000000000000fffff
+pid 76489's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76490's current affinity mask: fffff000000000000000fffff
+pid 76490's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76491's current affinity mask: fffff000000000000000fffff
+pid 76491's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76492's current affinity mask: fffff000000000000000fffff
+pid 76492's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76493's current affinity mask: fffff000000000000000fffff
+pid 76493's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76494's current affinity mask: fffff000000000000000fffff
+pid 76494's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76495's current affinity mask: fffff000000000000000fffff
+pid 76495's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76496's current affinity mask: fffff000000000000000fffff
+pid 76496's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76497's current affinity mask: fffff000000000000000fffff
+pid 76497's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 76498's current affinity mask: fffff000000000000000fffff
+pid 76498's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-12T09:49:24,744509310-0800
+Request begin: 2018-01-12T09:49:29,551814188-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:49:29,557758264-0800
+Request begin: 2018-01-12T09:49:34,560650364-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:49:34,562038868-0800
+Request begin: 2018-01-12T09:49:39,572415703-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:49:39,573926541-0800
+Request begin: 2018-01-12T09:49:44,587848405-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:49:44,589440822-0800
+Request begin: 2018-01-12T09:49:49,603053827-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:49:49,604680429-0800
+Request begin: 2018-01-12T09:49:54,620042869-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:49:54,621888683-0800
+Request begin: 2018-01-12T09:49:59,635683579-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:49:59,637288406-0800
+Request begin: 2018-01-12T09:50:04,652975092-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:50:04,654634505-0800
+Request begin: 2018-01-12T09:50:09,668197009-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:50:09,669731744-0800
+Request begin: 2018-01-12T09:50:14,683762570-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:50:14,685393423-0800
+Request begin: 2018-01-12T09:50:19,698056371-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:50:19,699760607-0800
+Request begin: 2018-01-12T09:50:24,713511199-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:50:24,715117457-0800
+Request begin: 2018-01-12T09:50:29,724205918-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:50:29,725452434-0800
+Request begin: 2018-01-12T09:50:34,740838486-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:50:34,742367703-0800
+Request begin: 2018-01-12T09:50:39,757137914-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:50:39,758877235-0800
+Request begin: 2018-01-12T09:50:44,773737988-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:50:44,775497007-0800
+Request begin: 2018-01-12T09:50:49,789772903-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:50:49,792139316-0800
+Request begin: 2018-01-12T09:50:54,802585737-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:50:54,804284297-0800
+Request begin: 2018-01-12T09:50:59,816284368-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:50:59,818019634-0800
+Request begin: 2018-01-12T09:51:04,832213626-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:51:04,834368260-0800
+Request begin: 2018-01-12T09:51:09,846360764-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:51:09,848180885-0800
+Request begin: 2018-01-12T09:51:14,867145354-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:51:14,868253281-0800
+Request begin: 2018-01-12T09:51:19,875957975-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:51:19,877153079-0800
+Request begin: 2018-01-12T09:51:24,891963727-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:51:24,894171750-0800
+Request begin: 2018-01-12T09:51:29,906402786-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:51:29,908059117-0800
+Request begin: 2018-01-12T09:51:34,919090874-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:51:34,920573604-0800
+Request begin: 2018-01-12T09:51:39,937274107-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:51:39,939062993-0800
+Request begin: 2018-01-12T09:51:44,953250750-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:51:44,954967121-0800
+Request begin: 2018-01-12T09:51:49,967582189-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:51:49,969190007-0800
+Request begin: 2018-01-12T09:51:54,981183703-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:51:54,982866167-0800
+Request begin: 2018-01-12T09:51:59,995947399-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:51:59,997613538-0800
+Request begin: 2018-01-12T09:52:05,010368105-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:52:05,012069475-0800
+Request begin: 2018-01-12T09:52:10,009047385-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:52:10,010721452-0800
+Request begin: 2018-01-12T09:52:15,074060891-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:52:15,075595267-0800
+Request begin: 2018-01-12T09:52:20,089817268-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:52:20,091562981-0800
+Request begin: 2018-01-12T09:52:25,097622080-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:52:25,098841521-0800
+Request begin: 2018-01-12T09:52:30,113382582-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:52:30,115687122-0800
+Request begin: 2018-01-12T09:52:35,358184571-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:52:35,359667362-0800
+Request begin: 2018-01-12T09:52:40,367782853-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:52:40,368971509-0800
+Request begin: 2018-01-12T09:52:45,376376270-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:52:45,377371085-0800
+Request begin: 2018-01-12T09:52:50,391158657-0800
+Setting taskset '0x00000000000000000000FFFFFFFFFFFFFFFFFFFF' on PIDs '75974 75975 75977 75976 75979 75978 75982 77924 77949 77950 77951 77952 77953 77954 77955 77956 77957 77958 77959 77960 77961 77962 77963 77964 77965 77966 77967 77968 77969 77970 77971 77972 77973 77974 77975 77976 77977 77978 77979 77980 77981 77982 77983 77984 77985 77986 77987 77988 77989 77990 77991 77992 77993 77994 77995 77996 77997 77998 77999 78000 78001 78002 78003 78004 78005 78006 78007 78008 78009 78010 78011 78012 78013 78014 78015 78016 78017 78018 78019 78020 78021 78022 78023 78024 78025 78026 78027'
+pid 75974's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75974's new affinity mask: ffffffffffffffffffff
+pid 75975's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75975's new affinity mask: ffffffffffffffffffff
+pid 75977's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75977's new affinity mask: ffffffffffffffffffff
+pid 75976's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75976's new affinity mask: ffffffffffffffffffff
+pid 75979's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75979's new affinity mask: ffffffffffffffffffff
+pid 75978's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75978's new affinity mask: ffffffffffffffffffff
+pid 75982's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75982's new affinity mask: ffffffffffffffffffff
+pid 77924's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77924's new affinity mask: ffffffffffffffffffff
+pid 77949's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77949's new affinity mask: ffffffffffffffffffff
+pid 77950's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77950's new affinity mask: ffffffffffffffffffff
+pid 77951's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77951's new affinity mask: ffffffffffffffffffff
+pid 77952's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77952's new affinity mask: ffffffffffffffffffff
+pid 77953's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77953's new affinity mask: ffffffffffffffffffff
+pid 77954's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77954's new affinity mask: ffffffffffffffffffff
+pid 77955's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77955's new affinity mask: ffffffffffffffffffff
+pid 77956's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77956's new affinity mask: ffffffffffffffffffff
+pid 77957's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77957's new affinity mask: ffffffffffffffffffff
+pid 77958's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77958's new affinity mask: ffffffffffffffffffff
+pid 77959's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77959's new affinity mask: ffffffffffffffffffff
+pid 77960's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77960's new affinity mask: ffffffffffffffffffff
+pid 77961's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77961's new affinity mask: ffffffffffffffffffff
+pid 77962's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77962's new affinity mask: ffffffffffffffffffff
+pid 77963's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77963's new affinity mask: ffffffffffffffffffff
+pid 77964's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77964's new affinity mask: ffffffffffffffffffff
+pid 77965's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77965's new affinity mask: ffffffffffffffffffff
+pid 77966's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77966's new affinity mask: ffffffffffffffffffff
+pid 77967's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77967's new affinity mask: ffffffffffffffffffff
+pid 77968's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77968's new affinity mask: ffffffffffffffffffff
+pid 77969's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77969's new affinity mask: ffffffffffffffffffff
+pid 77970's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77970's new affinity mask: ffffffffffffffffffff
+pid 77971's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77971's new affinity mask: ffffffffffffffffffff
+pid 77972's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77972's new affinity mask: ffffffffffffffffffff
+pid 77973's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77973's new affinity mask: ffffffffffffffffffff
+pid 77974's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77974's new affinity mask: ffffffffffffffffffff
+pid 77975's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77975's new affinity mask: ffffffffffffffffffff
+pid 77976's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77976's new affinity mask: ffffffffffffffffffff
+pid 77977's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77977's new affinity mask: ffffffffffffffffffff
+pid 77978's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77978's new affinity mask: ffffffffffffffffffff
+pid 77979's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77979's new affinity mask: ffffffffffffffffffff
+pid 77980's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77980's new affinity mask: ffffffffffffffffffff
+pid 77981's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77981's new affinity mask: ffffffffffffffffffff
+pid 77982's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77982's new affinity mask: ffffffffffffffffffff
+pid 77983's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77983's new affinity mask: ffffffffffffffffffff
+pid 77984's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77984's new affinity mask: ffffffffffffffffffff
+pid 77985's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77985's new affinity mask: ffffffffffffffffffff
+pid 77986's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77986's new affinity mask: ffffffffffffffffffff
+pid 77987's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77987's new affinity mask: ffffffffffffffffffff
+pid 77988's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77988's new affinity mask: ffffffffffffffffffff
+pid 77989's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77989's new affinity mask: ffffffffffffffffffff
+pid 77990's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77990's new affinity mask: ffffffffffffffffffff
+pid 77991's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77991's new affinity mask: ffffffffffffffffffff
+pid 77992's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77992's new affinity mask: ffffffffffffffffffff
+pid 77993's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77993's new affinity mask: ffffffffffffffffffff
+pid 77994's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77994's new affinity mask: ffffffffffffffffffff
+pid 77995's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77995's new affinity mask: ffffffffffffffffffff
+pid 77996's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77996's new affinity mask: ffffffffffffffffffff
+pid 77997's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77997's new affinity mask: ffffffffffffffffffff
+pid 77998's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77998's new affinity mask: ffffffffffffffffffff
+pid 77999's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77999's new affinity mask: ffffffffffffffffffff
+pid 78000's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78000's new affinity mask: ffffffffffffffffffff
+pid 78001's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78001's new affinity mask: ffffffffffffffffffff
+pid 78002's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78002's new affinity mask: ffffffffffffffffffff
+pid 78003's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78003's new affinity mask: ffffffffffffffffffff
+pid 78004's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78004's new affinity mask: ffffffffffffffffffff
+pid 78005's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78005's new affinity mask: ffffffffffffffffffff
+pid 78006's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78006's new affinity mask: ffffffffffffffffffff
+pid 78007's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78007's new affinity mask: ffffffffffffffffffff
+pid 78008's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78008's new affinity mask: ffffffffffffffffffff
+pid 78009's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78009's new affinity mask: ffffffffffffffffffff
+pid 78010's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78010's new affinity mask: ffffffffffffffffffff
+pid 78011's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78011's new affinity mask: ffffffffffffffffffff
+pid 78012's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78012's new affinity mask: ffffffffffffffffffff
+pid 78013's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78013's new affinity mask: ffffffffffffffffffff
+pid 78014's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78014's new affinity mask: ffffffffffffffffffff
+pid 78015's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78015's new affinity mask: ffffffffffffffffffff
+pid 78016's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78016's new affinity mask: ffffffffffffffffffff
+pid 78017's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78017's new affinity mask: ffffffffffffffffffff
+pid 78018's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78018's new affinity mask: ffffffffffffffffffff
+pid 78019's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78019's new affinity mask: ffffffffffffffffffff
+pid 78020's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78020's new affinity mask: ffffffffffffffffffff
+pid 78021's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78021's new affinity mask: ffffffffffffffffffff
+pid 78022's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78022's new affinity mask: ffffffffffffffffffff
+pid 78023's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78023's new affinity mask: ffffffffffffffffffff
+pid 78024's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78024's new affinity mask: ffffffffffffffffffff
+pid 78025's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78025's new affinity mask: ffffffffffffffffffff
+pid 78026's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78026's new affinity mask: ffffffffffffffffffff
+pid 78027's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78027's new affinity mask: ffffffffffffffffffff
+Request end  : 2018-01-12T09:52:50,560398894-0800
+Request begin: 2018-01-12T09:52:55,405687220-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '75974 75975 75977 75976 75979 75978 75982 77924 77949 77950 77951 77952 77953 77954 77955 77956 77957 77958 77959 77960 77961 77962 77963 77964 77965 77966 77967 77968 77969 77970 77971 77972 77973 77974 77975 77976 77977 77978 77979 77980 77981 77982 77983 77984 77985 77986 77987 77988 77989 77990 77991 77992 77993 77994 77995 77996 77997 77998 77999 78000 78001 78002 78003 78004 78005 78006 78007 78008 78009 78010 78011 78012 78013 78014 78015 78016 78017 78018 78019 78020 78021 78022 78023 78024 78025 78026 78027'
+pid 75974's current affinity mask: ffffffffffffffffffff
+pid 75974's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75975's current affinity mask: ffffffffffffffffffff
+pid 75975's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75977's current affinity mask: ffffffffffffffffffff
+pid 75977's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75976's current affinity mask: ffffffffffffffffffff
+pid 75976's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75979's current affinity mask: ffffffffffffffffffff
+pid 75979's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75978's current affinity mask: ffffffffffffffffffff
+pid 75978's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75982's current affinity mask: ffffffffffffffffffff
+pid 75982's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77924's current affinity mask: ffffffffffffffffffff
+pid 77924's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77949's current affinity mask: ffffffffffffffffffff
+pid 77949's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77950's current affinity mask: ffffffffffffffffffff
+pid 77950's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77951's current affinity mask: ffffffffffffffffffff
+pid 77951's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77952's current affinity mask: ffffffffffffffffffff
+pid 77952's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77953's current affinity mask: ffffffffffffffffffff
+pid 77953's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77954's current affinity mask: ffffffffffffffffffff
+pid 77954's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77955's current affinity mask: ffffffffffffffffffff
+pid 77955's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77956's current affinity mask: ffffffffffffffffffff
+pid 77956's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77957's current affinity mask: ffffffffffffffffffff
+pid 77957's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77958's current affinity mask: ffffffffffffffffffff
+pid 77958's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77959's current affinity mask: ffffffffffffffffffff
+pid 77959's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77960's current affinity mask: ffffffffffffffffffff
+pid 77960's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77961's current affinity mask: ffffffffffffffffffff
+pid 77961's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77962's current affinity mask: ffffffffffffffffffff
+pid 77962's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77963's current affinity mask: ffffffffffffffffffff
+pid 77963's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77964's current affinity mask: ffffffffffffffffffff
+pid 77964's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77965's current affinity mask: ffffffffffffffffffff
+pid 77965's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77966's current affinity mask: ffffffffffffffffffff
+pid 77966's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77967's current affinity mask: ffffffffffffffffffff
+pid 77967's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77968's current affinity mask: ffffffffffffffffffff
+pid 77968's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77969's current affinity mask: ffffffffffffffffffff
+pid 77969's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77970's current affinity mask: ffffffffffffffffffff
+pid 77970's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77971's current affinity mask: ffffffffffffffffffff
+pid 77971's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77972's current affinity mask: ffffffffffffffffffff
+pid 77972's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77973's current affinity mask: ffffffffffffffffffff
+pid 77973's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77974's current affinity mask: ffffffffffffffffffff
+pid 77974's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77975's current affinity mask: ffffffffffffffffffff
+pid 77975's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77976's current affinity mask: ffffffffffffffffffff
+pid 77976's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77977's current affinity mask: ffffffffffffffffffff
+pid 77977's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77978's current affinity mask: ffffffffffffffffffff
+pid 77978's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77979's current affinity mask: ffffffffffffffffffff
+pid 77979's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77980's current affinity mask: ffffffffffffffffffff
+pid 77980's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77981's current affinity mask: ffffffffffffffffffff
+pid 77981's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77982's current affinity mask: ffffffffffffffffffff
+pid 77982's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77983's current affinity mask: ffffffffffffffffffff
+pid 77983's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77984's current affinity mask: ffffffffffffffffffff
+pid 77984's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77985's current affinity mask: ffffffffffffffffffff
+pid 77985's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77986's current affinity mask: ffffffffffffffffffff
+pid 77986's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77987's current affinity mask: ffffffffffffffffffff
+pid 77987's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77988's current affinity mask: ffffffffffffffffffff
+pid 77988's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77989's current affinity mask: ffffffffffffffffffff
+pid 77989's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77990's current affinity mask: ffffffffffffffffffff
+pid 77990's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77991's current affinity mask: ffffffffffffffffffff
+pid 77991's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77992's current affinity mask: ffffffffffffffffffff
+pid 77992's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77993's current affinity mask: ffffffffffffffffffff
+pid 77993's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77994's current affinity mask: ffffffffffffffffffff
+pid 77994's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77995's current affinity mask: ffffffffffffffffffff
+pid 77995's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77996's current affinity mask: ffffffffffffffffffff
+pid 77996's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77997's current affinity mask: ffffffffffffffffffff
+pid 77997's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77998's current affinity mask: ffffffffffffffffffff
+pid 77998's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 77999's current affinity mask: ffffffffffffffffffff
+pid 77999's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78000's current affinity mask: ffffffffffffffffffff
+pid 78000's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78001's current affinity mask: ffffffffffffffffffff
+pid 78001's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78002's current affinity mask: ffffffffffffffffffff
+pid 78002's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78003's current affinity mask: ffffffffffffffffffff
+pid 78003's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78004's current affinity mask: ffffffffffffffffffff
+pid 78004's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78005's current affinity mask: ffffffffffffffffffff
+pid 78005's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78006's current affinity mask: ffffffffffffffffffff
+pid 78006's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78007's current affinity mask: ffffffffffffffffffff
+pid 78007's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78008's current affinity mask: ffffffffffffffffffff
+pid 78008's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78009's current affinity mask: ffffffffffffffffffff
+pid 78009's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78010's current affinity mask: ffffffffffffffffffff
+pid 78010's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78011's current affinity mask: ffffffffffffffffffff
+pid 78011's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78012's current affinity mask: ffffffffffffffffffff
+pid 78012's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78013's current affinity mask: ffffffffffffffffffff
+pid 78013's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78014's current affinity mask: ffffffffffffffffffff
+pid 78014's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78015's current affinity mask: ffffffffffffffffffff
+pid 78015's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78016's current affinity mask: ffffffffffffffffffff
+pid 78016's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78017's current affinity mask: ffffffffffffffffffff
+pid 78017's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78018's current affinity mask: ffffffffffffffffffff
+pid 78018's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78019's current affinity mask: ffffffffffffffffffff
+pid 78019's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78020's current affinity mask: ffffffffffffffffffff
+pid 78020's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78021's current affinity mask: ffffffffffffffffffff
+pid 78021's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78022's current affinity mask: ffffffffffffffffffff
+pid 78022's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78023's current affinity mask: ffffffffffffffffffff
+pid 78023's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78024's current affinity mask: ffffffffffffffffffff
+pid 78024's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78025's current affinity mask: ffffffffffffffffffff
+pid 78025's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78026's current affinity mask: ffffffffffffffffffff
+pid 78026's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 78027's current affinity mask: ffffffffffffffffffff
+pid 78027's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-12T09:52:55,593063461-0800
+Request begin: 2018-01-12T09:53:00,421902135-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:53:00,424387963-0800
+Request begin: 2018-01-12T09:53:05,437268877-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:53:05,438872463-0800
+Request begin: 2018-01-12T09:53:10,448236876-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:53:10,449578383-0800
+Request begin: 2018-01-12T09:53:15,463161640-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:53:15,464951439-0800
+Request begin: 2018-01-12T09:53:20,480021988-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:53:20,482059732-0800
+Request begin: 2018-01-12T09:53:25,493878840-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:53:25,495853549-0800
+Request begin: 2018-01-12T09:53:30,502456796-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:53:30,503529898-0800
+Request begin: 2018-01-12T09:53:35,520076936-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:53:35,521951845-0800
+Request begin: 2018-01-12T09:53:40,842758960-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:53:40,843946589-0800
+Request begin: 2018-01-12T09:53:45,894405313-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:53:45,895605279-0800
+Request begin: 2018-01-12T09:53:50,914433252-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:53:50,916733613-0800
+Request begin: 2018-01-12T09:53:55,928291540-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:53:55,930017621-0800
+Request begin: 2018-01-12T09:54:00,944154963-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:54:00,946027076-0800
+Request begin: 2018-01-12T09:54:05,958989556-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:54:05,960692737-0800
+Request begin: 2018-01-12T09:54:10,974853709-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:54:10,976401911-0800
+Request begin: 2018-01-12T09:54:15,991265275-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:54:15,992837112-0800
+Request begin: 2018-01-12T09:54:21,007119542-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:54:21,008624580-0800
+Request begin: 2018-01-12T09:54:26,023390622-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:54:26,024761629-0800
+Request begin: 2018-01-12T09:54:31,038796684-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:54:31,040118479-0800
+Request begin: 2018-01-12T09:54:36,057394212-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:54:36,059119294-0800
+Request begin: 2018-01-12T09:54:41,073163685-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:54:41,074810047-0800
+Request begin: 2018-01-12T09:54:46,085743166-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:54:46,087375119-0800
+Request begin: 2018-01-12T09:54:51,099927943-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:54:51,100963680-0800
+Request begin: 2018-01-12T09:54:56,116829756-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:54:56,124843588-0800
+Request begin: 2018-01-12T09:55:01,153528036-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:55:01,159159738-0800
+Request begin: 2018-01-12T09:55:06,172793487-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:55:06,177775682-0800
+Request begin: 2018-01-12T09:55:11,199381013-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:55:11,205196895-0800
+Request begin: 2018-01-12T09:55:16,225487632-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:55:16,231916159-0800
+Request begin: 2018-01-12T09:55:21,232525956-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:55:21,234242270-0800
+Request begin: 2018-01-12T09:55:26,246064684-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:55:26,247689609-0800
+Request begin: 2018-01-12T09:55:31,259600783-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:55:31,261122337-0800
+Request begin: 2018-01-12T09:55:36,277481935-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:55:36,279472460-0800
+Request begin: 2018-01-12T09:55:41,291914013-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:55:41,293611716-0800
+Request begin: 2018-01-12T09:55:46,306309128-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:55:46,307914517-0800
+Request begin: 2018-01-12T09:55:51,321132747-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:55:51,323055521-0800
+Request begin: 2018-01-12T09:55:56,337296884-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:55:56,338981198-0800
+Request begin: 2018-01-12T09:56:01,352956824-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:56:01,354595822-0800
+Request begin: 2018-01-12T09:56:06,363527303-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:56:06,364661666-0800
+Request begin: 2018-01-12T09:56:11,381707862-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:56:11,383334932-0800
+Request begin: 2018-01-12T09:56:16,397315200-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:56:16,399075910-0800
+Request begin: 2018-01-12T09:56:21,397072875-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:56:21,398732987-0800
+Request begin: 2018-01-12T09:56:26,551132464-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:56:26,552618091-0800
+Request begin: 2018-01-12T09:56:31,563738590-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:56:31,565109527-0800
+Request begin: 2018-01-12T09:56:36,579784765-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:56:36,581449405-0800
+Request begin: 2018-01-12T09:56:41,594654115-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:56:41,596329331-0800
+Request begin: 2018-01-12T09:56:46,610371322-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:56:46,612186860-0800
+Request begin: 2018-01-12T09:56:51,638341196-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:56:51,639466343-0800
+Request begin: 2018-01-12T09:56:56,648758620-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:56:56,649909021-0800
+Request begin: 2018-01-12T09:57:01,663555308-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:57:01,665262054-0800
+Request begin: 2018-01-12T09:57:06,673489761-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:57:06,674584141-0800
+Request begin: 2018-01-12T09:57:11,690829975-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:57:11,692678541-0800
+Request begin: 2018-01-12T09:57:16,705113905-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:57:16,706967151-0800
+Request begin: 2018-01-12T09:57:21,721035634-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:57:21,722604731-0800
+Request begin: 2018-01-12T09:57:26,737165382-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:57:26,738696245-0800
+Request begin: 2018-01-12T09:57:31,945138400-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:57:31,946593196-0800
+Request begin: 2018-01-12T09:57:36,956085066-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:57:36,957265470-0800
+Request begin: 2018-01-12T09:57:42,000284074-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:57:42,002074896-0800
+Request begin: 2018-01-12T09:57:47,013456808-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:57:47,015300819-0800
+Request begin: 2018-01-12T09:57:52,028395978-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:57:52,030246308-0800
+Request begin: 2018-01-12T09:57:57,043157792-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:57:57,045950492-0800
+Request begin: 2018-01-12T09:58:02,058552736-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:58:02,060456882-0800
+Request begin: 2018-01-12T09:58:07,072755261-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:58:07,074579595-0800
+Request begin: 2018-01-12T09:58:12,417228739-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:58:12,418427290-0800
+Request begin: 2018-01-12T09:58:17,431250037-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:58:17,432604509-0800
+Request begin: 2018-01-12T09:58:22,448505804-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:58:22,450291728-0800
+Request begin: 2018-01-12T09:58:27,463297250-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:58:27,464966361-0800
+Request begin: 2018-01-12T09:58:32,511518422-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:58:32,513171929-0800
+Request begin: 2018-01-12T09:58:37,526682953-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:58:37,528738072-0800
+Request begin: 2018-01-12T09:58:42,541891143-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:58:42,543697176-0800
+Request begin: 2018-01-12T09:58:47,556652179-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:58:47,558626018-0800
+Request begin: 2018-01-12T09:58:52,572057529-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:58:52,574057278-0800
+Request begin: 2018-01-12T09:58:57,581127743-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:58:57,582456721-0800
+Request begin: 2018-01-12T09:59:02,600946038-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:59:02,602584925-0800
+Request begin: 2018-01-12T09:59:07,929820888-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:59:07,930898791-0800
+Request begin: 2018-01-12T09:59:12,980680667-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:59:12,981759640-0800
+Request begin: 2018-01-12T09:59:17,996672074-0800
+Setting taskset '0x00000000000000000000FFFFFFFFFFFFFFFFFFFF' on PIDs '75974 75975 75977 75976 75979 75978 75982 79279 79306 79307 79308 79309 79310 79311 79312 79313 79314 79315 79316 79317 79318 79319 79320 79321 79322 79323 79324 79325 79326 79327 79328 79329 79330 79331 79332 79333 79334 79335 79336 79337 79338 79339 79340 79341 79342 79343 79344 79345 79346 79347 79348 79349 79350 79351 79352 79353 79354 79355 79356 79357 79358 79359 79360 79361 79362 79363 79364 79365 79366 79367 79368 79369 79370 79371 79372 79373 79374 79375 79376 79378 79379 79380 79381 79382 79383 79384 79385'
+pid 75974's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75974's new affinity mask: ffffffffffffffffffff
+pid 75975's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75975's new affinity mask: ffffffffffffffffffff
+pid 75977's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75977's new affinity mask: ffffffffffffffffffff
+pid 75976's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75976's new affinity mask: ffffffffffffffffffff
+pid 75979's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75979's new affinity mask: ffffffffffffffffffff
+pid 75978's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75978's new affinity mask: ffffffffffffffffffff
+pid 75982's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75982's new affinity mask: ffffffffffffffffffff
+pid 79279's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79279's new affinity mask: ffffffffffffffffffff
+pid 79306's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79306's new affinity mask: ffffffffffffffffffff
+pid 79307's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79307's new affinity mask: ffffffffffffffffffff
+pid 79308's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79308's new affinity mask: ffffffffffffffffffff
+pid 79309's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79309's new affinity mask: ffffffffffffffffffff
+pid 79310's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79310's new affinity mask: ffffffffffffffffffff
+pid 79311's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79311's new affinity mask: ffffffffffffffffffff
+pid 79312's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79312's new affinity mask: ffffffffffffffffffff
+pid 79313's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79313's new affinity mask: ffffffffffffffffffff
+pid 79314's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79314's new affinity mask: ffffffffffffffffffff
+pid 79315's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79315's new affinity mask: ffffffffffffffffffff
+pid 79316's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79316's new affinity mask: ffffffffffffffffffff
+pid 79317's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79317's new affinity mask: ffffffffffffffffffff
+pid 79318's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79318's new affinity mask: ffffffffffffffffffff
+pid 79319's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79319's new affinity mask: ffffffffffffffffffff
+pid 79320's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79320's new affinity mask: ffffffffffffffffffff
+pid 79321's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79321's new affinity mask: ffffffffffffffffffff
+pid 79322's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79322's new affinity mask: ffffffffffffffffffff
+pid 79323's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79323's new affinity mask: ffffffffffffffffffff
+pid 79324's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79324's new affinity mask: ffffffffffffffffffff
+pid 79325's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79325's new affinity mask: ffffffffffffffffffff
+pid 79326's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79326's new affinity mask: ffffffffffffffffffff
+pid 79327's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79327's new affinity mask: ffffffffffffffffffff
+pid 79328's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79328's new affinity mask: ffffffffffffffffffff
+pid 79329's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79329's new affinity mask: ffffffffffffffffffff
+pid 79330's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79330's new affinity mask: ffffffffffffffffffff
+pid 79331's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79331's new affinity mask: ffffffffffffffffffff
+pid 79332's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79332's new affinity mask: ffffffffffffffffffff
+pid 79333's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79333's new affinity mask: ffffffffffffffffffff
+pid 79334's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79334's new affinity mask: ffffffffffffffffffff
+pid 79335's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79335's new affinity mask: ffffffffffffffffffff
+pid 79336's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79336's new affinity mask: ffffffffffffffffffff
+pid 79337's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79337's new affinity mask: ffffffffffffffffffff
+pid 79338's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79338's new affinity mask: ffffffffffffffffffff
+pid 79339's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79339's new affinity mask: ffffffffffffffffffff
+pid 79340's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79340's new affinity mask: ffffffffffffffffffff
+pid 79341's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79341's new affinity mask: ffffffffffffffffffff
+pid 79342's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79342's new affinity mask: ffffffffffffffffffff
+pid 79343's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79343's new affinity mask: ffffffffffffffffffff
+pid 79344's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79344's new affinity mask: ffffffffffffffffffff
+pid 79345's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79345's new affinity mask: ffffffffffffffffffff
+pid 79346's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79346's new affinity mask: ffffffffffffffffffff
+pid 79347's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79347's new affinity mask: ffffffffffffffffffff
+pid 79348's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79348's new affinity mask: ffffffffffffffffffff
+pid 79349's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79349's new affinity mask: ffffffffffffffffffff
+pid 79350's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79350's new affinity mask: ffffffffffffffffffff
+pid 79351's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79351's new affinity mask: ffffffffffffffffffff
+pid 79352's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79352's new affinity mask: ffffffffffffffffffff
+pid 79353's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79353's new affinity mask: ffffffffffffffffffff
+pid 79354's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79354's new affinity mask: ffffffffffffffffffff
+pid 79355's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79355's new affinity mask: ffffffffffffffffffff
+pid 79356's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79356's new affinity mask: ffffffffffffffffffff
+pid 79357's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79357's new affinity mask: ffffffffffffffffffff
+pid 79358's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79358's new affinity mask: ffffffffffffffffffff
+pid 79359's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79359's new affinity mask: ffffffffffffffffffff
+pid 79360's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79360's new affinity mask: ffffffffffffffffffff
+pid 79361's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79361's new affinity mask: ffffffffffffffffffff
+pid 79362's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79362's new affinity mask: ffffffffffffffffffff
+pid 79363's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79363's new affinity mask: ffffffffffffffffffff
+pid 79364's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79364's new affinity mask: ffffffffffffffffffff
+pid 79365's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79365's new affinity mask: ffffffffffffffffffff
+pid 79366's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79366's new affinity mask: ffffffffffffffffffff
+pid 79367's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79367's new affinity mask: ffffffffffffffffffff
+pid 79368's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79368's new affinity mask: ffffffffffffffffffff
+pid 79369's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79369's new affinity mask: ffffffffffffffffffff
+pid 79370's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79370's new affinity mask: ffffffffffffffffffff
+pid 79371's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79371's new affinity mask: ffffffffffffffffffff
+pid 79372's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79372's new affinity mask: ffffffffffffffffffff
+pid 79373's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79373's new affinity mask: ffffffffffffffffffff
+pid 79374's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79374's new affinity mask: ffffffffffffffffffff
+pid 79375's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79375's new affinity mask: ffffffffffffffffffff
+pid 79376's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79376's new affinity mask: ffffffffffffffffffff
+pid 79378's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79378's new affinity mask: ffffffffffffffffffff
+pid 79379's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79379's new affinity mask: ffffffffffffffffffff
+pid 79380's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79380's new affinity mask: ffffffffffffffffffff
+pid 79381's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79381's new affinity mask: ffffffffffffffffffff
+pid 79382's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79382's new affinity mask: ffffffffffffffffffff
+pid 79383's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79383's new affinity mask: ffffffffffffffffffff
+pid 79384's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79384's new affinity mask: ffffffffffffffffffff
+pid 79385's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79385's new affinity mask: ffffffffffffffffffff
+Request end  : 2018-01-12T09:59:18,171564095-0800
+Request begin: 2018-01-12T09:59:23,008578287-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '75974 75975 75977 75976 75979 75978 75982 79279 79306 79307 79308 79309 79310 79311 79312 79313 79314 79315 79316 79317 79318 79319 79320 79321 79322 79323 79324 79325 79326 79327 79328 79329 79330 79331 79332 79333 79334 79335 79336 79337 79338 79339 79340 79341 79342 79343 79344 79345 79346 79347 79348 79349 79350 79351 79352 79353 79354 79355 79356 79357 79358 79359 79360 79361 79362 79363 79364 79365 79366 79367 79368 79369 79370 79371 79372 79373 79374 79375 79376 79378 79379 79380 79381 79382 79383 79384 79385'
+pid 75974's current affinity mask: ffffffffffffffffffff
+pid 75974's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75975's current affinity mask: ffffffffffffffffffff
+pid 75975's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75977's current affinity mask: ffffffffffffffffffff
+pid 75977's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75976's current affinity mask: ffffffffffffffffffff
+pid 75976's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75979's current affinity mask: ffffffffffffffffffff
+pid 75979's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75978's current affinity mask: ffffffffffffffffffff
+pid 75978's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 75982's current affinity mask: ffffffffffffffffffff
+pid 75982's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79279's current affinity mask: ffffffffffffffffffff
+pid 79279's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79306's current affinity mask: ffffffffffffffffffff
+pid 79306's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79307's current affinity mask: ffffffffffffffffffff
+pid 79307's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79308's current affinity mask: ffffffffffffffffffff
+pid 79308's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79309's current affinity mask: ffffffffffffffffffff
+pid 79309's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79310's current affinity mask: ffffffffffffffffffff
+pid 79310's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79311's current affinity mask: ffffffffffffffffffff
+pid 79311's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79312's current affinity mask: ffffffffffffffffffff
+pid 79312's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79313's current affinity mask: ffffffffffffffffffff
+pid 79313's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79314's current affinity mask: ffffffffffffffffffff
+pid 79314's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79315's current affinity mask: ffffffffffffffffffff
+pid 79315's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79316's current affinity mask: ffffffffffffffffffff
+pid 79316's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79317's current affinity mask: ffffffffffffffffffff
+pid 79317's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79318's current affinity mask: ffffffffffffffffffff
+pid 79318's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79319's current affinity mask: ffffffffffffffffffff
+pid 79319's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79320's current affinity mask: ffffffffffffffffffff
+pid 79320's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79321's current affinity mask: ffffffffffffffffffff
+pid 79321's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79322's current affinity mask: ffffffffffffffffffff
+pid 79322's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79323's current affinity mask: ffffffffffffffffffff
+pid 79323's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79324's current affinity mask: ffffffffffffffffffff
+pid 79324's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79325's current affinity mask: ffffffffffffffffffff
+pid 79325's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79326's current affinity mask: ffffffffffffffffffff
+pid 79326's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79327's current affinity mask: ffffffffffffffffffff
+pid 79327's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79328's current affinity mask: ffffffffffffffffffff
+pid 79328's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79329's current affinity mask: ffffffffffffffffffff
+pid 79329's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79330's current affinity mask: ffffffffffffffffffff
+pid 79330's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79331's current affinity mask: ffffffffffffffffffff
+pid 79331's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79332's current affinity mask: ffffffffffffffffffff
+pid 79332's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79333's current affinity mask: ffffffffffffffffffff
+pid 79333's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79334's current affinity mask: ffffffffffffffffffff
+pid 79334's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79335's current affinity mask: ffffffffffffffffffff
+pid 79335's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79336's current affinity mask: ffffffffffffffffffff
+pid 79336's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79337's current affinity mask: ffffffffffffffffffff
+pid 79337's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79338's current affinity mask: ffffffffffffffffffff
+pid 79338's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79339's current affinity mask: ffffffffffffffffffff
+pid 79339's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79340's current affinity mask: ffffffffffffffffffff
+pid 79340's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79341's current affinity mask: ffffffffffffffffffff
+pid 79341's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79342's current affinity mask: ffffffffffffffffffff
+pid 79342's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79343's current affinity mask: ffffffffffffffffffff
+pid 79343's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79344's current affinity mask: ffffffffffffffffffff
+pid 79344's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79345's current affinity mask: ffffffffffffffffffff
+pid 79345's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79346's current affinity mask: ffffffffffffffffffff
+pid 79346's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79347's current affinity mask: ffffffffffffffffffff
+pid 79347's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79348's current affinity mask: ffffffffffffffffffff
+pid 79348's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79349's current affinity mask: ffffffffffffffffffff
+pid 79349's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79350's current affinity mask: ffffffffffffffffffff
+pid 79350's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79351's current affinity mask: ffffffffffffffffffff
+pid 79351's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79352's current affinity mask: ffffffffffffffffffff
+pid 79352's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79353's current affinity mask: ffffffffffffffffffff
+pid 79353's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79354's current affinity mask: ffffffffffffffffffff
+pid 79354's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79355's current affinity mask: ffffffffffffffffffff
+pid 79355's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79356's current affinity mask: ffffffffffffffffffff
+pid 79356's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79357's current affinity mask: ffffffffffffffffffff
+pid 79357's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79358's current affinity mask: ffffffffffffffffffff
+pid 79358's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79359's current affinity mask: ffffffffffffffffffff
+pid 79359's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79360's current affinity mask: ffffffffffffffffffff
+pid 79360's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79361's current affinity mask: ffffffffffffffffffff
+pid 79361's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79362's current affinity mask: ffffffffffffffffffff
+pid 79362's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79363's current affinity mask: ffffffffffffffffffff
+pid 79363's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79364's current affinity mask: ffffffffffffffffffff
+pid 79364's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79365's current affinity mask: ffffffffffffffffffff
+pid 79365's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79366's current affinity mask: ffffffffffffffffffff
+pid 79366's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79367's current affinity mask: ffffffffffffffffffff
+pid 79367's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79368's current affinity mask: ffffffffffffffffffff
+pid 79368's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79369's current affinity mask: ffffffffffffffffffff
+pid 79369's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79370's current affinity mask: ffffffffffffffffffff
+pid 79370's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79371's current affinity mask: ffffffffffffffffffff
+pid 79371's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79372's current affinity mask: ffffffffffffffffffff
+pid 79372's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79373's current affinity mask: ffffffffffffffffffff
+pid 79373's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79374's current affinity mask: ffffffffffffffffffff
+pid 79374's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79375's current affinity mask: ffffffffffffffffffff
+pid 79375's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79376's current affinity mask: ffffffffffffffffffff
+pid 79376's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79378's current affinity mask: ffffffffffffffffffff
+pid 79378's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79379's current affinity mask: ffffffffffffffffffff
+pid 79379's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79380's current affinity mask: ffffffffffffffffffff
+pid 79380's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79381's current affinity mask: ffffffffffffffffffff
+pid 79381's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79382's current affinity mask: ffffffffffffffffffff
+pid 79382's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79383's current affinity mask: ffffffffffffffffffff
+pid 79383's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79384's current affinity mask: ffffffffffffffffffff
+pid 79384's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 79385's current affinity mask: ffffffffffffffffffff
+pid 79385's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-12T09:59:23,178031146-0800
+Request begin: 2018-01-12T09:59:28,024721722-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:59:28,026443071-0800
+Request begin: 2018-01-12T09:59:33,039762508-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:59:33,041267692-0800
+Request begin: 2018-01-12T09:59:38,055949562-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:59:38,058101550-0800
+Request begin: 2018-01-12T09:59:43,072334724-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:59:43,073783611-0800
+Request begin: 2018-01-12T09:59:48,087921178-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:59:48,089333889-0800
+Request begin: 2018-01-12T09:59:53,103626500-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:59:53,105009939-0800
+Request begin: 2018-01-12T09:59:58,119356781-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T09:59:58,120900944-0800
+Request begin: 2018-01-12T10:00:03,136337354-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:00:03,137831519-0800
+Request begin: 2018-01-12T10:00:08,152082596-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:00:08,153822551-0800
+Request begin: 2018-01-12T10:00:13,168218108-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:00:13,169620422-0800
+Request begin: 2018-01-12T10:00:18,184178771-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:00:18,185641292-0800
+Request begin: 2018-01-12T10:00:23,199369218-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:00:23,200505430-0800
+Request begin: 2018-01-12T10:00:28,209795658-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:00:28,211102784-0800
+Request begin: 2018-01-12T10:00:33,213628135-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:00:33,215267358-0800
+Request begin: 2018-01-12T10:00:38,232113968-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:00:38,233440165-0800
+Request begin: 2018-01-12T10:00:43,240879791-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:00:43,241973896-0800
+Request begin: 2018-01-12T10:00:48,257939889-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:00:48,259724073-0800
+Request begin: 2018-01-12T10:00:53,273381871-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:00:53,275063201-0800
+Request begin: 2018-01-12T10:00:58,289586218-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:00:58,291266489-0800
+Request begin: 2018-01-12T10:01:03,304908412-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:01:03,306566601-0800
+Request begin: 2018-01-12T10:01:08,324758344-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:01:08,326453399-0800
+Request begin: 2018-01-12T10:01:13,337348929-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:01:13,339064104-0800
+Request begin: 2018-01-12T10:01:18,352630348-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:01:18,354339742-0800
+Request begin: 2018-01-12T10:01:23,368480065-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:01:23,369715313-0800
+Request begin: 2018-01-12T10:01:28,386168145-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:01:28,387332367-0800
+Request begin: 2018-01-12T10:01:33,413080158-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:01:33,414191856-0800
+Request begin: 2018-01-12T10:01:38,425820136-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:01:38,426972798-0800
+Request begin: 2018-01-12T10:01:43,515522449-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:01:43,517203923-0800
+Request begin: 2018-01-12T10:01:48,532442474-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:01:48,534701523-0800
+Request begin: 2018-01-12T10:01:53,546023888-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:01:53,547973932-0800
+Request begin: 2018-01-12T10:01:58,554755113-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:01:58,555789113-0800
+Request begin: 2018-01-12T10:02:03,575090009-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:02:03,576973462-0800
+Request begin: 2018-01-12T10:02:08,589104830-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:02:08,590462066-0800
+Request begin: 2018-01-12T10:02:13,598871573-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:02:13,600061082-0800
+Request begin: 2018-01-12T10:02:18,612704032-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:02:18,614333538-0800
+Request begin: 2018-01-12T10:02:23,622712432-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:02:23,623826730-0800
+Request begin: 2018-01-12T10:02:28,810984825-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:02:28,812143247-0800
+Request begin: 2018-01-12T10:02:33,827634680-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:02:33,829363572-0800
+Request begin: 2018-01-12T10:02:38,937129614-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:02:38,938865063-0800
+Request begin: 2018-01-12T10:02:43,951449304-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:02:43,953158642-0800
+Request begin: 2018-01-12T10:02:48,964617237-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:02:48,966469230-0800
+Request begin: 2018-01-12T10:02:53,979221214-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:02:53,981004989-0800
+Request begin: 2018-01-12T10:02:58,992696982-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:02:58,994517949-0800
+Request begin: 2018-01-12T10:03:04,004444969-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:03:04,005553282-0800
+Request begin: 2018-01-12T10:03:09,020595027-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:03:09,022236280-0800
+Request begin: 2018-01-12T10:03:14,036689570-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:03:14,038315246-0800
+Request begin: 2018-01-12T10:03:19,048486701-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:03:19,049592932-0800
+Request begin: 2018-01-12T10:03:24,064694405-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:03:24,066267966-0800
+Request begin: 2018-01-12T10:03:29,080412721-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:03:29,082312970-0800
+Request begin: 2018-01-12T10:03:34,096489636-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:03:34,098231540-0800
+Request begin: 2018-01-12T10:03:39,112377271-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:03:39,113958368-0800
+Request begin: 2018-01-12T10:03:44,128255833-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:03:44,129881385-0800
+Request begin: 2018-01-12T10:03:49,141383827-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:03:49,142603069-0800
+Request begin: 2018-01-12T10:03:54,152156656-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:03:54,153205712-0800
+Request begin: 2018-01-12T10:03:59,168135424-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:03:59,169770136-0800
+Request begin: 2018-01-12T10:04:04,184322890-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:04:04,186043924-0800
+Request begin: 2018-01-12T10:04:09,209117776-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:04:09,211530918-0800
+Request begin: 2018-01-12T10:04:14,214112007-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:04:14,215490330-0800
+Request begin: 2018-01-12T10:04:19,233620542-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:04:19,235477888-0800
+Request begin: 2018-01-12T10:04:24,254633455-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:04:24,257236234-0800
+Request begin: 2018-01-12T10:04:29,267179885-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:04:29,269106798-0800
+Request begin: 2018-01-12T10:04:34,280969287-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:04:34,282487477-0800
+Request begin: 2018-01-12T10:04:39,296863859-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:04:39,298558686-0800
+Request begin: 2018-01-12T10:04:44,298544649-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:04:44,300397315-0800
+Request begin: 2018-01-12T10:04:49,313732612-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:04:49,315457343-0800
+Request begin: 2018-01-12T10:04:54,347176629-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:04:54,348839303-0800
+Request begin: 2018-01-12T10:04:59,360352510-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:04:59,361594733-0800
+Request begin: 2018-01-12T10:05:04,375393104-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:05:04,377049011-0800
+Request begin: 2018-01-12T10:05:09,389789416-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:05:09,391613452-0800
+Request begin: 2018-01-12T10:05:14,405371690-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:05:14,407142557-0800
+Request begin: 2018-01-12T10:05:19,419278012-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:05:19,421141151-0800
+Request begin: 2018-01-12T10:05:24,430269101-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:05:24,431440692-0800
+Request begin: 2018-01-12T10:05:29,448315091-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:05:29,450034942-0800
+Request begin: 2018-01-12T10:05:34,458016723-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:05:34,459520558-0800
+Request begin: 2018-01-12T10:05:39,467593706-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:05:39,468805581-0800
+Request begin: 2018-01-12T10:05:44,482446947-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:05:44,484280436-0800
+Request begin: 2018-01-12T10:05:49,496978470-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:05:49,498771150-0800
+Request begin: 2018-01-12T10:05:54,512789712-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:05:54,514660500-0800
+Request begin: 2018-01-12T10:05:59,528490487-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:05:59,530270375-0800
+Request begin: 2018-01-12T10:06:04,544076369-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:06:04,545847664-0800
+Request begin: 2018-01-12T10:06:09,558236537-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:06:09,559724902-0800
+Request begin: 2018-01-12T10:06:14,568374679-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:06:14,569691464-0800
+Request begin: 2018-01-12T10:06:19,583775516-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:06:19,585437787-0800
+Request begin: 2018-01-12T10:06:24,601075853-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:06:24,602887206-0800
+Request begin: 2018-01-12T10:06:29,611684767-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:06:29,612848918-0800
+Request begin: 2018-01-12T10:06:34,627723201-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:06:34,629386135-0800
+Request begin: 2018-01-12T10:06:39,643675534-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:06:39,645375865-0800
+Request begin: 2018-01-12T10:06:44,661195878-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:06:44,663075633-0800
+Request begin: 2018-01-12T10:06:49,676088861-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:06:49,677701424-0800
+Request begin: 2018-01-12T10:06:54,691837528-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:06:54,693503193-0800
+Request begin: 2018-01-12T10:06:59,711583413-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:06:59,712754199-0800
+Request begin: 2018-01-12T10:07:04,727247124-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:07:04,728648225-0800
+Request begin: 2018-01-12T10:07:09,744274071-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:07:09,745873350-0800
+Request begin: 2018-01-12T10:07:14,759851804-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:07:14,761668526-0800
+Request begin: 2018-01-12T10:07:19,776659359-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:07:19,778373763-0800
+Request begin: 2018-01-12T10:07:23,430868435-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-12T10:07:23,431954141-0800
+Finished: 2018-01-12T10:07:23,477294582-0800
