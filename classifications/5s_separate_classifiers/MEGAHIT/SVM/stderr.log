@@ -1,0 +1,40 @@
+503.0Gb memory in total.
+Using: 453.403Gb.
+MEGAHIT v1.1.1
+--- [Fri Jan 12 11:06:07 2018] Start assembly. Number of CPU threads 160 ---
+--- [Fri Jan 12 11:06:07 2018] Available memory: 540930650112, used: 486837585100
+--- [Fri Jan 12 11:06:07 2018] Converting reads to binaries ---
+    [read_lib_functions-inl.h  : 209]     Lib 0 (/scratch/shofmeyr/hipmer_metagenome_data/SYNTHbbqc_25perc.fq): interleaved, 36327152 reads, 101 max length
+    [utils.h                   : 126]     Real: 58.9989	user: 33.2720	sys: 3.8960	maxrss: 158800
+--- [Fri Jan 12 11:07:06 2018] k-max reset to: 119 ---
+--- [Fri Jan 12 11:07:06 2018] k list: 21,29,39,59,79,99,119 ---
+--- [Fri Jan 12 11:07:06 2018] Extracting solid (k+1)-mers for k = 21 ---
+--- [Fri Jan 12 11:07:41 2018] Building graph for k = 21 ---
+--- [Fri Jan 12 11:08:11 2018] Assembling contigs from SdBG for k = 21 ---
+--- [Fri Jan 12 11:08:56 2018] Local assembling k = 21 ---
+--- [Fri Jan 12 11:09:27 2018] Extracting iterative edges from k = 21 to 29 ---
+--- [Fri Jan 12 11:09:51 2018] Building graph for k = 29 ---
+--- [Fri Jan 12 11:10:07 2018] Assembling contigs from SdBG for k = 29 ---
+--- [Fri Jan 12 11:10:41 2018] Local assembling k = 29 ---
+--- [Fri Jan 12 11:11:12 2018] Extracting iterative edges from k = 29 to 39 ---
+--- [Fri Jan 12 11:11:34 2018] Building graph for k = 39 ---
+--- [Fri Jan 12 11:11:49 2018] Assembling contigs from SdBG for k = 39 ---
+--- [Fri Jan 12 11:12:22 2018] Local assembling k = 39 ---
+--- [Fri Jan 12 11:12:56 2018] Extracting iterative edges from k = 39 to 59 ---
+--- [Fri Jan 12 11:13:16 2018] Building graph for k = 59 ---
+--- [Fri Jan 12 11:13:32 2018] Assembling contigs from SdBG for k = 59 ---
+--- [Fri Jan 12 11:14:04 2018] Local assembling k = 59 ---
+--- [Fri Jan 12 11:14:34 2018] Extracting iterative edges from k = 59 to 79 ---
+--- [Fri Jan 12 11:14:48 2018] Building graph for k = 79 ---
+--- [Fri Jan 12 11:15:02 2018] Assembling contigs from SdBG for k = 79 ---
+--- [Fri Jan 12 11:15:28 2018] Local assembling k = 79 ---
+--- [Fri Jan 12 11:15:55 2018] Extracting iterative edges from k = 79 to 99 ---
+--- [Fri Jan 12 11:16:04 2018] Building graph for k = 99 ---
+--- [Fri Jan 12 11:16:16 2018] Assembling contigs from SdBG for k = 99 ---
+--- [Fri Jan 12 11:16:42 2018] Local assembling k = 99 ---
+--- [Fri Jan 12 11:17:05 2018] Extracting iterative edges from k = 99 to 119 ---
+--- [Fri Jan 12 11:17:10 2018] Building graph for k = 119 ---
+--- [Fri Jan 12 11:17:21 2018] Assembling contigs from SdBG for k = 119 ---
+--- [Fri Jan 12 11:17:43 2018] Merging to output final contigs ---
+--- [STAT] 57767 contigs, total 191893856 bp, min 200 bp, max 708009 bp, avg 3322 bp, N50 15294 bp
+--- [Fri Jan 12 11:17:44 2018] ALL DONE. Time elapsed: 696.871154 seconds ---

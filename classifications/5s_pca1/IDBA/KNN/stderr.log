@@ -1,0 +1,1 @@
+./idba_ud.sh: line 24: 160569 Segmentation fault      "${binary}" "${args[@]}"

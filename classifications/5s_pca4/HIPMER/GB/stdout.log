@@ -1,0 +1,215 @@
+Set the following environment variables: 
+/home/users/ckimes/npb-scripts
+First checking for /scratch/ckimes/hipmer-install-Linux/bin/hipmer_env.sh
+Next checking for /scratch/ckimes/hipmer-install-Linux/env.sh
+Sourcing /scratch/ckimes/hipmer-install-Linux/env.sh
+The following environment is now active:
+
+THREADS=160
+
+HIPMER_BUILD=/tmp/ckimes-hipmer-build-Linux
+CORES_PER_NODE=80
+UPC_PTHREADS_OPT=
+UPCC=/usr/bin/upcc
+HIPMER_SHARED_MEM_PCT=48
+HIPMER_INSTALL=/scratch/ckimes/hipmer-install-Linux
+HIPMER_POSIX_SHM=
+HIPMER_SRC=/home/users/ckimes/hipmer
+HYPERTHREADS=1
+HIPMER_BUILD_TYPE=Release
+HIPMER_UPC_ALLOCATOR=1
+HIPMER_POST_INSTALL=
+GASNET_PHYSMEM_NOPROBE=1
+HIPMER_BOOTSTRAP_FUNC=test_bombus
+HIPMER_BUILD_OPTS=
+UPCRUN=/usr/bin/upcrun -q
+HIPMER_ENV=Linux
+GASNET_PHYSMEM_MAX=490078MB
+PREFIX=HIPMER
+HIPMER_TEST=bombus
+HIPMER_ENV_SCRIPT=/scratch/ckimes/hipmer-install-Linux/env.sh
+UPC_SHARED_HEAP_SIZE=4500
+
+PATH=/scratch/ckimes/hipmer-install-Linux/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+HIPMER_VERSION: v0.9.5-537-g9d7c27d
++ Started at Mon Jan  8 15:32:49 PST 2018 in 0 s: /scratch/ckimes/hipmer-install-Linux/bin/test_hipmer.sh  (pid:95667)
+Linking latest_run to output in /scratch/ckimes/bombus-160-20180108_153249
++ Sourcing from HIPMER_ENV_SCRIPT: /scratch/ckimes/hipmer-install-Linux/bin/bootstrap_hipmer_env.sh
+Set the following environment variables: 
+/scratch/ckimes/bombus-160-20180108_153249
+Sourcing /scratch/ckimes/hipmer-install-Linux/env.sh
+The following environment is now active:
+
+THREADS=160
+
+HIPMER_BUILD=/tmp/ckimes-hipmer-build-Linux
+CORES_PER_NODE=80
+UPC_PTHREADS_OPT=
+UPCC=/usr/bin/upcc
+HIPMER_INSTALL=/scratch/ckimes/hipmer-install-Linux
+HIPMER_SHARED_MEM_PCT=48
+HIPMER_SRC=/home/users/ckimes/hipmer
+HIPMER_POSIX_SHM=
+HYPERTHREADS=1
+HIPMER_BUILD_TYPE=Release
+HIPMER_UPC_ALLOCATOR=1
+GASNET_PHYSMEM_NOPROBE=1
+HIPMER_POST_INSTALL=
+HIPMER_BOOTSTRAP_FUNC=test_bombus
+HIPMER_VERSION=v0.9.5-537-g9d7c27d
+HIPMER_BUILD_OPTS=
+HIPMER_ENV=Linux
+UPCRUN=/usr/bin/upcrun -q
+GASNET_PHYSMEM_MAX=490078MB
+PREFIX=HIPMER
+HIPMER_TEST=bombus
+UPC_SHARED_HEAP_SIZE=4500
+HIPMER_ENV_SCRIPT=/scratch/ckimes/hipmer-install-Linux/env.sh
+
+PATH=/scratch/ckimes/hipmer-install-Linux/bin:/scratch/ckimes/hipmer-install-Linux/bin:/scratch/ckimes/hipmer-install-Linux/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+HIPMER_VERSION: v0.9.5-537-g9d7c27d
+# Starting '/scratch/ckimes/hipmer-install-Linux/bin/run_hipmer_stages.sh bombus.config' (v0.9.5-537-g9d7c27d) at Mon Jan  8 15:32:49 PST 2018 in /scratch/ckimes/bombus-160-20180108_153249 on boggle ( pid:96034)
+# Using base directory '.'
+# using KMER_LENGTH=31
+# using 1.75 for EXCLUDE_REPEATS (a.k.a. gap_close_rpt_depth_ratio or merauderRepeatCopyCount)
+# Diploid SET
+# Executing on a total of 160 threads
+# Using 2 nodes, with 80 cores per node and 1 hyperthreads per core
+# Using -shared-heap=4364M
+Using:
+   upcrun: /usr/bin/upcrun     -shared-heap=4364M  -q -n 160
+   mpirun: /usr/bin/mpirun
+   /scratch/ckimes/hipmer-install-Linux/bin/ufx-32
+   /scratch/ckimes/hipmer-install-Linux/bin/meraculous-32
+
+environmental variables with some effects:
+
+Physical memory properties:
+  PHYS_MEM_MB=465575
+
+The number of UPC threads in the job (MPI will not use hyperthreads):
+  THREADS=160 HYPERTHREADS=1
+
+The rundirectory to place all the files (will be created if necessary):
+  RUNDIR=/scratch/ckimes/bombus-160-20180108_153249
+  DATADIR=
+  LFS_STRIPE=72
+
+Gasnet properties (by default 80% of physmem):
+  GASNET_PHYSMEM_MAX=490078MB
+  GASNET_PHYSMEM_NOPROBE=1
+
+UPC properties:
+  UPC_SHARED_HEAP_SIZE=4364 (Do not set to use 80% of the node memory)
+  UPC_PTHREADS=
+  UPC_PTHREADS_OPT=
+
+HipMer options (will override config file defaults):
+  UFX_HLL=1
+  CACHED_IO=0
+  SAVE_UFX= # use 1 to save UFX to disk even if in SHM mode
+  DYNAMIC_MIN_DEPTH=1.0
+  MIN_DEPTH_CUTOFF=4 # use 0 for auto-detect after UFX generation
+  BUBBLE_MIN_DEPTH_CUTOFF=1
+  KMER_LENGTH=31
+  MIN_CONTIG_LENGTH=31
+  NUM_ALIGNMENTS=192000
+  ILLUMINA_VERSION=
+  SW_CACHE_MB=6144
+  KMER_CACHE_MB=
+  MAX_KMER_CACHE_MB=0
+  MIN_KMER_CACHE_MB=0
+  NO_CONCAT=
+  CONTIGS_ONLY=0
+  MAX_CANONICAL_NODES=16
+  ONO_ACTIVE_THREADS=0
+  MAX_PAIR_THRESHOLD=16
+
+MetaHipMer options (and iterate_kmer too):
+  MER_SIZE_MIN=31
+  MER_SIZE_MAX=31
+  MER_SIZE_STEP=2
+  ALPHA=
+  BETA=
+  TAU=
+  SCAFFOLDING_KMER_LENGTH=31
+
+MPI/UPC environment:
+  MPIRUN=/usr/bin/mpirun
+  UPCRUN=/usr/bin/upcrun     -shared-heap=4364M  -q -n 160
+
+
+# Using MIN_CONTIG_LENGTH=31
+# Guessed phred offset=64. Set ILLUMINA_VERSION to override.
+# Starting '/usr/bin/mpirun -n 160 /scratch/ckimes/hipmer-install-Linux/bin/ufx-32 -k 31 -Q 64 -f ALL_INPUTS.fofn -e 4 -H' at Mon Jan  8 15:32:49 PST 2018 log in /scratch/ckimes/bombus-160-20180108_153249/per_thread/ufx-31.log.20180108_153249
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+# Finished (1685 s) '/usr/bin/mpirun -n 160 /scratch/ckimes/hipmer-install-Linux/bin/ufx-32 -k 31 -Q 64 -f ALL_INPUTS.fofn -e 4 -H' at Mon Jan  8 16:00:54 PST 2018
+# Starting '/usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/meraculous-32 -k 31 -N 80 -i ALL_INPUTS.fofn.ufx.bin -m 31 -o UUtigs_contigs-31 -c 100 -l 1 -d 4 -D 1.0 -B .' at Mon Jan  8 16:00:54 PST 2018 log in /scratch/ckimes/bombus-160-20180108_153249/per_thread/contigs-31.log.20180108_160054
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+# Finished (33 s) '/usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/meraculous-32 -k 31 -N 80 -i ALL_INPUTS.fofn.ufx.bin -m 31 -o UUtigs_contigs-31 -c 100 -l 1 -d 4 -D 1.0 -B .' at Mon Jan  8 16:01:27 PST 2018
+# Starting '/usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/contigMerDepth-32 -k 31 -i ALL_INPUTS.fofn.ufx.bin -c UUtigs_contigs-31 -d 4 -D 1.0 -s 100 -B .' at Mon Jan  8 16:01:27 PST 2018 log in /scratch/ckimes/bombus-160-20180108_153249/per_thread/contigMerDepth-31.log.20180108_160127
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+# Finished (27 s) '/usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/contigMerDepth-32 -k 31 -i ALL_INPUTS.fofn.ufx.bin -c UUtigs_contigs-31 -d 4 -D 1.0 -s 100 -B .' at Mon Jan  8 16:01:54 PST 2018
+# Starting '/usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/contigEndAnalyzer-32 -i ALL_INPUTS.fofn.ufx.bin -k 31 -c UUtigs_contigs-31 -d 4 -D 1.0 -s 100 -B .' at Mon Jan  8 16:01:54 PST 2018 log in /scratch/ckimes/bombus-160-20180108_153249/per_thread/contigEndAnalyzer-31.log.20180108_160154
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+# Finished (28 s) '/usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/contigEndAnalyzer-32 -i ALL_INPUTS.fofn.ufx.bin -k 31 -c UUtigs_contigs-31 -d 4 -D 1.0 -s 100 -B .' at Mon Jan  8 16:02:22 PST 2018
+# Starting '/usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/bubbleFinder-32 -k 31 -N 4814500 -d UUtigs_contigs-31 -c UUtigs_contigs-31 -o Bubbletigs_diplotigs-31 -B . -D 1' at Mon Jan  8 16:02:22 PST 2018 log in /scratch/ckimes/bombus-160-20180108_153249/per_thread/bubbleFinder-31.log.20180108_160222
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+# Finished (12 s) '/usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/bubbleFinder-32 -k 31 -N 4814500 -d UUtigs_contigs-31 -c UUtigs_contigs-31 -o Bubbletigs_diplotigs-31 -B . -D 1' at Mon Jan  8 16:02:34 PST 2018
+# Done with iterative contig generation: 31
+Skipping canonical sorting of contigs as it is not efficient to run at scale
+Reporting only contigs over 31 bases
+# Starting '/usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/upc-canonical-assembly -d -l 77 -o . -s 4794490 -n 80 -f Bubbletigs_diplotigs-31_ -F .fasta -O canonical_contigs.fa' at Mon Jan  8 16:02:34 PST 2018 log in /scratch/ckimes/bombus-160-20180108_153249/per_thread/upc-canonical-contigs.log.20180108_160234
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+# Finished (2 s) '/usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/upc-canonical-assembly -d -l 77 -o . -s 4794490 -n 80 -f Bubbletigs_diplotigs-31_ -F .fasta -O canonical_contigs.fa' at Mon Jan  8 16:02:36 PST 2018
+# Aligning FRA (0) using config.LIBSEQ*-FRA and K=31 contigsPrefix=Bubbletigs_diplotigs-31
+Reducing KMER_CACHE (-K) from 139648 to 0
+Using 0 MB of the node shared memory ( 349120 MB ) for kmer cache
+Using 6144 MB for the SOFTWARE_CACHE
+# Starting '/usr/bin/upcrun -shared-heap=4364M -q -n 160 merAligner-32 -k 31 -N 80 -j 1.15 -r FRA.fofn -l FRA -u 0 -P 2 -c Bubbletigs_diplotigs-31 -C 6144 -K 0 -x 200000 -m 31 -e 833 -B . -L 124 -o merAlignerOutput-31-scaff' at Mon Jan  8 16:02:36 PST 2018 log in /scratch/ckimes/bombus-160-20180108_153249/per_thread/merAligner-FRA-Bubbletigs_diplotigs-31.log.20180108_160236
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+# Finished (1452 s) '/usr/bin/upcrun -shared-heap=4364M -q -n 160 merAligner-32 -k 31 -N 80 -j 1.15 -r FRA.fofn -l FRA -u 0 -P 2 -c Bubbletigs_diplotigs-31 -C 6144 -K 0 -x 200000 -m 31 -e 833 -B . -L 124 -o merAlignerOutput-31-scaff' at Mon Jan  8 16:26:48 PST 2018
+# Starting '/usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/splinter -l FRA -m 31 -r 124 -T 5 -F 5 -B . -a merAlignerOutput-31-scaff' at Mon Jan  8 16:26:48 PST 2018 log in /scratch/ckimes/bombus-160-20180108_153249/per_thread/splinter-FRA.log.20180108_162648
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+# Finished (59 s) '/usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/splinter -l FRA -m 31 -r 124 -T 5 -F 5 -B . -a merAlignerOutput-31-scaff' at Mon Jan  8 16:27:47 PST 2018
+# Starting '/usr/bin/upcrun -shared-heap=4364M -q -n 160 merAlignerAnalyzer -l FRA -m 31 -i 400 -s 40 -c 1200 -T 5 -F 5 -B . -N 80 -p 80 -a merAlignerOutput-31-scaff -o 31-scaff' at Mon Jan  8 16:27:47 PST 2018 log in /scratch/ckimes/bombus-160-20180108_153249/per_thread/histogrammer-FRA-merAlignerOutput-31-scaff.log.20180108_162747
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+# Finished (7 s) '/usr/bin/upcrun -shared-heap=4364M -q -n 160 merAlignerAnalyzer -l FRA -m 31 -i 400 -s 40 -c 1200 -T 5 -F 5 -B . -N 80 -p 80 -a merAlignerOutput-31-scaff -o 31-scaff' at Mon Jan  8 16:27:54 PST 2018
+# Starting '/usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/spanner -l FRA -m 31 -T 5 -F 5 -i 380 -s 30 -r 124 -B . -a merAlignerOutput-31-scaff' at Mon Jan  8 16:27:54 PST 2018 log in /scratch/ckimes/bombus-160-20180108_153249/per_thread/spanner-FRA-1.log.20180108_162754
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+# Finished (18 s) '/usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/spanner -l FRA -m 31 -T 5 -F 5 -i 380 -s 30 -r 124 -B . -a merAlignerOutput-31-scaff' at Mon Jan  8 16:28:12 PST 2018
+# Starting '/usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/bmaToLinks -b FRA-bmaMeta-splints,FRA-bmaMeta-spans -m 31 -L 1 -n 1111652638 -B . -P 0' at Mon Jan  8 16:28:12 PST 2018 log in /scratch/ckimes/bombus-160-20180108_153249/per_thread/bmaToLinks-1.log.20180108_162812
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+# Finished (63 s) '/usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/bmaToLinks -b FRA-bmaMeta-splints,FRA-bmaMeta-spans -m 31 -L 1 -n 1111652638 -B . -P 0' at Mon Jan  8 16:29:15 PST 2018
+# Starting '/usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/oNo -l linksMeta-1 -m 31 -L 29861800 -C 4794490 -N 80 -A 0 -p 1,16 -c merDepth_Bubbletigs_diplotigs-31 -B . -o SsrfFile-1' at Mon Jan  8 16:29:15 PST 2018 log in /scratch/ckimes/bombus-160-20180108_153249/per_thread/oNo-1.log.20180108_162915
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+# Finished (71 s) '/usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/oNo -l linksMeta-1 -m 31 -L 29861800 -C 4794490 -N 80 -A 0 -p 1,16 -c merDepth_Bubbletigs_diplotigs-31 -B . -o SsrfFile-1' at Mon Jan  8 16:30:26 PST 2018
+# Starting '/usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/gapclosing -Q 64 -s SsrfFile-1 -c Bubbletigs_diplotigs-31 -a merAlignerOutput-31-scaff -b FRA -i 380 -I 30 -m 31 -D 4 -R 1.75 -A -P -B . -r 0, -F 5, -T 5, -l 124 -L 1000' at Mon Jan  8 16:30:26 PST 2018 log in /scratch/ckimes/bombus-160-20180108_153249/per_thread/gapclosing.log.20180108_163026
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+# Finished (172 s) '/usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/gapclosing -Q 64 -s SsrfFile-1 -c Bubbletigs_diplotigs-31 -a merAlignerOutput-31-scaff -b FRA -i 380 -I 30 -m 31 -D 4 -R 1.75 -A -P -B . -r 0, -F 5, -T 5, -l 124 -L 1000' at Mon Jan  8 16:33:18 PST 2018
+# Starting '/usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/upc-canonical-assembly -o . -n 80 -O final_assembly.fa' at Mon Jan  8 16:33:18 PST 2018 log in /scratch/ckimes/bombus-160-20180108_153249/per_thread/upc-canonical-assembly.log.20180108_163318
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+# Finished (5 s) '/usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/upc-canonical-assembly -o . -n 80 -O final_assembly.fa' at Mon Jan  8 16:33:23 PST 2018
+# Starting '/usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/upc-canonical-assembly -o . -n 80 -f assembly-1000. -F .fa -O final_assembly-1000.fa' at Mon Jan  8 16:33:23 PST 2018 log in /scratch/ckimes/bombus-160-20180108_153249/per_thread/upc-canonical-assembly-1000.log.20180108_163323
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+tail -n 1 /home/users/ckimes/npb-scripts/pcm.csv
+# Finished (59 s) '/usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/upc-canonical-assembly -o . -n 80 -f assembly-1000. -F .fa -O final_assembly-1000.fa' at Mon Jan  8 16:34:22 PST 2018
+adding link latest_output->/scratch/ckimes/bombus-160-20180108_153249
+# Finished at Mon Jan  8 16:34:22 PST 2018 in 3693 s: /scratch/ckimes/hipmer-install-Linux/bin/run_hipmer_stages.sh bombus.config ( pid:96034)
++ Finished at Mon Jan  8 16:34:22 PST 2018 in 3693 s: /scratch/ckimes/hipmer-install-Linux/bin/test_hipmer.sh  (pid:95667)

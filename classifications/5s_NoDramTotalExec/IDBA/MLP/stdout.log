@@ -1,0 +1,51 @@
+number of threads 160
+reads 4359256
+long reads 0
+extra reads 0
+read_length 101
+kmer 60
+kmers 21358992 21002905
+merge bubble 63
+contigs: 46968 n50: 266 max: 8310 mean: 118 total length: 5562158 n80: 60
+aligned 179631 reads
+confirmed bases: 2090914 correct reads: 85091 bases: 3810
+kmer 20
+kmers 49539226 49523113
+merge bubble 12737
+contigs: 285138 n50: 349 max: 6768 mean: 121 total length: 34637364 n80: 223
+aligned 871351 reads
+confirmed bases: 8059978 correct reads: 101663 bases: 1168
+distance mean -nan sd -nan
+invalid insert distance
+kmer 40
+kmers 36545482 36836407
+merge bubble 91
+contigs: 188501 n50: 390 max: 9579 mean: 174 total length: 32803303 n80: 246
+aligned 873069 reads
+confirmed bases: 8438273 correct reads: 113875 bases: 234
+distance mean -nan sd -nan
+invalid insert distance
+kmer 60
+kmers 33123537 33111953
+merge bubble 14
+contigs: 100626 n50: 444 max: 20308 mean: 282 total length: 28442534 n80: 287
+aligned 842165 reads
+confirmed bases: 8291565 correct reads: 115264 bases: 45
+distance mean -nan sd -nan
+invalid insert distance
+kmer 80
+kmers 24350364 24211457
+merge bubble 2
+contigs: 53398 n50: 503 max: 20328 mean: 451 total length: 24117056 n80: 339
+aligned 802235 reads
+confirmed bases: 8035607 correct reads: 114925 bases: 25
+distance mean -nan sd -nan
+invalid insert distance
+kmer 100
+kmers 19082831 18976173
+merge bubble 0
+contigs: 40922 n50: 539 max: 20328 mean: 536 total length: 21944149 n80: 370
+reads 4359256
+aligned 763137 reads
+distance mean -nan sd -nan
+invalid insert distance

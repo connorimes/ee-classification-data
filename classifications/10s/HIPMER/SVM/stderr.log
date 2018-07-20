@@ -1,0 +1,13 @@
+
+
+ERROR: at Tue Jan  9 02:55:35 PST 2018 in /scratch/ckimes/bombus-160-20180109_014824 on boggle:
+Could not execute /usr/bin/upcrun -shared-heap=4364M -q -n 160 /scratch/ckimes/hipmer-install-Linux/bin/splinter -l FRA -m 31 -r 124 -T 5 -F 5 -B . -a merAlignerOutput-31-scaff:
+    (exit: 1 after 43 s) See the log:
+    /scratch/ckimes/bombus-160-20180109_014824/per_thread/splinter-FRA.log.20180109_025452
+
+
+
+
+    /scratch/ckimes/bombus-160-20180109_014824/per_thread/splinter-FRA.log.20180109_025452
+
+

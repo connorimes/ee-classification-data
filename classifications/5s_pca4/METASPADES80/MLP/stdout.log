@@ -1,0 +1,1023 @@
+Command line: /scratch/shofmeyr/SPAdes-3.11.0-Linux/bin/metaspades.py	--only-assembler	--pe1-12	/scratch/shofmeyr/hipmer_metagenome_data/SYNTHbbqc_10perc.fq	--threads	80	--meta	-m	450	-o	/scratch/ckimes/metaspades_out	
+
+System information:
+  SPAdes version: 3.11.0
+  Python version: 2.7.6
+  OS: Linux-4.4.0-93-generic-x86_64-with-Ubuntu-14.04-trusty
+
+Output dir: /scratch/ckimes/metaspades_out
+Mode: ONLY assembling (without read error correction)
+Debug mode is turned OFF
+
+Dataset parameters:
+  Metagenomic mode
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: not specified
+      right reads: not specified
+      interlaced reads: ['/scratch/shofmeyr/hipmer_metagenome_data/SYNTHbbqc_10perc.fq']
+      single reads: not specified
+Assembly parameters:
+  k: [21, 33, 55]
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+Other parameters:
+  Dir for temp files: /scratch/ckimes/metaspades_out/tmp
+  Threads: 80
+  Memory limit (in Gb): 450
+
+
+======= SPAdes pipeline started. Log can be found here: /scratch/ckimes/metaspades_out/spades.log
+
+== Splitting /scratch/shofmeyr/hipmer_metagenome_data/SYNTHbbqc_10perc.fq into left and right reads (in /scratch/ckimes/metaspades_out/split_input directory)
+
+===== Assembling started.
+
+
+== Running assembler: K21
+
+  0:00:00.000     4M / 4M    INFO    General                 (main.cpp                  :  76)   Loading config from /scratch/ckimes/metaspades_out/K21/configs/config.info
+  0:00:00.001     4M / 4M    INFO    General                 (main.cpp                  :  76)   Loading config from /scratch/ckimes/metaspades_out/K21/configs/mda_mode.info
+  0:00:00.001     4M / 4M    INFO    General                 (main.cpp                  :  76)   Loading config from /scratch/ckimes/metaspades_out/K21/configs/meta_mode.info
+  0:00:00.001     4M / 4M    INFO    General                 (memory_limit.hpp          :  51)   Memory limit set to 450 Gb
+  0:00:00.001     4M / 4M    INFO    General                 (main.cpp                  :  89)   Starting SPAdes, built from N/A, git revision N/A
+  0:00:00.001     4M / 4M    INFO    General                 (main.cpp                  :  90)   Maximum k-mer length: 128
+  0:00:00.001     4M / 4M    INFO    General                 (main.cpp                  :  91)   Assembling dataset (/scratch/ckimes/metaspades_out/dataset.info) with K=21
+  0:00:00.001     4M / 4M    INFO    General                 (launch.hpp                :  51)   SPAdes started
+  0:00:00.001     4M / 4M    INFO    General                 (launch.hpp                :  58)   Starting from stage: construction
+  0:00:00.001     4M / 4M    INFO    General                 (launch.hpp                :  61)   Two-step RR enabled: 0
+  0:00:00.001     4M / 4M    INFO   StageManager             (stage.cpp                 : 126)   STAGE == Construction
+  0:00:00.002     4M / 4M    INFO    General                 (read_converter.hpp        :  84)   Converting reads to binary format for library #0 (takes a while)
+  0:00:00.002     4M / 4M    INFO    General                 (read_converter.hpp        :  85)   Converting paired reads
+  0:00:00.152    76M / 76M   INFO    General                 (binary_converter.hpp      : 139)   16384 reads processed
+  0:00:00.231    88M / 88M   INFO    General                 (binary_converter.hpp      : 139)   32768 reads processed
+  0:00:00.395   108M / 108M  INFO    General                 (binary_converter.hpp      : 139)   65536 reads processed
+  0:00:00.721   144M / 144M  INFO    General                 (binary_converter.hpp      : 139)   131072 reads processed
+  0:00:01.373   220M / 220M  INFO    General                 (binary_converter.hpp      : 139)   262144 reads processed
+  0:00:02.678   376M / 376M  INFO    General                 (binary_converter.hpp      : 139)   524288 reads processed
+  0:00:06.677   616M / 616M  INFO    General                 (binary_converter.hpp      : 139)   1048576 reads processed
+  0:00:13.309   616M / 616M  INFO    General                 (binary_converter.hpp      : 139)   2097152 reads processed
+  0:00:28.551   616M / 616M  INFO    General                 (binary_converter.hpp      : 139)   4194304 reads processed
+  0:00:39.711   532M / 616M  INFO    General                 (binary_converter.hpp      : 159)   5449072 reads written
+  0:00:41.905     4M / 616M  INFO    General                 (read_converter.hpp        :  94)   Converting single reads
+  0:00:42.168   132M / 616M  INFO    General                 (binary_converter.hpp      : 159)   0 reads written
+  0:00:42.190     4M / 616M  INFO    General                 (graph_construction.hpp    : 120)   Constructing DeBruijn graph for k=21
+  0:00:42.190     4M / 616M  INFO    General                 (kmer_index_builder.hpp    : 106)   Splitting kmer instances into 6400 buckets using 80 threads. This might take a while.
+  0:00:42.196     4M / 616M  INFO    General                 (file_limit.hpp            :  32)   Open file limit set to 10000
+  0:00:42.196     4M / 616M  INFO    General                 (kmer_splitters.hpp        :  74)   Memory available for splitting buffers: 1.87498 Gb
+  0:00:42.196     4M / 616M  INFO    General                 (kmer_splitters.hpp        :  82)   Using cell size of 16384
+  0:01:05.174    70G / 70G   INFO    General                 (kmer_splitters.hpp        : 291)   Processed 21796288 reads
+  0:01:05.174    70G / 70G   INFO    General                 (kmer_splitters.hpp        : 297)   Adding contigs from previous K
+  0:01:11.997   356M / 70G   INFO    General                 (kmer_splitters.hpp        : 310)   Used 21796288 reads. Maximum read length 101
+  0:01:11.997   356M / 70G   INFO    General                 (kmer_splitters.hpp        : 311)   Average read length 100.817
+  0:01:11.997   356M / 70G   INFO    General                 (kmer_index_builder.hpp    : 109)   Starting k-mer counting.
+  0:01:18.107   356M / 70G   INFO    General                 (kmer_index_builder.hpp    : 115)   K-mer counting done. There are 192340880 kmers in total.
+  0:01:18.107   356M / 70G   INFO    General                 (kmer_index_builder.hpp    : 121)   Merging temporary buckets.
+  0:01:20.322   356M / 70G   INFO   K-mer Index Building     (kmer_index_builder.hpp    : 289)   Building kmer index
+  0:01:20.322   356M / 70G   INFO    General                 (kmer_index_builder.hpp    : 106)   Splitting kmer instances into 1280 buckets using 80 threads. This might take a while.
+  0:01:20.323   356M / 70G   INFO    General                 (file_limit.hpp            :  32)   Open file limit set to 10000
+  0:01:20.323   356M / 70G   INFO    General                 (kmer_splitters.hpp        :  74)   Memory available for splitting buffers: 1.87355 Gb
+  0:01:20.323   356M / 70G   INFO    General                 (kmer_splitters.hpp        :  82)   Using cell size of 52428
+  0:01:34.903    44G / 70G   INFO    General                 (kmer_splitters.hpp        : 381)   Processed 192340880 kmers
+  0:01:34.903    44G / 70G   INFO    General                 (kmer_splitters.hpp        : 386)   Used 192340880 kmers.
+  0:01:37.979   364M / 70G   INFO    General                 (kmer_index_builder.hpp    : 109)   Starting k-mer counting.
+  0:01:39.220   364M / 70G   INFO    General                 (kmer_index_builder.hpp    : 115)   K-mer counting done. There are 192237985 kmers in total.
+  0:01:39.221   364M / 70G   INFO    General                 (kmer_index_builder.hpp    : 121)   Merging temporary buckets.
+  0:01:41.170   364M / 70G   INFO   K-mer Index Building     (kmer_index_builder.hpp    : 298)   Building perfect hash indices
+  0:01:46.332   432M / 70G   INFO    General                 (kmer_index_builder.hpp    : 137)   Merging final buckets.
+  0:02:02.728   432M / 70G   INFO   K-mer Index Building     (kmer_index_builder.hpp    : 320)   Index built. Total 89158202 bytes occupied (3.71033 bits per kmer).
+  0:02:02.886   616M / 70G   INFO   DeBruijnExtensionIndexBu (kmer_extension_index_build:  87)   Building k-mer extensions from k+1-mers
+  0:02:05.750   616M / 70G   INFO   DeBruijnExtensionIndexBu (kmer_extension_index_build:  91)   Building k-mer extensions from k+1-mers finished.
+  0:02:05.780   572M / 70G   INFO   Early tip clipping       (early_simplification.hpp  : 181)   Early tip clipping
+  0:02:11.358   572M / 70G   INFO   Early tip clipping       (early_simplification.hpp  : 184)   10361979 22-mers were removed by early tip clipper
+  0:02:11.358   572M / 70G   INFO    General                 (graph_construction.hpp    : 136)   Condensing graph
+  0:02:11.377   572M / 70G   INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 355)   Extracting unbranching paths
+  0:02:15.526   632M / 70G   INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 374)   Extracting unbranching paths finished. 1920099 sequences extracted
+  0:02:17.442   632M / 70G   INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 310)   Collecting perfect loops
+  0:02:18.650   632M / 70G   INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 343)   Collecting perfect loops finished. 185 loops collected
+  0:02:19.738     1G / 70G   INFO    General                 (graph_construction.hpp    : 141)   Building index with from graph
+  0:02:19.738     1G / 70G   INFO   K-mer Index Building     (kmer_index_builder.hpp    : 289)   Building kmer index
+  0:02:19.738     1G / 70G   INFO    General                 (kmer_index_builder.hpp    : 106)   Splitting kmer instances into 1280 buckets using 80 threads. This might take a while.
+  0:02:19.738     1G / 70G   INFO    General                 (file_limit.hpp            :  32)   Open file limit set to 10000
+  0:02:19.738     1G / 70G   INFO    General                 (kmer_splitters.hpp        :  74)   Memory available for splitting buffers: 1.8708 Gb
+  0:02:19.738     1G / 70G   INFO    General                 (kmer_splitters.hpp        :  82)   Using cell size of 52428
+  0:02:32.845    45G / 70G   INFO    General                 (edge_index_builders.hpp   :  75)   Processed 3839232 edges
+  0:02:32.845    45G / 70G   INFO    General                 (edge_index_builders.hpp   :  80)   Used 3839232 sequences.
+  0:02:35.555     1G / 70G   INFO    General                 (kmer_index_builder.hpp    : 109)   Starting k-mer counting.
+  0:02:36.422     1G / 70G   INFO    General                 (kmer_index_builder.hpp    : 115)   K-mer counting done. There are 181978901 kmers in total.
+  0:02:36.423     1G / 70G   INFO    General                 (kmer_index_builder.hpp    : 121)   Merging temporary buckets.
+  0:02:37.902     1G / 70G   INFO   K-mer Index Building     (kmer_index_builder.hpp    : 298)   Building perfect hash indices
+  0:02:42.596     1G / 70G   INFO    General                 (kmer_index_builder.hpp    : 137)   Merging final buckets.
+  0:02:52.738     1G / 70G   INFO   K-mer Index Building     (kmer_index_builder.hpp    : 320)   Index built. Total 84391960 bytes occupied (3.70997 bits per kmer).
+  0:02:55.497     5G / 70G   INFO    General                 (edge_index_builders.hpp   : 105)   Collecting k-mer coverage information from graph, this takes a while.
+  0:02:57.426     5G / 70G   INFO    General                 (edge_index.hpp            :  91)   Index refilled
+  0:02:58.037     4G / 70G   INFO    General                 (graph_construction.hpp    : 173)   Filling coverage index
+  0:02:58.037     4G / 70G   INFO    General                 (edge_index_builders.hpp   : 183)   Collecting k-mer coverage information from reads, this takes a while.
+  0:03:06.916     4G / 70G   INFO    General                 (graph_construction.hpp    : 175)   Filling coverage and flanking coverage from index
+  0:04:00.648     4G / 70G   INFO    General                 (construction.cpp          :  30)   Figured out: read length = 101
+  0:04:00.649     4G / 70G   INFO   StageManager             (stage.cpp                 : 126)   STAGE == EC Threshold Finding
+  0:04:06.085     4G / 70G   INFO   ThresholdFinder          (ec_threshold_finder.hpp   : 114)   Bucket size: 6
+  0:04:06.085     4G / 70G   INFO    General                 (genomic_info_filler.cpp   :  98)   Average edge coverage: 4.71245
+  0:04:06.085     4G / 70G   INFO    General                 (genomic_info_filler.cpp   :  99)   Graph threshold: 77
+  0:04:06.094     4G / 70G   INFO    General                 (genomic_info_filler.cpp   : 141)   EC coverage threshold value was calculated as 4.71245
+  0:04:06.094     4G / 70G   INFO    General                 (genomic_info_filler.cpp   : 142)   Trusted kmer low bound: 0
+  0:04:06.094     4G / 70G   INFO   StageManager             (stage.cpp                 : 126)   STAGE == Simplification
+  0:04:06.128   724M / 70G   INFO    General                 (simplification.cpp        : 387)   Graph simplification started
+  0:04:06.128   724M / 70G   INFO    General                 (simplification.cpp        :  77)   PROCEDURE == InitialCleaning
+  0:04:06.128   724M / 70G   INFO    General                 (graph_simplification.hpp  : 645)   Flanking coverage based disconnection disabled
+  0:04:06.128   724M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Self conjugate edge remover
+  0:04:06.388   724M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:04:06.389   724M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Initial isolated edge remover
+  0:04:07.798   724M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 189800 times
+  0:04:07.798   724M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Initial tip clipper
+  0:04:08.224   724M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 18825 times
+  0:04:08.224   724M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Initial ec remover
+  0:04:08.368   724M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:04:08.375   724M / 70G   INFO    General                 (graph_simplification.hpp  : 617)   Creating parallel br instance
+  0:04:08.375   724M / 70G   INFO    General                 (simplification.cpp        : 410)   PROCEDURE == Simplification cycle, iteration 1
+  0:04:08.375   724M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:04:08.669   724M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 12662 times
+  0:04:08.669   724M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:04:32.474   776M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 329807 times
+  0:04:32.474   776M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Low coverage edge remover
+  0:04:32.688   808M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:04:32.688   808M / 70G   INFO    General                 (simplification.cpp        : 410)   PROCEDURE == Simplification cycle, iteration 2
+  0:04:32.688   808M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:04:33.036   796M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 3999 times
+  0:04:33.036   796M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:04:33.350   796M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 61 times
+  0:04:33.350   796M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Low coverage edge remover
+  0:04:36.953   796M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 69964 times
+  0:04:36.953   796M / 70G   INFO    General                 (simplification.cpp        : 410)   PROCEDURE == Simplification cycle, iteration 3
+  0:04:36.953   796M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:04:37.154   792M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 3427 times
+  0:04:37.154   792M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:04:39.039   772M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 2386 times
+  0:04:39.039   772M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Low coverage edge remover
+  0:04:39.634   764M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 11050 times
+  0:04:39.634   764M / 70G   INFO    General                 (simplification.cpp        : 410)   PROCEDURE == Simplification cycle, iteration 4
+  0:04:39.634   764M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:04:39.653   764M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 267 times
+  0:04:39.653   764M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:04:40.259   772M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 689 times
+  0:04:40.259   772M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Low coverage edge remover
+  0:04:40.259   772M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:04:40.259   772M / 70G   INFO    General                 (simplification.cpp        : 410)   PROCEDURE == Simplification cycle, iteration 5
+  0:04:40.259   772M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:04:40.260   772M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 3 times
+  0:04:40.260   772M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:04:40.260   772M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:04:40.260   772M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Low coverage edge remover
+  0:04:40.260   772M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:04:40.260   772M / 70G   INFO    General                 (simplification.cpp        : 410)   PROCEDURE == Simplification cycle, iteration 6
+  0:04:40.260   772M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:04:40.260   772M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:04:40.260   772M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:04:40.260   772M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:04:40.260   772M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Low coverage edge remover
+  0:04:40.260   772M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:04:40.260   772M / 70G   INFO    General                 (simplification.cpp        : 167)   PROCEDURE == Post simplification
+  0:04:40.260   772M / 70G   INFO    General                 (graph_simplification.hpp  : 617)   Creating parallel br instance
+  0:04:40.260   772M / 70G   INFO    General                 (simplification.cpp        : 301)   Iteration 1
+  0:04:40.260   772M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Relative coverage component remover
+  0:04:40.727   760M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 5748 times
+  0:04:40.727   760M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Disconnecting edges with relatively low coverage
+  0:04:41.524   760M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 1705 times
+  0:04:41.524   760M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Complex tip clipper
+  0:04:41.612   760M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 134 times
+  0:04:41.612   760M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Complex bulge remover
+  0:04:49.146   760M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 313 times
+  0:04:49.146   760M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:04:49.253   760M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 1116 times
+  0:04:49.253   760M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Final tip clipper
+  0:04:50.360   760M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 25669 times
+  0:04:50.360   760M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:04:50.959   760M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 243 times
+  0:04:50.959   760M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Thorn remover (meta)
+  0:04:51.156   760M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 23 times
+  0:04:51.156   760M / 70G   INFO    General                 (simplification.cpp        : 301)   Iteration 2
+  0:04:51.156   760M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Relative coverage component remover
+  0:04:51.264   752M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 80 times
+  0:04:51.264   752M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Disconnecting edges with relatively low coverage
+  0:04:51.572   752M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 194 times
+  0:04:51.572   752M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Complex tip clipper
+  0:04:51.639   752M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 9 times
+  0:04:51.639   752M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Complex bulge remover
+  0:04:55.117   752M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 11 times
+  0:04:55.117   752M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:04:55.210   752M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 146 times
+  0:04:55.210   752M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Final tip clipper
+  0:04:55.297   752M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 138 times
+  0:04:55.297   752M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:04:55.839   764M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 15 times
+  0:04:55.839   764M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Thorn remover (meta)
+  0:04:56.000   760M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:04:56.000   760M / 70G   INFO    General                 (simplification.cpp        : 301)   Iteration 3
+  0:04:56.000   760M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Relative coverage component remover
+  0:04:56.166   752M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 3 times
+  0:04:56.166   752M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Disconnecting edges with relatively low coverage
+  0:04:56.195   752M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 2 times
+  0:04:56.195   752M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Complex tip clipper
+  0:04:56.283   752M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:04:56.283   752M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Complex bulge remover
+  0:05:00.786   752M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:00.786   752M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:05:00.787   752M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 2 times
+  0:05:00.787   752M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Final tip clipper
+  0:05:00.787   752M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:00.787   752M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:05:00.787   752M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:00.787   752M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Thorn remover (meta)
+  0:05:00.787   752M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:00.787   752M / 70G   INFO    General                 (simplification.cpp        : 301)   Iteration 4
+  0:05:00.787   752M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Relative coverage component remover
+  0:05:00.854   752M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:00.854   752M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Disconnecting edges with relatively low coverage
+  0:05:00.854   752M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:00.854   752M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Complex tip clipper
+  0:05:00.897   752M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:00.897   752M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Complex bulge remover
+  0:05:06.700   752M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:06.700   752M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:05:06.700   752M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:06.700   752M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Final tip clipper
+  0:05:06.700   752M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:06.700   752M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:05:06.700   752M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:06.700   752M / 70G   INFO    General                 (simplification.cpp        : 356)   Running Thorn remover (meta)
+  0:05:06.700   752M / 70G   INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:06.700   752M / 70G   INFO    General                 (simplification.cpp        : 328)   Running Hidden EC remover (meta)
+  0:05:06.781   752M / 70G   INFO    General                 (simplification.cpp        : 333)   Disrupting self-conjugate edges
+  0:05:07.417   752M / 70G   INFO   StageManager             (stage.cpp                 : 126)   STAGE == Simplification Cleanup
+  0:05:07.417   752M / 70G   INFO    General                 (simplification.cpp        : 547)   Removing isolated edges
+  0:05:07.737   756M / 70G   INFO    General                 (simplification.cpp        : 570)   Counting average coverage
+  0:05:08.044   756M / 70G   INFO    General                 (simplification.cpp        : 575)   Average coverage = 5.76181
+  0:05:08.044   756M / 70G   INFO   StageManager             (stage.cpp                 : 126)   STAGE == Contig Output
+  0:05:08.044   756M / 70G   INFO    General                 (contig_output_stage.cpp   :  40)   Writing GFA to /scratch/ckimes/metaspades_out//K21/assembly_graph_with_scaffolds.gfa
+  0:05:09.799   756M / 70G   INFO    General                 (contig_output.hpp         :  22)   Outputting contigs to /scratch/ckimes/metaspades_out//K21/before_rr.fasta
+  0:05:11.813   756M / 70G   INFO    General                 (contig_output_stage.cpp   :  50)   Outputting FastG graph to /scratch/ckimes/metaspades_out//K21/assembly_graph.fastg
+  0:05:16.815   756M / 70G   INFO    General                 (contig_output.hpp         :  22)   Outputting contigs to /scratch/ckimes/metaspades_out//K21/simplified_contigs.fasta
+  0:05:20.061   756M / 70G   INFO    General                 (contig_output.hpp         :  22)   Outputting contigs to /scratch/ckimes/metaspades_out//K21/final_contigs.fasta
+  0:05:24.208   756M / 70G   INFO   StageManager             (stage.cpp                 : 126)   STAGE == Contig Output
+  0:05:24.208   756M / 70G   INFO    General                 (contig_output_stage.cpp   :  40)   Writing GFA to /scratch/ckimes/metaspades_out//K21/assembly_graph_with_scaffolds.gfa
+  0:05:27.578   756M / 70G   INFO    General                 (contig_output.hpp         :  22)   Outputting contigs to /scratch/ckimes/metaspades_out//K21/before_rr.fasta
+  0:05:30.747   756M / 70G   INFO    General                 (contig_output_stage.cpp   :  50)   Outputting FastG graph to /scratch/ckimes/metaspades_out//K21/assembly_graph.fastg
+  0:05:41.721   756M / 70G   INFO    General                 (contig_output.hpp         :  22)   Outputting contigs to /scratch/ckimes/metaspades_out//K21/simplified_contigs.fasta
+  0:05:44.800   756M / 70G   INFO    General                 (contig_output.hpp         :  22)   Outputting contigs to /scratch/ckimes/metaspades_out//K21/final_contigs.fasta
+  0:05:48.733   756M / 70G   INFO    General                 (launch.hpp                : 137)   SPAdes finished
+  0:05:51.108   320M / 70G   INFO    General                 (main.cpp                  : 110)   Assembling time: 0 hours 5 minutes 51 seconds
+
+== Running assembler: K33
+
+  0:00:00.000     4M / 4M    INFO    General                 (main.cpp                  :  76)   Loading config from /scratch/ckimes/metaspades_out/K33/configs/config.info
+  0:00:00.001     4M / 4M    INFO    General                 (main.cpp                  :  76)   Loading config from /scratch/ckimes/metaspades_out/K33/configs/mda_mode.info
+  0:00:00.001     4M / 4M    INFO    General                 (main.cpp                  :  76)   Loading config from /scratch/ckimes/metaspades_out/K33/configs/meta_mode.info
+  0:00:00.001     4M / 4M    INFO    General                 (memory_limit.hpp          :  51)   Memory limit set to 450 Gb
+  0:00:00.001     4M / 4M    INFO    General                 (main.cpp                  :  89)   Starting SPAdes, built from N/A, git revision N/A
+  0:00:00.001     4M / 4M    INFO    General                 (main.cpp                  :  90)   Maximum k-mer length: 128
+  0:00:00.001     4M / 4M    INFO    General                 (main.cpp                  :  91)   Assembling dataset (/scratch/ckimes/metaspades_out/dataset.info) with K=33
+  0:00:00.001     4M / 4M    INFO    General                 (launch.hpp                :  51)   SPAdes started
+  0:00:00.001     4M / 4M    INFO    General                 (launch.hpp                :  58)   Starting from stage: construction
+  0:00:00.001     4M / 4M    INFO    General                 (launch.hpp                :  61)   Two-step RR enabled: 0
+  0:00:00.001     4M / 4M    INFO   StageManager             (stage.cpp                 : 126)   STAGE == Construction
+  0:00:00.001     4M / 4M    INFO    General                 (read_converter.hpp        :  67)   Binary reads detected
+  0:00:00.004     4M / 4M    INFO    General                 (graph_construction.hpp    : 120)   Constructing DeBruijn graph for k=33
+  0:00:00.004     4M / 4M    INFO    General                 (kmer_index_builder.hpp    : 106)   Splitting kmer instances into 6400 buckets using 80 threads. This might take a while.
+  0:00:00.007     4M / 4M    INFO    General                 (file_limit.hpp            :  32)   Open file limit set to 10000
+  0:00:00.007     4M / 4M    INFO    General                 (kmer_splitters.hpp        :  74)   Memory available for splitting buffers: 1.87498 Gb
+  0:00:00.007     4M / 4M    INFO    General                 (kmer_splitters.hpp        :  82)   Using cell size of 16384
+  0:00:36.082   139G / 139G  INFO    General                 (kmer_splitters.hpp        : 291)   Processed 21796288 reads
+  0:00:36.082   139G / 139G  INFO    General                 (kmer_splitters.hpp        : 297)   Adding contigs from previous K
+  0:01:17.781   360M / 139G  INFO    General                 (kmer_splitters.hpp        : 310)   Used 21796288 reads. Maximum read length 101
+  0:01:17.781   360M / 139G  INFO    General                 (kmer_splitters.hpp        : 311)   Average read length 100.817
+  0:01:17.781   360M / 139G  INFO    General                 (kmer_index_builder.hpp    : 109)   Starting k-mer counting.
+  0:01:25.164   360M / 139G  INFO    General                 (kmer_index_builder.hpp    : 115)   K-mer counting done. There are 190454738 kmers in total.
+  0:01:25.164   360M / 139G  INFO    General                 (kmer_index_builder.hpp    : 121)   Merging temporary buckets.
+  0:01:29.018   360M / 139G  INFO   K-mer Index Building     (kmer_index_builder.hpp    : 289)   Building kmer index
+  0:01:29.019   360M / 139G  INFO    General                 (kmer_index_builder.hpp    : 106)   Splitting kmer instances into 1280 buckets using 80 threads. This might take a while.
+  0:01:29.019   360M / 139G  INFO    General                 (file_limit.hpp            :  32)   Open file limit set to 10000
+  0:01:29.019   360M / 139G  INFO    General                 (kmer_splitters.hpp        :  74)   Memory available for splitting buffers: 1.87354 Gb
+  0:01:29.019   360M / 139G  INFO    General                 (kmer_splitters.hpp        :  82)   Using cell size of 26214
+  0:01:44.852    44G / 139G  INFO    General                 (kmer_splitters.hpp        : 381)   Processed 190454738 kmers
+  0:01:44.852    44G / 139G  INFO    General                 (kmer_splitters.hpp        : 386)   Used 190454738 kmers.
+  0:01:47.994   368M / 139G  INFO    General                 (kmer_index_builder.hpp    : 109)   Starting k-mer counting.
+  0:01:50.624   368M / 139G  INFO    General                 (kmer_index_builder.hpp    : 115)   K-mer counting done. There are 190747338 kmers in total.
+  0:01:50.624   368M / 139G  INFO    General                 (kmer_index_builder.hpp    : 121)   Merging temporary buckets.
+  0:01:55.361   368M / 139G  INFO   K-mer Index Building     (kmer_index_builder.hpp    : 298)   Building perfect hash indices
+  0:02:02.823   432M / 139G  INFO    General                 (kmer_index_builder.hpp    : 137)   Merging final buckets.
+  0:02:27.327   432M / 139G  INFO   K-mer Index Building     (kmer_index_builder.hpp    : 320)   Index built. Total 88458128 bytes occupied (3.70996 bits per kmer).
+  0:02:27.528   616M / 139G  INFO   DeBruijnExtensionIndexBu (kmer_extension_index_build:  87)   Building k-mer extensions from k+1-mers
+  0:02:34.060   616M / 139G  INFO   DeBruijnExtensionIndexBu (kmer_extension_index_build:  91)   Building k-mer extensions from k+1-mers finished.
+  0:02:34.090   568M / 139G  INFO   Early tip clipping       (early_simplification.hpp  : 181)   Early tip clipping
+  0:02:39.574   572M / 139G  INFO   Early tip clipping       (early_simplification.hpp  : 184)   9895316 34-mers were removed by early tip clipper
+  0:02:39.574   572M / 139G  INFO    General                 (graph_construction.hpp    : 136)   Condensing graph
+  0:02:39.590   572M / 139G  INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 355)   Extracting unbranching paths
+  0:02:43.095   612M / 139G  INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 374)   Extracting unbranching paths finished. 1190187 sequences extracted
+  0:02:45.078   612M / 139G  INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 310)   Collecting perfect loops
+  0:02:46.277   612M / 139G  INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 343)   Collecting perfect loops finished. 192 loops collected
+  0:02:47.195   940M / 139G  INFO    General                 (graph_construction.hpp    : 141)   Building index with from graph
+  0:02:47.195   940M / 139G  INFO   K-mer Index Building     (kmer_index_builder.hpp    : 289)   Building kmer index
+  0:02:47.196   940M / 139G  INFO    General                 (kmer_index_builder.hpp    : 106)   Splitting kmer instances into 1280 buckets using 80 threads. This might take a while.
+  0:02:47.196   940M / 139G  INFO    General                 (file_limit.hpp            :  32)   Open file limit set to 10000
+  0:02:47.196   940M / 139G  INFO    General                 (kmer_splitters.hpp        :  74)   Memory available for splitting buffers: 1.87118 Gb
+  0:02:47.196   940M / 139G  INFO    General                 (kmer_splitters.hpp        :  82)   Using cell size of 26214
+  0:03:00.950    45G / 139G  INFO    General                 (edge_index_builders.hpp   :  75)   Processed 2380110 edges
+  0:03:00.950    45G / 139G  INFO    General                 (edge_index_builders.hpp   :  80)   Used 2380110 sequences.
+  0:03:03.966   948M / 139G  INFO    General                 (kmer_index_builder.hpp    : 109)   Starting k-mer counting.
+  0:03:06.415   948M / 139G  INFO    General                 (kmer_index_builder.hpp    : 115)   K-mer counting done. There are 180559422 kmers in total.
+  0:03:06.415   948M / 139G  INFO    General                 (kmer_index_builder.hpp    : 121)   Merging temporary buckets.
+  0:03:10.659   948M / 139G  INFO   K-mer Index Building     (kmer_index_builder.hpp    : 298)   Building perfect hash indices
+  0:03:15.740  1016M / 139G  INFO    General                 (kmer_index_builder.hpp    : 137)   Merging final buckets.
+  0:03:35.209  1016M / 139G  INFO   K-mer Index Building     (kmer_index_builder.hpp    : 320)   Index built. Total 83733656 bytes occupied (3.70997 bits per kmer).
+  0:03:37.276     5G / 139G  INFO    General                 (edge_index_builders.hpp   : 105)   Collecting k-mer coverage information from graph, this takes a while.
+  0:03:38.782     5G / 139G  INFO    General                 (edge_index.hpp            :  91)   Index refilled
+  0:03:39.781     4G / 139G  INFO    General                 (graph_construction.hpp    : 173)   Filling coverage index
+  0:03:39.782     4G / 139G  INFO    General                 (edge_index_builders.hpp   : 183)   Collecting k-mer coverage information from reads, this takes a while.
+  0:03:48.353     4G / 139G  INFO    General                 (graph_construction.hpp    : 175)   Filling coverage and flanking coverage from index
+  0:04:34.018     4G / 139G  INFO    General                 (construction.cpp          :  30)   Figured out: read length = 101
+  0:04:34.019     4G / 139G  INFO   StageManager             (stage.cpp                 : 126)   STAGE == EC Threshold Finding
+  0:04:37.107     4G / 139G  INFO   ThresholdFinder          (ec_threshold_finder.hpp   : 114)   Bucket size: 6
+  0:04:37.107     4G / 139G  INFO    General                 (genomic_info_filler.cpp   :  98)   Average edge coverage: 4.03332
+  0:04:37.107     4G / 139G  INFO    General                 (genomic_info_filler.cpp   :  99)   Graph threshold: 48
+  0:04:37.116     4G / 139G  INFO    General                 (genomic_info_filler.cpp   : 141)   EC coverage threshold value was calculated as 4.03332
+  0:04:37.116     4G / 139G  INFO    General                 (genomic_info_filler.cpp   : 142)   Trusted kmer low bound: 0
+  0:04:37.116     4G / 139G  INFO   StageManager             (stage.cpp                 : 126)   STAGE == Simplification
+  0:04:37.154   692M / 139G  INFO    General                 (simplification.cpp        : 387)   Graph simplification started
+  0:04:37.154   692M / 139G  INFO    General                 (simplification.cpp        :  77)   PROCEDURE == InitialCleaning
+  0:04:37.154   692M / 139G  INFO    General                 (graph_simplification.hpp  : 645)   Flanking coverage based disconnection disabled
+  0:04:37.154   692M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Self conjugate edge remover
+  0:04:37.336   692M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 1 times
+  0:04:37.336   692M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Initial isolated edge remover
+  0:04:39.204   692M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 281316 times
+  0:04:39.204   692M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Initial tip clipper
+  0:04:39.802   692M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 21783 times
+  0:04:39.802   692M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Initial ec remover
+  0:04:40.251   696M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 7907 times
+  0:04:40.263   696M / 139G  INFO    General                 (graph_simplification.hpp  : 617)   Creating parallel br instance
+  0:04:40.263   696M / 139G  INFO    General                 (simplification.cpp        : 410)   PROCEDURE == Simplification cycle, iteration 1
+  0:04:40.263   696M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:04:40.593   696M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 9728 times
+  0:04:40.593   696M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:04:49.707   720M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 154839 times
+  0:04:49.707   720M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Low coverage edge remover
+  0:04:49.770   720M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 71 times
+  0:04:49.770   720M / 139G  INFO    General                 (simplification.cpp        : 410)   PROCEDURE == Simplification cycle, iteration 2
+  0:04:49.770   720M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:04:49.875   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 1516 times
+  0:04:49.875   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:04:49.924   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 29 times
+  0:04:49.924   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Low coverage edge remover
+  0:04:51.014   720M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 22389 times
+  0:04:51.014   720M / 139G  INFO    General                 (simplification.cpp        : 410)   PROCEDURE == Simplification cycle, iteration 3
+  0:04:51.014   720M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:04:51.081   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 848 times
+  0:04:51.081   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:04:51.335   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 821 times
+  0:04:51.335   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Low coverage edge remover
+  0:04:51.476   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 2828 times
+  0:04:51.476   716M / 139G  INFO    General                 (simplification.cpp        : 410)   PROCEDURE == Simplification cycle, iteration 4
+  0:04:51.476   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:04:51.479   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 64 times
+  0:04:51.479   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:04:51.547   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 278 times
+  0:04:51.547   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Low coverage edge remover
+  0:04:51.547   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 1 times
+  0:04:51.547   716M / 139G  INFO    General                 (simplification.cpp        : 410)   PROCEDURE == Simplification cycle, iteration 5
+  0:04:51.547   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:04:51.548   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 1 times
+  0:04:51.548   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:04:51.548   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:04:51.548   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Low coverage edge remover
+  0:04:51.548   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:04:51.548   716M / 139G  INFO    General                 (simplification.cpp        : 410)   PROCEDURE == Simplification cycle, iteration 6
+  0:04:51.548   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:04:51.548   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:04:51.548   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:04:51.548   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:04:51.548   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Low coverage edge remover
+  0:04:51.548   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:04:51.548   716M / 139G  INFO    General                 (simplification.cpp        : 167)   PROCEDURE == Post simplification
+  0:04:51.548   716M / 139G  INFO    General                 (graph_simplification.hpp  : 617)   Creating parallel br instance
+  0:04:51.548   716M / 139G  INFO    General                 (simplification.cpp        : 301)   Iteration 1
+  0:04:51.548   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Relative coverage component remover
+  0:04:51.629   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 864 times
+  0:04:51.629   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Disconnecting edges with relatively low coverage
+  0:04:51.758   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 296 times
+  0:04:51.758   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Complex tip clipper
+  0:04:51.801   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 36 times
+  0:04:51.801   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Complex bulge remover
+  0:04:56.434   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 1597 times
+  0:04:56.434   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:04:56.490   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 177 times
+  0:04:56.490   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Final tip clipper
+  0:04:56.718   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 4347 times
+  0:04:56.718   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:04:56.866   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 70 times
+  0:04:56.866   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Thorn remover (meta)
+  0:04:56.939   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 10 times
+  0:04:56.939   716M / 139G  INFO    General                 (simplification.cpp        : 301)   Iteration 2
+  0:04:56.939   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Relative coverage component remover
+  0:04:56.994   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 19 times
+  0:04:56.994   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Disconnecting edges with relatively low coverage
+  0:04:57.143   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 146 times
+  0:04:57.143   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Complex tip clipper
+  0:04:57.203   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 1 times
+  0:04:57.203   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Complex bulge remover
+  0:05:01.965   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 9 times
+  0:05:01.965   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:05:02.011   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 90 times
+  0:05:02.011   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Final tip clipper
+  0:05:02.054   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 44 times
+  0:05:02.054   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:05:02.151   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 2 times
+  0:05:02.151   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Thorn remover (meta)
+  0:05:02.193   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:02.193   716M / 139G  INFO    General                 (simplification.cpp        : 301)   Iteration 3
+  0:05:02.193   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Relative coverage component remover
+  0:05:02.231   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 3 times
+  0:05:02.231   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Disconnecting edges with relatively low coverage
+  0:05:02.244   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 13 times
+  0:05:02.244   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Complex tip clipper
+  0:05:02.283   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 1 times
+  0:05:02.284   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Complex bulge remover
+  0:05:07.220   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:07.220   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:05:07.221   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 9 times
+  0:05:07.221   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Final tip clipper
+  0:05:07.221   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 1 times
+  0:05:07.221   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:05:07.222   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:07.222   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Thorn remover (meta)
+  0:05:07.222   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:07.222   716M / 139G  INFO    General                 (simplification.cpp        : 301)   Iteration 4
+  0:05:07.222   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Relative coverage component remover
+  0:05:07.266   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 4 times
+  0:05:07.266   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Disconnecting edges with relatively low coverage
+  0:05:07.267   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 4 times
+  0:05:07.267   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Complex tip clipper
+  0:05:07.311   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:07.311   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Complex bulge remover
+  0:05:12.742   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:12.742   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:05:12.742   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 4 times
+  0:05:12.742   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Final tip clipper
+  0:05:12.742   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:12.742   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:05:12.742   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:12.743   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Thorn remover (meta)
+  0:05:12.743   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:12.743   716M / 139G  INFO    General                 (simplification.cpp        : 301)   Iteration 5
+  0:05:12.743   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Relative coverage component remover
+  0:05:12.787   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:12.787   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Disconnecting edges with relatively low coverage
+  0:05:12.787   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:12.787   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Complex tip clipper
+  0:05:12.831   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:12.831   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Complex bulge remover
+  0:05:18.347   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:18.347   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:05:18.347   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:18.347   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Final tip clipper
+  0:05:18.347   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:18.347   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:05:18.347   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:18.347   716M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Thorn remover (meta)
+  0:05:18.347   716M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:18.347   716M / 139G  INFO    General                 (simplification.cpp        : 328)   Running Hidden EC remover (meta)
+  0:05:18.415   716M / 139G  INFO    General                 (simplification.cpp        : 333)   Disrupting self-conjugate edges
+  0:05:18.836   716M / 139G  INFO   StageManager             (stage.cpp                 : 126)   STAGE == Simplification Cleanup
+  0:05:18.836   716M / 139G  INFO    General                 (simplification.cpp        : 547)   Removing isolated edges
+  0:05:19.146   712M / 139G  INFO    General                 (simplification.cpp        : 570)   Counting average coverage
+  0:05:19.345   712M / 139G  INFO    General                 (simplification.cpp        : 575)   Average coverage = 4.78511
+  0:05:19.345   712M / 139G  INFO   StageManager             (stage.cpp                 : 126)   STAGE == Contig Output
+  0:05:19.346   712M / 139G  INFO    General                 (contig_output_stage.cpp   :  40)   Writing GFA to /scratch/ckimes/metaspades_out//K33/assembly_graph_with_scaffolds.gfa
+  0:05:20.608   712M / 139G  INFO    General                 (contig_output.hpp         :  22)   Outputting contigs to /scratch/ckimes/metaspades_out//K33/before_rr.fasta
+  0:05:22.222   712M / 139G  INFO    General                 (contig_output_stage.cpp   :  50)   Outputting FastG graph to /scratch/ckimes/metaspades_out//K33/assembly_graph.fastg
+  0:05:25.803   712M / 139G  INFO    General                 (contig_output.hpp         :  22)   Outputting contigs to /scratch/ckimes/metaspades_out//K33/simplified_contigs.fasta
+  0:05:27.413   712M / 139G  INFO    General                 (contig_output.hpp         :  22)   Outputting contigs to /scratch/ckimes/metaspades_out//K33/final_contigs.fasta
+  0:05:29.505   712M / 139G  INFO   StageManager             (stage.cpp                 : 126)   STAGE == Contig Output
+  0:05:29.505   712M / 139G  INFO    General                 (contig_output_stage.cpp   :  40)   Writing GFA to /scratch/ckimes/metaspades_out//K33/assembly_graph_with_scaffolds.gfa
+  0:05:33.949   712M / 139G  INFO    General                 (contig_output.hpp         :  22)   Outputting contigs to /scratch/ckimes/metaspades_out//K33/before_rr.fasta
+  0:05:37.305   712M / 139G  INFO    General                 (contig_output_stage.cpp   :  50)   Outputting FastG graph to /scratch/ckimes/metaspades_out//K33/assembly_graph.fastg
+  0:05:43.981   712M / 139G  INFO    General                 (contig_output.hpp         :  22)   Outputting contigs to /scratch/ckimes/metaspades_out//K33/simplified_contigs.fasta
+  0:05:46.453   712M / 139G  INFO    General                 (contig_output.hpp         :  22)   Outputting contigs to /scratch/ckimes/metaspades_out//K33/final_contigs.fasta
+  0:05:49.763   712M / 139G  INFO    General                 (launch.hpp                : 137)   SPAdes finished
+  0:05:51.716   320M / 139G  INFO    General                 (main.cpp                  : 110)   Assembling time: 0 hours 5 minutes 51 seconds
+
+== Running assembler: K55
+
+  0:00:00.000     4M / 4M    INFO    General                 (main.cpp                  :  76)   Loading config from /scratch/ckimes/metaspades_out/K55/configs/config.info
+  0:00:00.001     4M / 4M    INFO    General                 (main.cpp                  :  76)   Loading config from /scratch/ckimes/metaspades_out/K55/configs/mda_mode.info
+  0:00:00.001     4M / 4M    INFO    General                 (main.cpp                  :  76)   Loading config from /scratch/ckimes/metaspades_out/K55/configs/meta_mode.info
+  0:00:00.001     4M / 4M    INFO    General                 (memory_limit.hpp          :  51)   Memory limit set to 450 Gb
+  0:00:00.001     4M / 4M    INFO    General                 (main.cpp                  :  89)   Starting SPAdes, built from N/A, git revision N/A
+  0:00:00.001     4M / 4M    INFO    General                 (main.cpp                  :  90)   Maximum k-mer length: 128
+  0:00:00.001     4M / 4M    INFO    General                 (main.cpp                  :  91)   Assembling dataset (/scratch/ckimes/metaspades_out/dataset.info) with K=55
+  0:00:00.001     4M / 4M    INFO    General                 (launch.hpp                :  51)   SPAdes started
+  0:00:00.001     4M / 4M    INFO    General                 (launch.hpp                :  58)   Starting from stage: construction
+  0:00:00.001     4M / 4M    INFO    General                 (launch.hpp                :  61)   Two-step RR enabled: 1
+  0:00:00.022     4M / 4M    INFO    General                 (launch.hpp                :  79)   Will need read mapping, kmer mapper will be attached
+  0:00:00.022     4M / 4M    INFO   StageManager             (stage.cpp                 : 126)   STAGE == Construction
+  0:00:00.022     4M / 4M    INFO    General                 (read_converter.hpp        :  67)   Binary reads detected
+  0:00:00.025     4M / 4M    INFO    General                 (graph_construction.hpp    : 120)   Constructing DeBruijn graph for k=55
+  0:00:00.025     4M / 4M    INFO    General                 (kmer_index_builder.hpp    : 106)   Splitting kmer instances into 6400 buckets using 80 threads. This might take a while.
+  0:00:00.028     4M / 4M    INFO    General                 (file_limit.hpp            :  32)   Open file limit set to 10000
+  0:00:00.028     4M / 4M    INFO    General                 (kmer_splitters.hpp        :  74)   Memory available for splitting buffers: 1.87498 Gb
+  0:00:00.028     4M / 4M    INFO    General                 (kmer_splitters.hpp        :  82)   Using cell size of 16384
+  0:00:34.066   139G / 139G  INFO    General                 (kmer_splitters.hpp        : 291)   Processed 21796288 reads
+  0:00:34.066   139G / 139G  INFO    General                 (kmer_splitters.hpp        : 297)   Adding contigs from previous K
+  0:01:15.207   360M / 139G  INFO    General                 (kmer_splitters.hpp        : 310)   Used 21796288 reads. Maximum read length 101
+  0:01:15.207   360M / 139G  INFO    General                 (kmer_splitters.hpp        : 311)   Average read length 100.817
+  0:01:15.207   360M / 139G  INFO    General                 (kmer_index_builder.hpp    : 109)   Starting k-mer counting.
+  0:01:25.069   360M / 139G  INFO    General                 (kmer_index_builder.hpp    : 115)   K-mer counting done. There are 179611478 kmers in total.
+  0:01:25.069   360M / 139G  INFO    General                 (kmer_index_builder.hpp    : 121)   Merging temporary buckets.
+  0:01:30.063   360M / 139G  INFO   K-mer Index Building     (kmer_index_builder.hpp    : 289)   Building kmer index
+  0:01:30.063   360M / 139G  INFO    General                 (kmer_index_builder.hpp    : 106)   Splitting kmer instances into 1280 buckets using 80 threads. This might take a while.
+  0:01:30.064   360M / 139G  INFO    General                 (file_limit.hpp            :  32)   Open file limit set to 10000
+  0:01:30.064   360M / 139G  INFO    General                 (kmer_splitters.hpp        :  74)   Memory available for splitting buffers: 1.87354 Gb
+  0:01:30.064   360M / 139G  INFO    General                 (kmer_splitters.hpp        :  82)   Using cell size of 26214
+  0:01:45.069    44G / 139G  INFO    General                 (kmer_splitters.hpp        : 381)   Processed 179611478 kmers
+  0:01:45.070    44G / 139G  INFO    General                 (kmer_splitters.hpp        : 386)   Used 179611478 kmers.
+  0:01:48.306   368M / 139G  INFO    General                 (kmer_index_builder.hpp    : 109)   Starting k-mer counting.
+  0:01:50.712   368M / 139G  INFO    General                 (kmer_index_builder.hpp    : 115)   K-mer counting done. There are 180241018 kmers in total.
+  0:01:50.712   368M / 139G  INFO    General                 (kmer_index_builder.hpp    : 121)   Merging temporary buckets.
+  0:01:57.982   368M / 139G  INFO   K-mer Index Building     (kmer_index_builder.hpp    : 298)   Building perfect hash indices
+  0:02:02.990   432M / 139G  INFO    General                 (kmer_index_builder.hpp    : 137)   Merging final buckets.
+  0:02:24.609   432M / 139G  INFO   K-mer Index Building     (kmer_index_builder.hpp    : 320)   Index built. Total 83586240 bytes occupied (3.70998 bits per kmer).
+  0:02:24.753   604M / 139G  INFO   DeBruijnExtensionIndexBu (kmer_extension_index_build:  87)   Building k-mer extensions from k+1-mers
+  0:02:27.640   604M / 139G  INFO   DeBruijnExtensionIndexBu (kmer_extension_index_build:  91)   Building k-mer extensions from k+1-mers finished.
+  0:02:27.684   556M / 139G  INFO    General                 (graph_construction.hpp    : 136)   Condensing graph
+  0:02:27.708   556M / 139G  INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 355)   Extracting unbranching paths
+  0:02:35.341   620M / 139G  INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 374)   Extracting unbranching paths finished. 1849013 sequences extracted
+  0:02:37.021   620M / 139G  INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 310)   Collecting perfect loops
+  0:02:37.835   620M / 139G  INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 343)   Collecting perfect loops finished. 15 loops collected
+  0:02:38.943     1G / 139G  INFO    General                 (graph_construction.hpp    : 141)   Building index with from graph
+  0:02:38.944     1G / 139G  INFO   K-mer Index Building     (kmer_index_builder.hpp    : 289)   Building kmer index
+  0:02:38.944     1G / 139G  INFO    General                 (kmer_index_builder.hpp    : 106)   Splitting kmer instances into 1280 buckets using 80 threads. This might take a while.
+  0:02:38.944     1G / 139G  INFO    General                 (file_limit.hpp            :  32)   Open file limit set to 10000
+  0:02:38.944     1G / 139G  INFO    General                 (kmer_splitters.hpp        :  74)   Memory available for splitting buffers: 1.87043 Gb
+  0:02:38.944     1G / 139G  INFO    General                 (kmer_splitters.hpp        :  82)   Using cell size of 26214
+  0:02:51.516    45G / 139G  INFO    General                 (edge_index_builders.hpp   :  75)   Processed 3697782 edges
+  0:02:51.516    45G / 139G  INFO    General                 (edge_index_builders.hpp   :  80)   Used 3697782 sequences.
+  0:02:54.076     1G / 139G  INFO    General                 (kmer_index_builder.hpp    : 109)   Starting k-mer counting.
+  0:02:55.917     1G / 139G  INFO    General                 (kmer_index_builder.hpp    : 115)   K-mer counting done. There are 179611478 kmers in total.
+  0:02:55.917     1G / 139G  INFO    General                 (kmer_index_builder.hpp    : 121)   Merging temporary buckets.
+  0:02:59.203     1G / 139G  INFO   K-mer Index Building     (kmer_index_builder.hpp    : 298)   Building perfect hash indices
+  0:03:04.658     1G / 139G  INFO    General                 (kmer_index_builder.hpp    : 137)   Merging final buckets.
+  0:03:24.953     1G / 139G  INFO   K-mer Index Building     (kmer_index_builder.hpp    : 320)   Index built. Total 83294376 bytes occupied (3.70998 bits per kmer).
+  0:03:27.019     5G / 139G  INFO    General                 (edge_index_builders.hpp   : 105)   Collecting k-mer coverage information from graph, this takes a while.
+  0:03:28.582     5G / 139G  INFO    General                 (edge_index.hpp            :  91)   Index refilled
+  0:03:29.486     4G / 139G  INFO    General                 (graph_construction.hpp    : 173)   Filling coverage index
+  0:03:29.486     4G / 139G  INFO    General                 (edge_index_builders.hpp   : 183)   Collecting k-mer coverage information from reads, this takes a while.
+  0:03:36.232     4G / 139G  INFO    General                 (graph_construction.hpp    : 175)   Filling coverage and flanking coverage from index
+  0:04:24.582     4G / 139G  INFO    General                 (construction.cpp          :  30)   Figured out: read length = 101
+  0:04:24.583     4G / 139G  INFO   StageManager             (stage.cpp                 : 126)   STAGE == EC Threshold Finding
+  0:04:29.600     4G / 139G  INFO   ThresholdFinder          (ec_threshold_finder.hpp   : 114)   Bucket size: 5
+  0:04:29.600     4G / 139G  INFO    General                 (genomic_info_filler.cpp   :  98)   Average edge coverage: 2.78299
+  0:04:29.600     4G / 139G  INFO    General                 (genomic_info_filler.cpp   :  99)   Graph threshold: 55
+  0:04:29.604     4G / 139G  INFO    General                 (genomic_info_filler.cpp   : 141)   EC coverage threshold value was calculated as 2.78299
+  0:04:29.604     4G / 139G  INFO    General                 (genomic_info_filler.cpp   : 142)   Trusted kmer low bound: 0
+  0:04:29.604     4G / 139G  INFO   StageManager             (stage.cpp                 : 126)   STAGE == Gap Closer
+  0:04:29.605     4G / 139G  INFO    General                 (gap_closer.cpp            : 159)   Preparing shift maps
+  0:04:35.978     5G / 139G  INFO    General                 (gap_closer.cpp            : 119)   Processing paired reads (takes a while)
+  0:04:36.556     5G / 139G  INFO    General                 (gap_closer.cpp            : 138)   Used 5449072 paired reads
+  0:04:36.556     5G / 139G  INFO    General                 (gap_closer.cpp            : 140)   Merging paired indices
+  0:04:40.509     5G / 139G  INFO   GapCloser                (gap_closer.cpp            : 346)   Closing short gaps
+  0:04:50.922     5G / 139G  INFO   GapCloser                (gap_closer.cpp            : 380)   Closing short gaps complete: filled 46054 gaps after checking 187145 candidates
+  0:05:22.974     4G / 139G  INFO   StageManager             (stage.cpp                 : 126)   STAGE == Preliminary Simplification
+  0:05:23.011   900M / 139G  INFO    General                 (simplification.cpp        : 387)   Graph simplification started
+  0:05:23.011   900M / 139G  INFO    General                 (simplification.cpp        :  77)   PROCEDURE == InitialCleaning
+  0:05:23.011   900M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Self conjugate edge remover
+  0:05:23.244   900M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 270 times
+  0:05:23.244   900M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Initial isolated edge remover
+  0:05:26.435   928M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 426807 times
+  0:05:26.435   928M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Initial tip clipper
+  0:05:35.960   956M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 327990 times
+  0:05:35.960   956M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Initial ec remover
+  0:05:36.673   936M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 17271 times
+  0:05:36.673   936M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Disconnecting edges with low flanking coverage
+  0:05:37.478   928M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 21199 times
+  0:05:37.562   924M / 139G  INFO    General                 (graph_simplification.hpp  : 617)   Creating parallel br instance
+  0:05:37.562   924M / 139G  INFO    General                 (simplification.cpp        : 410)   PROCEDURE == Simplification cycle, iteration 1
+  0:05:37.562   924M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:05:43.450   936M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 178749 times
+  0:05:43.450   936M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:05:45.346   968M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 5300 times
+  0:05:45.346   968M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Low coverage edge remover
+  0:05:45.415   968M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:45.415   968M / 139G  INFO    General                 (simplification.cpp        : 410)   PROCEDURE == Simplification cycle, iteration 2
+  0:05:45.415   968M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:05:45.421   968M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 39 times
+  0:05:45.422   968M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:05:45.422   968M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:45.422   968M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Low coverage edge remover
+  0:05:45.526   968M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 1391 times
+  0:05:45.526   968M / 139G  INFO    General                 (simplification.cpp        : 410)   PROCEDURE == Simplification cycle, iteration 3
+  0:05:45.526   968M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:05:45.601   968M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 322 times
+  0:05:45.601   968M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:05:45.771   964M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 54 times
+  0:05:45.771   964M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Low coverage edge remover
+  0:05:45.951   964M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 1863 times
+  0:05:45.951   964M / 139G  INFO    General                 (simplification.cpp        : 410)   PROCEDURE == Simplification cycle, iteration 4
+  0:05:45.951   964M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:05:45.954   964M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 51 times
+  0:05:45.954   964M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:05:45.969   964M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 23 times
+  0:05:45.969   964M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Low coverage edge remover
+  0:05:45.969   964M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:45.969   964M / 139G  INFO    General                 (simplification.cpp        : 410)   PROCEDURE == Simplification cycle, iteration 5
+  0:05:45.969   964M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:05:45.969   964M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:45.969   964M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:05:45.969   964M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:45.969   964M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Low coverage edge remover
+  0:05:45.969   964M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:05:45.969   964M / 139G  INFO    General                 (simplification.cpp        : 420)   PostSimplification disabled
+  0:05:45.970   960M / 139G  INFO   StageManager             (stage.cpp                 : 126)   STAGE == Gap Closer
+  0:05:45.970   960M / 139G  INFO    General                 (graph_pack.hpp            :  99)   Index refill
+  0:05:45.970   960M / 139G  INFO   K-mer Index Building     (kmer_index_builder.hpp    : 289)   Building kmer index
+  0:05:45.970   960M / 139G  INFO    General                 (kmer_index_builder.hpp    : 106)   Splitting kmer instances into 1280 buckets using 80 threads. This might take a while.
+  0:05:45.971   960M / 139G  INFO    General                 (file_limit.hpp            :  32)   Open file limit set to 10000
+  0:05:45.971   960M / 139G  INFO    General                 (kmer_splitters.hpp        :  74)   Memory available for splitting buffers: 1.87109 Gb
+  0:05:45.971   960M / 139G  INFO    General                 (kmer_splitters.hpp        :  82)   Using cell size of 26214
+  0:05:58.583    45G / 139G  INFO    General                 (edge_index_builders.hpp   :  75)   Processed 544784 edges
+  0:05:58.583    45G / 139G  INFO    General                 (edge_index_builders.hpp   :  80)   Used 544784 sequences.
+  0:06:01.240   920M / 139G  INFO    General                 (kmer_index_builder.hpp    : 109)   Starting k-mer counting.
+  0:06:02.552   920M / 139G  INFO    General                 (kmer_index_builder.hpp    : 115)   K-mer counting done. There are 148679723 kmers in total.
+  0:06:02.552   920M / 139G  INFO    General                 (kmer_index_builder.hpp    : 121)   Merging temporary buckets.
+  0:06:06.005   920M / 139G  INFO   K-mer Index Building     (kmer_index_builder.hpp    : 298)   Building perfect hash indices
+  0:06:11.004  1020M / 139G  INFO    General                 (kmer_index_builder.hpp    : 137)   Merging final buckets.
+  0:06:28.149  1020M / 139G  INFO   K-mer Index Building     (kmer_index_builder.hpp    : 320)   Index built. Total 68950976 bytes occupied (3.71004 bits per kmer).
+  0:06:29.893     4G / 139G  INFO    General                 (edge_index_builders.hpp   : 105)   Collecting k-mer coverage information from graph, this takes a while.
+  0:06:31.163     4G / 139G  INFO    General                 (edge_index.hpp            :  91)   Index refilled
+  0:06:31.165     4G / 139G  INFO    General                 (gap_closer.cpp            : 159)   Preparing shift maps
+  0:06:32.077     4G / 139G  INFO    General                 (gap_closer.cpp            : 119)   Processing paired reads (takes a while)
+  0:06:33.427     4G / 139G  INFO    General                 (gap_closer.cpp            : 138)   Used 5449072 paired reads
+  0:06:33.427     4G / 139G  INFO    General                 (gap_closer.cpp            : 140)   Merging paired indices
+  0:06:37.317     4G / 139G  INFO   GapCloser                (gap_closer.cpp            : 346)   Closing short gaps
+  0:06:38.950     4G / 139G  INFO   GapCloser                (gap_closer.cpp            : 380)   Closing short gaps complete: filled 3007 gaps after checking 61788 candidates
+  0:06:46.435     4G / 139G  INFO   StageManager             (stage.cpp                 : 126)   STAGE == Simplification Cleanup
+  0:06:46.435     4G / 139G  INFO    General                 (simplification.cpp        : 547)   Removing isolated edges
+  0:06:51.317     4G / 139G  INFO    General                 (simplification.cpp        : 570)   Counting average coverage
+  0:06:51.660     4G / 139G  INFO    General                 (simplification.cpp        : 575)   Average coverage = 3.16146
+  0:06:51.660     4G / 139G  INFO   StageManager             (stage.cpp                 : 126)   STAGE == Preliminary Paired Information Counting
+  0:06:55.562     4G / 139G  INFO    General                 (graph_pack.hpp            : 108)   Normalizing k-mer map. Total 780344 kmers to process
+  0:06:56.257     4G / 139G  INFO    General                 (graph_pack.hpp            : 110)   Normalizing done
+  0:06:56.257     4G / 139G  INFO    General                 (pair_info_count.cpp       : 317)   Min edge length for estimation: 900
+  0:06:56.257     4G / 139G  INFO    General                 (pair_info_count.cpp       : 328)   Estimating insert size for library #0
+  0:06:56.257     4G / 139G  INFO    General                 (pair_info_count.cpp       : 176)   Estimating insert size (takes a while)
+  0:06:57.129     5G / 139G  INFO    General                 (short_read_mapper.hpp     :  88)   Selecting usual mapper
+  0:07:04.308     5G / 139G  INFO    General                 (sequence_mapper_notifier.h:  99)   Total 5449072 reads processed
+  0:07:06.734     5G / 139G  INFO    General                 (pair_info_count.cpp       : 194)   Edge pairs: 67108864 (rough upper limit)
+  0:07:06.734     5G / 139G  INFO    General                 (pair_info_count.cpp       : 198)   3492289 paired reads (64.0896% of all) aligned to long edges
+  0:07:06.742     4G / 139G  INFO    General                 (pair_info_count.cpp       : 351)     Insert size = 206.965, deviation = 31.7431, left quantile = 171, right quantile = 240, read length = 101
+  0:07:06.845     4G / 139G  INFO    General                 (pair_info_count.cpp       : 368)   Filtering data for library #0
+  0:07:06.846     4G / 139G  INFO    General                 (short_read_mapper.hpp     :  88)   Selecting usual mapper
+  0:07:10.585     4G / 139G  INFO    General                 (sequence_mapper_notifier.h:  99)   Total 5449072 reads processed
+  0:07:10.585     4G / 139G  INFO    General                 (pair_info_count.cpp       : 380)   Mapping library #0
+  0:07:10.585     4G / 139G  INFO    General                 (pair_info_count.cpp       : 382)   Mapping paired reads (takes a while)
+  0:07:10.585     4G / 139G  INFO    General                 (pair_info_count.cpp       : 275)   Left insert size quantile 171, right insert size quantile 240, filtering threshold 1, rounding threshold 0
+  0:07:10.596     4G / 139G  INFO    General                 (short_read_mapper.hpp     :  88)   Selecting usual mapper
+  0:07:14.428     4G / 139G  INFO    General                 (sequence_mapper_notifier.h:  99)   Total 5449072 reads processed
+  0:07:14.632     4G / 139G  INFO   StageManager             (stage.cpp                 : 126)   STAGE == Preliminary Distance Estimation
+  0:07:14.632     4G / 139G  INFO    General                 (distance_estimation.cpp   : 224)   Processing library #0
+  0:07:14.632     4G / 139G  INFO    General                 (distance_estimation.cpp   : 130)   Weight Filter Done
+  0:07:14.632     4G / 139G  INFO   DistanceEstimator        (distance_estimation.hpp   : 116)   Using SIMPLE distance estimator
+  0:07:15.894     4G / 139G  INFO    General                 (distance_estimation.cpp   :  35)   Filtering info
+  0:07:15.894     4G / 139G  INFO    General                 (pair_info_filters.hpp     : 242)   Start filtering; index size: 691250
+  0:07:16.649     4G / 139G  INFO    General                 (pair_info_filters.hpp     : 263)   Done filtering
+  0:07:16.650     4G / 139G  INFO    General                 (distance_estimation.cpp   : 172)   Refining clustered pair information
+  0:07:17.012     4G / 139G  INFO    General                 (distance_estimation.cpp   : 174)   The refining of clustered pair information has been finished
+  0:07:17.012     4G / 139G  INFO    General                 (distance_estimation.cpp   : 176)   Improving paired information
+  0:07:18.547     4G / 139G  INFO   PairInfoImprover         (pair_info_improver.hpp    : 103)   Paired info stats: missing = 24400; contradictional = 0
+  0:07:19.905     4G / 139G  INFO   PairInfoImprover         (pair_info_improver.hpp    : 103)   Paired info stats: missing = 1052; contradictional = 0
+  0:07:19.905     4G / 139G  INFO    General                 (distance_estimation.cpp   : 183)   Filling scaffolding index
+  0:07:19.905     4G / 139G  INFO   DistanceEstimator        (distance_estimation.hpp   : 116)   Using SMOOTHING distance estimator
+  0:07:20.279     4G / 139G  INFO    General                 (distance_estimation.cpp   :  35)   Filtering info
+  0:07:20.279     4G / 139G  INFO    General                 (pair_info_filters.hpp     : 242)   Start filtering; index size: 479623
+  0:07:20.669     4G / 139G  INFO    General                 (pair_info_filters.hpp     : 263)   Done filtering
+  0:07:20.669     4G / 139G  INFO    General                 (distance_estimation.cpp   : 228)   Clearing raw paired index
+  0:07:21.105     4G / 139G  INFO   StageManager             (stage.cpp                 : 126)   STAGE == Preliminary Repeat Resolving
+  0:07:35.192     4G / 139G  INFO    General                 (repeat_resolving.cpp      :  56)   Setting up preliminary path extend settings
+  0:07:35.192     4G / 139G  INFO    General                 (repeat_resolving.cpp      :  69)   Using Path-Extend repeat resolving
+  0:07:35.192     4G / 139G  INFO    General                 (launcher.cpp              : 478)   ExSPAnder repeat resolving tool started
+  0:07:37.922     5G / 139G  INFO    General                 (launcher.cpp              : 393)   Creating main extenders, unique edge length = 2000
+  0:07:38.861     5G / 139G  INFO    General                 (extenders_logic.cpp       : 472)   Using 1 paired-end library
+  0:07:38.861     5G / 139G  INFO    General                 (extenders_logic.cpp       : 473)   Using 1 paired-end scaffolding library
+  0:07:38.861     5G / 139G  INFO    General                 (extenders_logic.cpp       : 474)   Using 0 single read libraries
+  0:07:38.861     5G / 139G  INFO    General                 (launcher.cpp              : 421)   Total number of extenders is 3
+  0:07:38.861     5G / 139G  INFO    General                 (path_extender.hpp         : 867)   Processed 0 paths from 227081 (0%)
+  0:07:39.162     5G / 139G  INFO    General                 (path_extender.hpp         : 865)   Processed 128 paths from 227081 (0%)
+  0:07:39.297     5G / 139G  INFO    General                 (path_extender.hpp         : 865)   Processed 256 paths from 227081 (0%)
+  0:07:39.570     5G / 139G  INFO    General                 (path_extender.hpp         : 865)   Processed 512 paths from 227081 (0%)
+  0:07:39.875     5G / 139G  INFO    General                 (path_extender.hpp         : 865)   Processed 1024 paths from 227081 (0%)
+  0:07:40.284     5G / 139G  INFO    General                 (path_extender.hpp         : 865)   Processed 2048 paths from 227081 (0%)
+  0:07:40.815     5G / 139G  INFO    General                 (path_extender.hpp         : 865)   Processed 4096 paths from 227081 (1%)
+  0:07:41.677     5G / 139G  INFO    General                 (path_extender.hpp         : 865)   Processed 8192 paths from 227081 (3%)
+  0:07:43.001     5G / 139G  INFO    General                 (path_extender.hpp         : 865)   Processed 16384 paths from 227081 (7%)
+  0:07:43.827     5G / 139G  INFO    General                 (path_extender.hpp         : 867)   Processed 22709 paths from 227081 (10%)
+  0:07:44.630     5G / 139G  INFO    General                 (path_extender.hpp         : 865)   Processed 32768 paths from 227081 (14%)
+  0:07:45.442     5G / 139G  INFO    General                 (path_extender.hpp         : 867)   Processed 45418 paths from 227081 (20%)
+  0:07:46.641     5G / 139G  INFO    General                 (path_extender.hpp         : 865)   Processed 65536 paths from 227081 (28%)
+  0:07:46.789     6G / 139G  INFO    General                 (path_extender.hpp         : 867)   Processed 68127 paths from 227081 (30%)
+  0:07:48.104     6G / 139G  INFO    General                 (path_extender.hpp         : 867)   Processed 90836 paths from 227081 (40%)
+  0:07:49.904     6G / 139G  INFO    General                 (path_extender.hpp         : 867)   Processed 113545 paths from 227081 (50%)
+  0:07:51.487     6G / 139G  INFO    General                 (path_extender.hpp         : 865)   Processed 131072 paths from 227081 (57%)
+  0:07:51.948     6G / 139G  INFO    General                 (path_extender.hpp         : 867)   Processed 136254 paths from 227081 (60%)
+  0:07:54.002     6G / 139G  INFO    General                 (path_extender.hpp         : 867)   Processed 158963 paths from 227081 (70%)
+  0:07:56.130     6G / 139G  INFO    General                 (path_extender.hpp         : 867)   Processed 181672 paths from 227081 (80%)
+  0:07:59.965     7G / 139G  INFO    General                 (path_extender.hpp         : 867)   Processed 204381 paths from 227081 (90%)
+  0:08:02.905     7G / 139G  INFO    General                 (launcher.cpp              : 234)   Finalizing paths
+  0:08:02.905     7G / 139G  INFO    General                 (launcher.cpp              : 236)   Deduplicating paths
+  0:08:03.982     7G / 139G  INFO    General                 (launcher.cpp              : 240)   Paths deduplicated
+  0:08:03.982     7G / 139G  INFO    General                 (launcher.cpp              : 247)   Overlaps will not be removed
+  0:08:05.007     7G / 139G  INFO    General                 (launcher.cpp              : 257)   Paths finalized
+  0:08:05.007     7G / 139G  INFO    General                 (launcher.cpp              : 287)   Traversing tandem repeats
+  0:08:07.760     7G / 139G  INFO    General                 (launcher.cpp              : 297)   Traversed 17 loops
+  0:08:07.760     7G / 139G  INFO    General                 (launcher.cpp              : 428)   Closing gaps in paths
+  0:08:09.775     7G / 139G  INFO    General                 (launcher.cpp              : 456)   Gap closing completed
+  0:08:10.382     7G / 139G  INFO    General                 (launcher.cpp              : 234)   Finalizing paths
+  0:08:10.382     7G / 139G  INFO    General                 (launcher.cpp              : 236)   Deduplicating paths
+  0:08:10.733     7G / 139G  INFO    General                 (launcher.cpp              : 240)   Paths deduplicated
+  0:08:10.733     7G / 139G  INFO    General                 (launcher.cpp              : 247)   Overlaps will not be removed
+  0:08:11.728     7G / 139G  INFO    General                 (launcher.cpp              : 257)   Paths finalized
+  0:08:12.694     7G / 139G  INFO    General                 (launcher.cpp              : 531)   ExSPAnder repeat resolving tool finished
+  0:08:14.791     6G / 139G  INFO    General                 (repeat_resolving.cpp      :  75)   Restoring initial path extend settings
+  0:08:14.791     6G / 139G  INFO   StageManager             (stage.cpp                 : 126)   STAGE == Contig Output
+  0:08:14.791     6G / 139G  INFO    General                 (contig_output_stage.cpp   :  40)   Writing GFA to /scratch/ckimes/metaspades_out//K55/assembly_graph_with_scaffolds.gfa
+  0:08:16.153     6G / 139G  INFO    General                 (contig_output.hpp         :  22)   Outputting contigs to /scratch/ckimes/metaspades_out//K55/before_rr.fasta
+  0:08:17.706     6G / 139G  INFO    General                 (contig_output_stage.cpp   :  50)   Outputting FastG graph to /scratch/ckimes/metaspades_out//K55/assembly_graph.fastg
+  0:08:23.245     6G / 139G  INFO    General                 (contig_output_stage.cpp   :  20)   Outputting FastG paths to /scratch/ckimes/metaspades_out//K55/final_contigs.paths
+  0:08:28.752     6G / 139G  INFO    General                 (contig_output_stage.cpp   :  20)   Outputting FastG paths to /scratch/ckimes/metaspades_out//K55/scaffolds.paths
+  0:08:33.076     6G / 139G  INFO   StageManager             (stage.cpp                 : 126)   STAGE == Second Phase Setup
+  0:08:33.076     6G / 139G  INFO    General                 (second_phase_setup.cpp    :  20)   Preparing second phase
+  0:08:34.726     4G / 139G  INFO    General                 (second_phase_setup.cpp    :  28)   Moving preliminary contigs from /scratch/ckimes/metaspades_out//K55/final_contigs.fasta to /scratch/ckimes/metaspades_out//K55/first_pe_contigs.fasta
+  0:08:34.726     4G / 139G  INFO    General                 (second_phase_setup.cpp    :  40)   Ready to run second phase
+  0:08:34.726     4G / 139G  INFO   StageManager             (stage.cpp                 : 126)   STAGE == Simplification
+  0:08:34.763     1G / 139G  INFO    General                 (simplification.cpp        : 387)   Graph simplification started
+  0:08:34.763     1G / 139G  INFO    General                 (simplification.cpp        :  77)   PROCEDURE == InitialCleaning
+  0:08:34.763     1G / 139G  INFO    General                 (simplification.cpp        :  50)   Most init cleaning disabled on main iteration
+  0:08:34.763     1G / 139G  INFO    General                 (simplification.cpp        : 356)   Running Self conjugate edge remover
+  0:08:34.818     1G / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 2 times
+  0:08:34.818     1G / 139G  INFO    General                 (graph_simplification.hpp  : 617)   Creating parallel br instance
+  0:08:34.818     1G / 139G  INFO    General                 (simplification.cpp        : 410)   PROCEDURE == Simplification cycle, iteration 1
+  0:08:34.818     1G / 139G  INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:08:34.871     1G / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 2 times
+  0:08:34.871     1G / 139G  INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:08:39.535     1G / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 10267 times
+  0:08:39.535     1G / 139G  INFO    General                 (simplification.cpp        : 356)   Running Low coverage edge remover
+  0:08:39.581     1G / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:39.582     1G / 139G  INFO    General                 (simplification.cpp        : 410)   PROCEDURE == Simplification cycle, iteration 2
+  0:08:39.582     1G / 139G  INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:08:39.587     1G / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 16 times
+  0:08:39.587     1G / 139G  INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:08:39.587     1G / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:39.587     1G / 139G  INFO    General                 (simplification.cpp        : 356)   Running Low coverage edge remover
+  0:08:39.587     1G / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:39.587     1G / 139G  INFO    General                 (simplification.cpp        : 410)   PROCEDURE == Simplification cycle, iteration 3
+  0:08:39.587     1G / 139G  INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:08:39.634     1G / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 1 times
+  0:08:39.634     1G / 139G  INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:08:39.700     1G / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:39.700     1G / 139G  INFO    General                 (simplification.cpp        : 356)   Running Low coverage edge remover
+  0:08:39.745     1G / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:39.745     1G / 139G  INFO    General                 (simplification.cpp        : 410)   PROCEDURE == Simplification cycle, iteration 4
+  0:08:39.745     1G / 139G  INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:08:39.746     1G / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:39.746     1G / 139G  INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:08:39.746     1G / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:39.746     1G / 139G  INFO    General                 (simplification.cpp        : 356)   Running Low coverage edge remover
+  0:08:39.746     1G / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:39.746     1G / 139G  INFO    General                 (simplification.cpp        : 167)   PROCEDURE == Post simplification
+  0:08:39.746     1G / 139G  INFO    General                 (graph_simplification.hpp  : 617)   Creating parallel br instance
+  0:08:39.746     1G / 139G  INFO    General                 (graph_simplification.hpp  : 617)   Creating parallel br instance
+  0:08:39.746     1G / 139G  INFO    General                 (simplification.cpp        : 301)   Iteration 1
+  0:08:39.746     1G / 139G  INFO    General                 (simplification.cpp        : 356)   Running Relative coverage component remover
+  0:08:39.804  1008M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 124 times
+  0:08:39.804  1008M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Disconnecting edges with relatively low coverage
+  0:08:39.861   988M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 18 times
+  0:08:39.861   988M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Complex tip clipper
+  0:08:39.930   968M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 10 times
+  0:08:39.930   968M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Complex bulge remover
+  0:08:46.294  1000M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 1880 times
+  0:08:46.294  1000M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:08:46.344  1000M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 10 times
+  0:08:46.344  1000M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Final tip clipper
+  0:08:46.439  1000M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 796 times
+  0:08:46.439  1000M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:08:46.512  1000M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 22 times
+  0:08:46.512  1000M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Final bulge remover
+  0:08:48.063  1020M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 522 times
+  0:08:48.064  1020M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Thorn remover (meta)
+  0:08:48.112  1020M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:48.112  1020M / 139G  INFO    General                 (simplification.cpp        : 301)   Iteration 2
+  0:08:48.112  1020M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Relative coverage component remover
+  0:08:48.159  1020M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 2 times
+  0:08:48.159  1020M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Disconnecting edges with relatively low coverage
+  0:08:48.210  1020M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 6 times
+  0:08:48.210  1020M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Complex tip clipper
+  0:08:48.262  1016M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:48.262  1016M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Complex bulge remover
+  0:08:50.792  1016M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 12 times
+  0:08:50.793  1016M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:08:50.849  1016M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 3 times
+  0:08:50.849  1016M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Final tip clipper
+  0:08:50.909  1016M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 15 times
+  0:08:50.909  1016M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:08:50.981  1016M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 3 times
+  0:08:50.981  1016M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Final bulge remover
+  0:08:51.083  1016M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 2 times
+  0:08:51.083  1016M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Thorn remover (meta)
+  0:08:51.140  1020M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:51.141  1020M / 139G  INFO    General                 (simplification.cpp        : 301)   Iteration 3
+  0:08:51.141  1020M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Relative coverage component remover
+  0:08:51.200  1020M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:51.200  1020M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Disconnecting edges with relatively low coverage
+  0:08:51.200  1020M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:51.200  1020M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Complex tip clipper
+  0:08:51.275  1016M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:51.275  1016M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Complex bulge remover
+  0:08:53.299  1016M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 1 times
+  0:08:53.299  1016M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:08:53.299  1016M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:53.299  1016M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Final tip clipper
+  0:08:53.299  1016M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:53.299  1016M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:08:53.299  1016M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:53.299  1016M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Final bulge remover
+  0:08:53.299  1016M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:53.299  1016M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Thorn remover (meta)
+  0:08:53.299  1016M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:53.299  1016M / 139G  INFO    General                 (simplification.cpp        : 301)   Iteration 4
+  0:08:53.299  1016M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Relative coverage component remover
+  0:08:53.355  1016M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:53.355  1016M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Disconnecting edges with relatively low coverage
+  0:08:53.355  1016M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:53.355  1016M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Complex tip clipper
+  0:08:53.427  1016M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:53.428  1016M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Complex bulge remover
+  0:08:56.803  1016M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:56.803  1016M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Tip clipper
+  0:08:56.803  1016M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:56.803  1016M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Final tip clipper
+  0:08:56.803  1016M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:56.803  1016M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Bulge remover
+  0:08:56.803  1016M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:56.803  1016M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Final bulge remover
+  0:08:56.803  1016M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:56.803  1016M / 139G  INFO    General                 (simplification.cpp        : 356)   Running Thorn remover (meta)
+  0:08:56.803  1016M / 139G  INFO    General                 (simplification.cpp        : 358)   Triggered 0 times
+  0:08:56.803  1016M / 139G  INFO    General                 (simplification.cpp        : 328)   Running Hidden EC remover (meta)
+  0:08:56.874  1016M / 139G  INFO    General                 (simplification.cpp        : 333)   Disrupting self-conjugate edges
+  0:08:57.203  1016M / 139G  INFO   StageManager             (stage.cpp                 : 126)   STAGE == Contig Output
+  0:08:57.203  1016M / 139G  INFO    General                 (contig_output_stage.cpp   :  40)   Writing GFA to /scratch/ckimes/metaspades_out//K55/assembly_graph_with_scaffolds.gfa
+  0:08:58.526  1016M / 139G  INFO    General                 (contig_output.hpp         :  22)   Outputting contigs to /scratch/ckimes/metaspades_out//K55/before_rr.fasta
+  0:09:00.376  1016M / 139G  INFO    General                 (contig_output_stage.cpp   :  50)   Outputting FastG graph to /scratch/ckimes/metaspades_out//K55/assembly_graph.fastg
+  0:09:05.675  1016M / 139G  INFO    General                 (contig_output.hpp         :  22)   Outputting contigs to /scratch/ckimes/metaspades_out//K55/simplified_contigs.fasta
+  0:09:07.153  1016M / 139G  INFO    General                 (contig_output.hpp         :  22)   Outputting contigs to /scratch/ckimes/metaspades_out//K55/intermediate_contigs.fasta
+  0:09:08.579  1016M / 139G  INFO   StageManager             (stage.cpp                 : 126)   STAGE == Paired Information Counting
+  0:09:11.565     1G / 139G  INFO    General                 (graph_pack.hpp            :  99)   Index refill
+  0:09:11.565     1G / 139G  INFO   K-mer Index Building     (kmer_index_builder.hpp    : 289)   Building kmer index
+  0:09:11.565     1G / 139G  INFO    General                 (kmer_index_builder.hpp    : 106)   Splitting kmer instances into 1280 buckets using 80 threads. This might take a while.
+  0:09:11.566     1G / 139G  INFO    General                 (file_limit.hpp            :  32)   Open file limit set to 10000
+  0:09:11.566     1G / 139G  INFO    General                 (kmer_splitters.hpp        :  74)   Memory available for splitting buffers: 1.87048 Gb
+  0:09:11.566     1G / 139G  INFO    General                 (kmer_splitters.hpp        :  82)   Using cell size of 26214
+  0:09:24.120    45G / 139G  INFO    General                 (edge_index_builders.hpp   :  75)   Processed 375530 edges
+  0:09:24.120    45G / 139G  INFO    General                 (edge_index_builders.hpp   :  80)   Used 375530 sequences.
+  0:09:26.798     1G / 139G  INFO    General                 (kmer_index_builder.hpp    : 109)   Starting k-mer counting.
+  0:09:27.863     1G / 139G  INFO    General                 (kmer_index_builder.hpp    : 115)   K-mer counting done. There are 142915369 kmers in total.
+  0:09:27.863     1G / 139G  INFO    General                 (kmer_index_builder.hpp    : 121)   Merging temporary buckets.
+  0:09:30.339     1G / 139G  INFO   K-mer Index Building     (kmer_index_builder.hpp    : 298)   Building perfect hash indices
+  0:09:34.819     1G / 139G  INFO    General                 (kmer_index_builder.hpp    : 137)   Merging final buckets.
+  0:09:52.173     1G / 139G  INFO   K-mer Index Building     (kmer_index_builder.hpp    : 320)   Index built. Total 66278344 bytes occupied (3.71008 bits per kmer).
+  0:09:53.853     4G / 139G  INFO    General                 (edge_index_builders.hpp   : 105)   Collecting k-mer coverage information from graph, this takes a while.
+  0:09:55.072     4G / 139G  INFO    General                 (edge_index.hpp            :  91)   Index refilled
+  0:09:55.072     4G / 139G  INFO    General                 (graph_pack.hpp            : 108)   Normalizing k-mer map. Total 3915039 kmers to process
+  0:09:58.431     4G / 139G  INFO    General                 (graph_pack.hpp            : 110)   Normalizing done
+  0:09:58.431     4G / 139G  INFO    General                 (pair_info_count.cpp       : 317)   Min edge length for estimation: 900
+  0:09:58.431     4G / 139G  INFO    General                 (pair_info_count.cpp       : 328)   Estimating insert size for library #0
+  0:09:58.431     4G / 139G  INFO    General                 (pair_info_count.cpp       : 176)   Estimating insert size (takes a while)
+  0:09:59.084     5G / 139G  INFO    General                 (short_read_mapper.hpp     :  88)   Selecting usual mapper
+  0:10:03.785     5G / 139G  INFO    General                 (sequence_mapper_notifier.h:  99)   Total 5449072 reads processed
+  0:10:05.207     5G / 139G  INFO    General                 (pair_info_count.cpp       : 194)   Edge pairs: 67108864 (rough upper limit)
+  0:10:05.207     5G / 139G  INFO    General                 (pair_info_count.cpp       : 198)   3806495 paired reads (69.8558% of all) aligned to long edges
+  0:10:05.214     4G / 139G  INFO    General                 (pair_info_count.cpp       : 351)     Insert size = 206.963, deviation = 31.7167, left quantile = 171, right quantile = 240, read length = 101
+  0:10:05.289     4G / 139G  INFO    General                 (pair_info_count.cpp       : 368)   Filtering data for library #0
+  0:10:05.291     4G / 139G  INFO    General                 (short_read_mapper.hpp     :  88)   Selecting usual mapper
+  0:10:08.036     4G / 139G  INFO    General                 (sequence_mapper_notifier.h:  99)   Total 5449072 reads processed
+  0:10:08.037     4G / 139G  INFO    General                 (pair_info_count.cpp       : 380)   Mapping library #0
+  0:10:08.037     4G / 139G  INFO    General                 (pair_info_count.cpp       : 382)   Mapping paired reads (takes a while)
+  0:10:08.037     4G / 139G  INFO    General                 (pair_info_count.cpp       : 275)   Left insert size quantile 171, right insert size quantile 240, filtering threshold 1, rounding threshold 0
+  0:10:08.045     4G / 139G  INFO    General                 (short_read_mapper.hpp     :  88)   Selecting usual mapper
+  0:10:11.159     4G / 139G  INFO    General                 (sequence_mapper_notifier.h:  99)   Total 5449072 reads processed
+  0:10:11.313     4G / 139G  INFO    General                 (pair_info_count.cpp       : 324)   Mapping contigs library #1
+  0:10:11.313     4G / 139G  INFO    General                 (short_read_mapper.hpp     :  88)   Selecting usual mapper
+  0:10:21.403     4G / 139G  INFO    General                 (sequence_mapper_notifier.h:  99)   Total 187576 reads processed
+  0:10:21.403     4G / 139G  INFO   StageManager             (stage.cpp                 : 126)   STAGE == Distance Estimation
+  0:10:21.403     4G / 139G  INFO    General                 (distance_estimation.cpp   : 224)   Processing library #0
+  0:10:21.403     4G / 139G  INFO    General                 (distance_estimation.cpp   : 130)   Weight Filter Done
+  0:10:21.403     4G / 139G  INFO   DistanceEstimator        (distance_estimation.hpp   : 116)   Using SIMPLE distance estimator
+  0:10:21.968     4G / 139G  INFO    General                 (distance_estimation.cpp   :  35)   Filtering info
+  0:10:21.968     4G / 139G  INFO    General                 (pair_info_filters.hpp     : 242)   Start filtering; index size: 436379
+  0:10:22.311     4G / 139G  INFO    General                 (pair_info_filters.hpp     : 263)   Done filtering
+  0:10:22.311     4G / 139G  INFO    General                 (distance_estimation.cpp   : 172)   Refining clustered pair information
+  0:10:22.466     4G / 139G  INFO    General                 (distance_estimation.cpp   : 174)   The refining of clustered pair information has been finished
+  0:10:22.466     4G / 139G  INFO    General                 (distance_estimation.cpp   : 176)   Improving paired information
+  0:10:22.990     4G / 139G  INFO   PairInfoImprover         (pair_info_improver.hpp    : 103)   Paired info stats: missing = 8670; contradictional = 0
+  0:10:23.542     4G / 139G  INFO   PairInfoImprover         (pair_info_improver.hpp    : 103)   Paired info stats: missing = 531; contradictional = 0
+  0:10:23.542     4G / 139G  INFO    General                 (distance_estimation.cpp   : 183)   Filling scaffolding index
+  0:10:23.542     4G / 139G  INFO   DistanceEstimator        (distance_estimation.hpp   : 116)   Using SMOOTHING distance estimator
+  0:10:23.832     4G / 139G  INFO    General                 (distance_estimation.cpp   :  35)   Filtering info
+  0:10:23.832     4G / 139G  INFO    General                 (pair_info_filters.hpp     : 242)   Start filtering; index size: 392673
+  0:10:24.092     4G / 139G  INFO    General                 (pair_info_filters.hpp     : 263)   Done filtering
+  0:10:24.093     4G / 139G  INFO    General                 (distance_estimation.cpp   : 228)   Clearing raw paired index
+  0:10:24.340     4G / 139G  INFO   StageManager             (stage.cpp                 : 126)   STAGE == Repeat Resolving
+  0:10:43.127     4G / 139G  INFO    General                 (repeat_resolving.cpp      :  69)   Using Path-Extend repeat resolving
+  0:10:43.128     4G / 139G  INFO    General                 (launcher.cpp              : 478)   ExSPAnder repeat resolving tool started
+  0:10:45.799     5G / 139G  INFO    General                 (launcher.cpp              : 393)   Creating main extenders, unique edge length = 2000
+  0:10:47.091     5G / 139G  INFO    General                 (extenders_logic.cpp       :  33)   resolvable_repeat_length_bound set to 10000
+  0:10:48.292     5G / 139G  INFO    General                 (extenders_logic.cpp       : 472)   Using 1 paired-end library
+  0:10:48.292     5G / 139G  INFO    General                 (extenders_logic.cpp       : 473)   Using 1 paired-end scaffolding library
+  0:10:48.292     5G / 139G  INFO    General                 (extenders_logic.cpp       : 474)   Using 1 single read library
+  0:10:48.803     5G / 139G  INFO    General                 (launcher.cpp              : 360)   Filling backbone edges for long reads scaffolding...
+  0:10:48.803     5G / 139G  INFO    General                 (launcher.cpp              : 362)    with long reads paths
+  0:10:48.803     5G / 139G  INFO    General                 (launcher.cpp              : 371)   Removing fake unique with paired-end libs
+  0:10:48.803     5G / 139G  INFO    General                 (launcher.cpp              : 382)   0 unique edges
+  0:10:48.803     5G / 139G  INFO    General                 (extenders_logic.cpp       : 386)   Using 0 long reads scaffolding libraries
+  0:10:48.803     5G / 139G  INFO    General                 (extenders_logic.cpp       : 396)   Using additional coordinated coverage extender
+  0:10:48.941     5G / 139G  INFO    General                 (launcher.cpp              : 421)   Total number of extenders is 5
+  0:10:48.941     5G / 139G  INFO    General                 (path_extender.hpp         : 867)   Processed 0 paths from 186882 (0%)
+  0:10:49.354     5G / 139G  INFO    General                 (path_extender.hpp         : 865)   Processed 128 paths from 186882 (0%)
+  0:10:49.572     5G / 139G  INFO    General                 (path_extender.hpp         : 865)   Processed 256 paths from 186882 (0%)
+  0:10:49.824     5G / 139G  INFO    General                 (path_extender.hpp         : 865)   Processed 512 paths from 186882 (0%)
+  0:10:50.129     5G / 139G  INFO    General                 (path_extender.hpp         : 865)   Processed 1024 paths from 186882 (0%)
+  0:10:50.536     5G / 139G  INFO    General                 (path_extender.hpp         : 865)   Processed 2048 paths from 186882 (1%)
+  0:10:51.063     5G / 139G  INFO    General                 (path_extender.hpp         : 865)   Processed 4096 paths from 186882 (2%)
+  0:10:51.880     5G / 139G  INFO    General                 (path_extender.hpp         : 865)   Processed 8192 paths from 186882 (4%)
+  0:10:53.215     5G / 139G  INFO    General                 (path_extender.hpp         : 865)   Processed 16384 paths from 186882 (8%)
+  0:10:53.536     5G / 139G  INFO    General                 (path_extender.hpp         : 867)   Processed 18689 paths from 186882 (10%)
+  0:10:55.178     5G / 139G  INFO    General                 (path_extender.hpp         : 865)   Processed 32768 paths from 186882 (17%)
+  0:10:55.610     5G / 139G  INFO    General                 (path_extender.hpp         : 867)   Processed 37378 paths from 186882 (20%)
+  0:10:56.957     5G / 139G  INFO    General                 (path_extender.hpp         : 867)   Processed 56067 paths from 186882 (30%)
+  0:10:57.616     5G / 139G  INFO    General                 (path_extender.hpp         : 865)   Processed 65536 paths from 186882 (35%)
+  0:10:58.257     5G / 139G  INFO    General                 (path_extender.hpp         : 867)   Processed 74756 paths from 186882 (40%)
+  0:10:59.626     6G / 139G  INFO    General                 (path_extender.hpp         : 867)   Processed 93445 paths from 186882 (50%)
+  0:11:01.739     6G / 139G  INFO    General                 (path_extender.hpp         : 867)   Processed 112134 paths from 186882 (60%)
+  0:11:03.728     6G / 139G  INFO    General                 (path_extender.hpp         : 867)   Processed 130823 paths from 186882 (70%)
+  0:11:03.753     6G / 139G  INFO    General                 (path_extender.hpp         : 865)   Processed 131072 paths from 186882 (70%)
+  0:11:05.579     6G / 139G  INFO    General                 (path_extender.hpp         : 867)   Processed 149512 paths from 186882 (80%)
+  0:11:07.400     6G / 139G  INFO    General                 (path_extender.hpp         : 867)   Processed 168201 paths from 186882 (90%)
+  0:11:09.410     6G / 139G  INFO    General                 (launcher.cpp              : 234)   Finalizing paths
+  0:11:09.410     6G / 139G  INFO    General                 (launcher.cpp              : 236)   Deduplicating paths
+  0:11:10.329     6G / 139G  INFO    General                 (launcher.cpp              : 240)   Paths deduplicated
+  0:11:10.329     6G / 139G  INFO   PEResolver               (pe_resolver.hpp           : 299)   Removing overlaps
+  0:11:10.329     6G / 139G  INFO   PEResolver               (pe_resolver.hpp           : 309)   Marking overlaps
+  0:11:10.329     6G / 139G  INFO   OverlapRemover           (pe_resolver.hpp           : 132)   Marking start/end overlaps
+  0:11:10.927     6G / 139G  INFO   OverlapRemover           (pe_resolver.hpp           : 135)   Marking remaining overlaps
+  0:11:11.584     6G / 139G  INFO   PEResolver               (pe_resolver.hpp           : 312)   Splitting paths
+  0:11:11.744     6G / 139G  INFO   PEResolver               (pe_resolver.hpp           : 317)   Deduplicating paths
+  0:11:12.123     6G / 139G  INFO   PEResolver               (pe_resolver.hpp           : 319)   Overlaps removed
+  0:11:13.215     6G / 139G  INFO    General                 (launcher.cpp              : 257)   Paths finalized
+  0:11:13.215     6G / 139G  INFO    General                 (launcher.cpp              : 287)   Traversing tandem repeats
+  0:11:15.919     6G / 139G  INFO    General                 (launcher.cpp              : 297)   Traversed 188 loops
+  0:11:15.919     6G / 139G  INFO    General                 (launcher.cpp              : 428)   Closing gaps in paths
+  0:11:17.809     6G / 139G  INFO    General                 (launcher.cpp              : 456)   Gap closing completed
+  0:11:18.345     6G / 139G  INFO    General                 (launcher.cpp              : 234)   Finalizing paths
+  0:11:18.345     6G / 139G  INFO    General                 (launcher.cpp              : 236)   Deduplicating paths
+  0:11:18.642     6G / 139G  INFO    General                 (launcher.cpp              : 240)   Paths deduplicated
+  0:11:18.642     6G / 139G  INFO   PEResolver               (pe_resolver.hpp           : 299)   Removing overlaps
+  0:11:18.642     6G / 139G  INFO   PEResolver               (pe_resolver.hpp           : 309)   Marking overlaps
+  0:11:18.642     6G / 139G  INFO   OverlapRemover           (pe_resolver.hpp           : 132)   Marking start/end overlaps
+  0:11:19.231     6G / 139G  INFO   OverlapRemover           (pe_resolver.hpp           : 135)   Marking remaining overlaps
+  0:11:19.827     6G / 139G  INFO   PEResolver               (pe_resolver.hpp           : 312)   Splitting paths
+  0:11:19.878     6G / 139G  INFO   PEResolver               (pe_resolver.hpp           : 317)   Deduplicating paths
+  0:11:20.180     6G / 139G  INFO   PEResolver               (pe_resolver.hpp           : 319)   Overlaps removed
+  0:11:21.036     6G / 139G  INFO    General                 (launcher.cpp              : 257)   Paths finalized
+  0:11:21.737     6G / 139G  INFO    General                 (launcher.cpp              : 531)   ExSPAnder repeat resolving tool finished
+  0:11:23.224     5G / 139G  INFO   StageManager             (stage.cpp                 : 126)   STAGE == Contig Output
+  0:11:23.224     5G / 139G  INFO    General                 (contig_output_stage.cpp   :  40)   Writing GFA to /scratch/ckimes/metaspades_out//K55/assembly_graph_with_scaffolds.gfa
+  0:11:24.437     5G / 139G  INFO    General                 (contig_output.hpp         :  22)   Outputting contigs to /scratch/ckimes/metaspades_out//K55/before_rr.fasta
+  0:11:26.040     5G / 139G  INFO    General                 (contig_output_stage.cpp   :  50)   Outputting FastG graph to /scratch/ckimes/metaspades_out//K55/assembly_graph.fastg
+  0:11:32.849     5G / 139G  INFO    General                 (contig_output_stage.cpp   :  20)   Outputting FastG paths to /scratch/ckimes/metaspades_out//K55/final_contigs.paths
+  0:11:36.507     5G / 139G  INFO    General                 (contig_output_stage.cpp   :  20)   Outputting FastG paths to /scratch/ckimes/metaspades_out//K55/scaffolds.paths
+  0:11:41.391     5G / 139G  INFO    General                 (launch.hpp                : 137)   SPAdes finished
+  0:11:47.537   340M / 139G  INFO    General                 (main.cpp                  : 110)   Assembling time: 0 hours 11 minutes 47 seconds
+
+===== Assembling finished. Used k-mer sizes: 21, 33, 55 
+
+ * Assembled contigs are in /scratch/ckimes/metaspades_out/contigs.fasta
+ * Assembled scaffolds are in /scratch/ckimes/metaspades_out/scaffolds.fasta
+ * Assembly graph is in /scratch/ckimes/metaspades_out/assembly_graph.fastg
+ * Assembly graph in GFA format is in /scratch/ckimes/metaspades_out/assembly_graph_with_scaffolds.gfa
+ * Paths in the assembly graph corresponding to the contigs are in /scratch/ckimes/metaspades_out/contigs.paths
+ * Paths in the assembly graph corresponding to the scaffolds are in /scratch/ckimes/metaspades_out/scaffolds.paths
+
+======= SPAdes pipeline finished.
+
+SPAdes log can be found here: /scratch/ckimes/metaspades_out/spades.log
+
+Thank you for using SPAdes!
