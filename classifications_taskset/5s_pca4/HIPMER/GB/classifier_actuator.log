@@ -1,0 +1,2497 @@
+Waiting for PID file: actuator_pid
+Got base PID: 49207
+Begin: 2018-01-20T13:55:07,346700993-0800
+Waiting for standard input...
+Request begin: 2018-01-20T13:55:17,455342866-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-20T13:55:17,510235202-0800
+Request begin: 2018-01-20T13:55:22,452686157-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:55:22,453682936-0800
+Request begin: 2018-01-20T13:55:27,463313642-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:55:27,464406302-0800
+Request begin: 2018-01-20T13:55:32,472478890-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:55:32,473444638-0800
+Request begin: 2018-01-20T13:55:37,481342706-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:55:37,482392804-0800
+Request begin: 2018-01-20T13:55:42,491029477-0800
+Setting taskset '0x000000000000000FFFFF000000000000000FFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49207's new affinity mask: fffff000000000000000fffff
+pid 49208's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's new affinity mask: fffff000000000000000fffff
+pid 49210's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's new affinity mask: fffff000000000000000fffff
+pid 49209's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's new affinity mask: fffff000000000000000fffff
+pid 49211's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's new affinity mask: fffff000000000000000fffff
+pid 49212's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's new affinity mask: fffff000000000000000fffff
+pid 49213's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's new affinity mask: fffff000000000000000fffff
+pid 49580's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's new affinity mask: fffff000000000000000fffff
+pid 49725's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's new affinity mask: fffff000000000000000fffff
+pid 49726's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's new affinity mask: fffff000000000000000fffff
+Request end  : 2018-01-20T13:55:42,547702478-0800
+Request begin: 2018-01-20T13:55:47,501516552-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: fffff000000000000000fffff
+pid 49207's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's current affinity mask: fffff000000000000000fffff
+pid 49208's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's current affinity mask: fffff000000000000000fffff
+pid 49210's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's current affinity mask: fffff000000000000000fffff
+pid 49209's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's current affinity mask: fffff000000000000000fffff
+pid 49211's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's current affinity mask: fffff000000000000000fffff
+pid 49212's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's current affinity mask: fffff000000000000000fffff
+pid 49213's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's current affinity mask: fffff000000000000000fffff
+pid 49580's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's current affinity mask: fffff000000000000000fffff
+pid 49725's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's current affinity mask: fffff000000000000000fffff
+pid 49726's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-20T13:55:47,559664253-0800
+Request begin: 2018-01-20T13:55:52,511591555-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:55:52,512679673-0800
+Request begin: 2018-01-20T13:55:57,521689105-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:55:57,522797876-0800
+Request begin: 2018-01-20T13:56:02,531885774-0800
+Setting taskset '0x000000000000000FFFFF000000000000000FFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49207's new affinity mask: fffff000000000000000fffff
+pid 49208's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's new affinity mask: fffff000000000000000fffff
+pid 49210's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's new affinity mask: fffff000000000000000fffff
+pid 49209's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's new affinity mask: fffff000000000000000fffff
+pid 49211's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's new affinity mask: fffff000000000000000fffff
+pid 49212's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's new affinity mask: fffff000000000000000fffff
+pid 49213's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's new affinity mask: fffff000000000000000fffff
+pid 49580's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's new affinity mask: fffff000000000000000fffff
+pid 49725's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's new affinity mask: fffff000000000000000fffff
+pid 49726's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's new affinity mask: fffff000000000000000fffff
+Request end  : 2018-01-20T13:56:02,593157955-0800
+Request begin: 2018-01-20T13:56:07,542839855-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: fffff000000000000000fffff
+pid 49207's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's current affinity mask: fffff000000000000000fffff
+pid 49208's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's current affinity mask: fffff000000000000000fffff
+pid 49210's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's current affinity mask: fffff000000000000000fffff
+pid 49209's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's current affinity mask: fffff000000000000000fffff
+pid 49211's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's current affinity mask: fffff000000000000000fffff
+pid 49212's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's current affinity mask: fffff000000000000000fffff
+pid 49213's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's current affinity mask: fffff000000000000000fffff
+pid 49580's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's current affinity mask: fffff000000000000000fffff
+pid 49725's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's current affinity mask: fffff000000000000000fffff
+pid 49726's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-20T13:56:07,600830726-0800
+Request begin: 2018-01-20T13:56:12,552926642-0800
+Setting taskset '0x000000000000000FFFFF000000000000000FFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49207's new affinity mask: fffff000000000000000fffff
+pid 49208's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's new affinity mask: fffff000000000000000fffff
+pid 49210's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's new affinity mask: fffff000000000000000fffff
+pid 49209's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's new affinity mask: fffff000000000000000fffff
+pid 49211's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's new affinity mask: fffff000000000000000fffff
+pid 49212's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's new affinity mask: fffff000000000000000fffff
+pid 49213's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's new affinity mask: fffff000000000000000fffff
+pid 49580's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's new affinity mask: fffff000000000000000fffff
+pid 49725's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's new affinity mask: fffff000000000000000fffff
+pid 49726's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's new affinity mask: fffff000000000000000fffff
+Request end  : 2018-01-20T13:56:12,611609135-0800
+Request begin: 2018-01-20T13:56:17,562652797-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: fffff000000000000000fffff
+pid 49207's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's current affinity mask: fffff000000000000000fffff
+pid 49208's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's current affinity mask: fffff000000000000000fffff
+pid 49210's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's current affinity mask: fffff000000000000000fffff
+pid 49209's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's current affinity mask: fffff000000000000000fffff
+pid 49211's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's current affinity mask: fffff000000000000000fffff
+pid 49212's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's current affinity mask: fffff000000000000000fffff
+pid 49213's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's current affinity mask: fffff000000000000000fffff
+pid 49580's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's current affinity mask: fffff000000000000000fffff
+pid 49725's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's current affinity mask: fffff000000000000000fffff
+pid 49726's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-20T13:56:17,613220124-0800
+Request begin: 2018-01-20T13:56:22,626100303-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:56:22,627009614-0800
+Request begin: 2018-01-20T13:56:27,637511176-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:56:27,638616097-0800
+Request begin: 2018-01-20T13:56:32,647946179-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:56:32,649097218-0800
+Request begin: 2018-01-20T13:56:37,658883884-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:56:37,659993671-0800
+Request begin: 2018-01-20T13:56:42,669335914-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:56:42,670271963-0800
+Request begin: 2018-01-20T13:56:47,679908238-0800
+Setting taskset '0x000000000000000FFFFF000000000000000FFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49207's new affinity mask: fffff000000000000000fffff
+pid 49208's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's new affinity mask: fffff000000000000000fffff
+pid 49210's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's new affinity mask: fffff000000000000000fffff
+pid 49209's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's new affinity mask: fffff000000000000000fffff
+pid 49211's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's new affinity mask: fffff000000000000000fffff
+pid 49212's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's new affinity mask: fffff000000000000000fffff
+pid 49213's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's new affinity mask: fffff000000000000000fffff
+pid 49580's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's new affinity mask: fffff000000000000000fffff
+pid 49725's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's new affinity mask: fffff000000000000000fffff
+pid 49726's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's new affinity mask: fffff000000000000000fffff
+Request end  : 2018-01-20T13:56:47,740679725-0800
+Request begin: 2018-01-20T13:56:52,690345337-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: fffff000000000000000fffff
+pid 49207's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's current affinity mask: fffff000000000000000fffff
+pid 49208's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's current affinity mask: fffff000000000000000fffff
+pid 49210's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's current affinity mask: fffff000000000000000fffff
+pid 49209's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's current affinity mask: fffff000000000000000fffff
+pid 49211's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's current affinity mask: fffff000000000000000fffff
+pid 49212's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's current affinity mask: fffff000000000000000fffff
+pid 49213's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's current affinity mask: fffff000000000000000fffff
+pid 49580's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's current affinity mask: fffff000000000000000fffff
+pid 49725's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's current affinity mask: fffff000000000000000fffff
+pid 49726's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-20T13:56:52,749323039-0800
+Request begin: 2018-01-20T13:56:57,700420902-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:56:57,701363375-0800
+Request begin: 2018-01-20T13:57:02,711147723-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:57:02,712204508-0800
+Request begin: 2018-01-20T13:57:07,721960502-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:57:07,723063619-0800
+Request begin: 2018-01-20T13:57:12,731856188-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:57:12,732930018-0800
+Request begin: 2018-01-20T13:57:17,742481430-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:57:17,743519637-0800
+Request begin: 2018-01-20T13:57:22,752808814-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:57:22,753947179-0800
+Request begin: 2018-01-20T13:57:27,763721101-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:57:27,764821645-0800
+Request begin: 2018-01-20T13:57:32,774232378-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:57:32,775248046-0800
+Request begin: 2018-01-20T13:57:37,784291014-0800
+Setting taskset '0x000000000000000FFFFF000000000000000FFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49207's new affinity mask: fffff000000000000000fffff
+pid 49208's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's new affinity mask: fffff000000000000000fffff
+pid 49210's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's new affinity mask: fffff000000000000000fffff
+pid 49209's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's new affinity mask: fffff000000000000000fffff
+pid 49211's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's new affinity mask: fffff000000000000000fffff
+pid 49212's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's new affinity mask: fffff000000000000000fffff
+pid 49213's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's new affinity mask: fffff000000000000000fffff
+pid 49580's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's new affinity mask: fffff000000000000000fffff
+pid 49725's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's new affinity mask: fffff000000000000000fffff
+pid 49726's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's new affinity mask: fffff000000000000000fffff
+Request end  : 2018-01-20T13:57:37,844475863-0800
+Request begin: 2018-01-20T13:57:42,794735971-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: fffff000000000000000fffff
+pid 49207's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's current affinity mask: fffff000000000000000fffff
+pid 49208's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's current affinity mask: fffff000000000000000fffff
+pid 49210's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's current affinity mask: fffff000000000000000fffff
+pid 49209's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's current affinity mask: fffff000000000000000fffff
+pid 49211's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's current affinity mask: fffff000000000000000fffff
+pid 49212's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's current affinity mask: fffff000000000000000fffff
+pid 49213's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's current affinity mask: fffff000000000000000fffff
+pid 49580's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's current affinity mask: fffff000000000000000fffff
+pid 49725's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's current affinity mask: fffff000000000000000fffff
+pid 49726's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-20T13:57:42,855589019-0800
+Request begin: 2018-01-20T13:57:47,805873877-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:57:47,806867581-0800
+Request begin: 2018-01-20T13:57:52,847653265-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:57:52,848618996-0800
+Request begin: 2018-01-20T13:57:57,857934551-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:57:57,859041801-0800
+Request begin: 2018-01-20T13:58:02,868222697-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:58:02,869288398-0800
+Request begin: 2018-01-20T13:58:07,877335204-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:58:07,878291925-0800
+Request begin: 2018-01-20T13:58:12,887139453-0800
+Setting taskset '0x000000000000000FFFFF000000000000000FFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49207's new affinity mask: fffff000000000000000fffff
+pid 49208's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's new affinity mask: fffff000000000000000fffff
+pid 49210's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's new affinity mask: fffff000000000000000fffff
+pid 49209's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's new affinity mask: fffff000000000000000fffff
+pid 49211's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's new affinity mask: fffff000000000000000fffff
+pid 49212's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's new affinity mask: fffff000000000000000fffff
+pid 49213's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's new affinity mask: fffff000000000000000fffff
+pid 49580's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's new affinity mask: fffff000000000000000fffff
+pid 49725's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's new affinity mask: fffff000000000000000fffff
+pid 49726's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's new affinity mask: fffff000000000000000fffff
+Request end  : 2018-01-20T13:58:12,938940954-0800
+Request begin: 2018-01-20T13:58:17,896552270-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: fffff000000000000000fffff
+pid 49207's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's current affinity mask: fffff000000000000000fffff
+pid 49208's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's current affinity mask: fffff000000000000000fffff
+pid 49210's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's current affinity mask: fffff000000000000000fffff
+pid 49209's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's current affinity mask: fffff000000000000000fffff
+pid 49211's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's current affinity mask: fffff000000000000000fffff
+pid 49212's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's current affinity mask: fffff000000000000000fffff
+pid 49213's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's current affinity mask: fffff000000000000000fffff
+pid 49580's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's current affinity mask: fffff000000000000000fffff
+pid 49725's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's current affinity mask: fffff000000000000000fffff
+pid 49726's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-20T13:58:17,955280378-0800
+Request begin: 2018-01-20T13:58:22,906191660-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:58:22,907152900-0800
+Request begin: 2018-01-20T13:58:27,915546912-0800
+Setting taskset '0x000000000000000FFFFF000000000000000FFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49207's new affinity mask: fffff000000000000000fffff
+pid 49208's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's new affinity mask: fffff000000000000000fffff
+pid 49210's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's new affinity mask: fffff000000000000000fffff
+pid 49209's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's new affinity mask: fffff000000000000000fffff
+pid 49211's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's new affinity mask: fffff000000000000000fffff
+pid 49212's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's new affinity mask: fffff000000000000000fffff
+pid 49213's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's new affinity mask: fffff000000000000000fffff
+pid 49580's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's new affinity mask: fffff000000000000000fffff
+pid 49725's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's new affinity mask: fffff000000000000000fffff
+pid 49726's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's new affinity mask: fffff000000000000000fffff
+Request end  : 2018-01-20T13:58:27,967749497-0800
+Request begin: 2018-01-20T13:58:32,924989591-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: fffff000000000000000fffff
+pid 49207's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's current affinity mask: fffff000000000000000fffff
+pid 49208's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's current affinity mask: fffff000000000000000fffff
+pid 49210's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's current affinity mask: fffff000000000000000fffff
+pid 49209's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's current affinity mask: fffff000000000000000fffff
+pid 49211's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's current affinity mask: fffff000000000000000fffff
+pid 49212's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's current affinity mask: fffff000000000000000fffff
+pid 49213's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's current affinity mask: fffff000000000000000fffff
+pid 49580's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's current affinity mask: fffff000000000000000fffff
+pid 49725's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's current affinity mask: fffff000000000000000fffff
+pid 49726's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-20T13:58:32,976755284-0800
+Request begin: 2018-01-20T13:58:37,934564294-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:58:37,935649065-0800
+Request begin: 2018-01-20T13:58:42,944572011-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:58:42,945604379-0800
+Request begin: 2018-01-20T13:58:47,953319806-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:58:47,954305909-0800
+Request begin: 2018-01-20T13:58:52,963014254-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:58:52,964093958-0800
+Request begin: 2018-01-20T13:58:57,972580590-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:58:57,973555495-0800
+Request begin: 2018-01-20T13:59:02,982248807-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:59:02,983748185-0800
+Request begin: 2018-01-20T13:59:07,991913897-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:59:07,992993850-0800
+Request begin: 2018-01-20T13:59:13,001236823-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:59:13,002226872-0800
+Request begin: 2018-01-20T13:59:18,010775331-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:59:18,011898242-0800
+Request begin: 2018-01-20T13:59:23,054364800-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:59:23,055340869-0800
+Request begin: 2018-01-20T13:59:28,073916405-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:59:28,075035425-0800
+Request begin: 2018-01-20T13:59:33,169971932-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:59:33,171095598-0800
+Request begin: 2018-01-20T13:59:38,179203102-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:59:38,180123258-0800
+Request begin: 2018-01-20T13:59:43,230929800-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:59:43,232014024-0800
+Request begin: 2018-01-20T13:59:48,373401346-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:59:48,374363657-0800
+Request begin: 2018-01-20T13:59:53,421339777-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:59:53,422459684-0800
+Request begin: 2018-01-20T13:59:58,461512211-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T13:59:58,462568445-0800
+Request begin: 2018-01-20T14:00:03,634873575-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:00:03,635948093-0800
+Request begin: 2018-01-20T14:00:08,938345298-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:00:08,939494301-0800
+Request begin: 2018-01-20T14:00:14,210255041-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:00:14,211242378-0800
+Request begin: 2018-01-20T14:00:19,274113430-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:00:19,275218795-0800
+Request begin: 2018-01-20T14:00:24,325208263-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:00:24,326117908-0800
+Request begin: 2018-01-20T14:00:29,381539543-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:00:29,382506533-0800
+Request begin: 2018-01-20T14:00:34,482488852-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:00:34,483702184-0800
+Request begin: 2018-01-20T14:00:39,794081771-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:00:39,795241760-0800
+Request begin: 2018-01-20T14:00:44,910689855-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:00:44,911832632-0800
+Request begin: 2018-01-20T14:00:50,042513576-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:00:50,043592978-0800
+Request begin: 2018-01-20T14:00:55,162439970-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:00:55,163433602-0800
+Request begin: 2018-01-20T14:01:00,322574757-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:01:00,323788125-0800
+Request begin: 2018-01-20T14:01:05,469397911-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:01:05,470410767-0800
+Request begin: 2018-01-20T14:01:10,629377350-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:01:10,630390262-0800
+Request begin: 2018-01-20T14:01:16,022504519-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:01:16,023646631-0800
+Request begin: 2018-01-20T14:01:21,214444109-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:01:21,215401481-0800
+Request begin: 2018-01-20T14:01:26,541556200-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:01:26,542637750-0800
+Request begin: 2018-01-20T14:01:31,729511093-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:01:31,730599957-0800
+Request begin: 2018-01-20T14:01:36,935040873-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:01:36,936193958-0800
+Request begin: 2018-01-20T14:01:42,110028042-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:01:42,110927221-0800
+Request begin: 2018-01-20T14:01:47,422112077-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:01:47,423005126-0800
+Request begin: 2018-01-20T14:01:52,778120978-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:01:52,779326114-0800
+Request begin: 2018-01-20T14:01:57,942331383-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:01:57,943453365-0800
+Request begin: 2018-01-20T14:02:03,174307706-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:02:03,175516972-0800
+Request begin: 2018-01-20T14:02:08,358705344-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:02:08,359902261-0800
+Request begin: 2018-01-20T14:02:13,530219561-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:02:13,531519712-0800
+Request begin: 2018-01-20T14:02:18,705467436-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:02:18,706412369-0800
+Request begin: 2018-01-20T14:02:23,895590425-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:02:23,896756385-0800
+Request begin: 2018-01-20T14:02:29,322494444-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:02:29,338763505-0800
+Request begin: 2018-01-20T14:02:34,639331973-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:02:34,640608286-0800
+Request begin: 2018-01-20T14:02:40,054909734-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:02:40,079007918-0800
+Request begin: 2018-01-20T14:02:45,411421616-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:02:45,435795857-0800
+Request begin: 2018-01-20T14:02:50,791351083-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:02:50,819027511-0800
+Request begin: 2018-01-20T14:02:56,251392039-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:02:56,252519869-0800
+Request begin: 2018-01-20T14:03:01,639318992-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:03:01,687049091-0800
+Request begin: 2018-01-20T14:03:07,055331067-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:03:07,103553264-0800
+Request begin: 2018-01-20T14:03:12,407313950-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:03:12,431678892-0800
+Request begin: 2018-01-20T14:03:17,799313283-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:03:17,831091273-0800
+Request begin: 2018-01-20T14:03:23,179318552-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:03:23,206975072-0800
+Request begin: 2018-01-20T14:03:28,563276591-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:03:28,614642841-0800
+Request begin: 2018-01-20T14:03:33,947017935-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:03:33,974647793-0800
+Request begin: 2018-01-20T14:03:39,327265377-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:03:39,354896008-0800
+Request begin: 2018-01-20T14:03:44,719297250-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:03:44,743674894-0800
+Request begin: 2018-01-20T14:03:50,207362550-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:03:50,208501935-0800
+Request begin: 2018-01-20T14:03:55,119309204-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:03:55,179068927-0800
+Request begin: 2018-01-20T14:04:00,511454106-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:04:00,570675877-0800
+Request begin: 2018-01-20T14:04:05,895300467-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:04:05,919677019-0800
+Request begin: 2018-01-20T14:04:11,315342895-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:04:11,316512718-0800
+Request begin: 2018-01-20T14:04:16,671287265-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:04:16,719042283-0800
+Request begin: 2018-01-20T14:04:22,143291455-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:04:22,170990616-0800
+Request begin: 2018-01-20T14:04:27,503272196-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:04:27,527004796-0800
+Request begin: 2018-01-20T14:04:32,895298267-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:04:32,919696196-0800
+Request begin: 2018-01-20T14:04:38,275240757-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:04:38,299673425-0800
+Request begin: 2018-01-20T14:04:43,659312405-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:04:43,707554334-0800
+Request begin: 2018-01-20T14:04:49,047287382-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:04:49,071680648-0800
+Request begin: 2018-01-20T14:04:54,431314134-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:04:54,432428250-0800
+Request begin: 2018-01-20T14:04:59,783242590-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:04:59,810876588-0800
+Request begin: 2018-01-20T14:05:05,195290482-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:05:05,219678367-0800
+Request begin: 2018-01-20T14:05:10,551254689-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:05:10,626706470-0800
+Request begin: 2018-01-20T14:05:15,919324267-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:05:15,946980384-0800
+Request begin: 2018-01-20T14:05:21,287269277-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:05:21,310891131-0800
+Request begin: 2018-01-20T14:05:26,687308059-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:05:26,735095367-0800
+Request begin: 2018-01-20T14:05:32,079272119-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:05:32,083768206-0800
+Request begin: 2018-01-20T14:05:37,471345638-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:05:37,494991139-0800
+Request begin: 2018-01-20T14:05:42,847311734-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:05:42,866513564-0800
+Request begin: 2018-01-20T14:05:48,247343972-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:05:48,271643899-0800
+Request begin: 2018-01-20T14:05:53,654926945-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:05:53,662490135-0800
+Request begin: 2018-01-20T14:05:59,015310018-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:05:59,016418855-0800
+Request begin: 2018-01-20T14:06:04,387209820-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:06:04,411208956-0800
+Request begin: 2018-01-20T14:06:09,787287799-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:06:09,811700343-0800
+Request begin: 2018-01-20T14:06:15,147229322-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:06:15,171597079-0800
+Request begin: 2018-01-20T14:06:20,567317390-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:06:20,594992460-0800
+Request begin: 2018-01-20T14:06:25,947229083-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:06:25,971602156-0800
+Request begin: 2018-01-20T14:06:31,427330993-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:06:31,428444859-0800
+Request begin: 2018-01-20T14:06:36,803222841-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:06:36,838878142-0800
+Request begin: 2018-01-20T14:06:42,215348132-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:06:42,243004135-0800
+Request begin: 2018-01-20T14:06:47,583317814-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:06:47,642715756-0800
+Request begin: 2018-01-20T14:06:52,983302160-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:06:53,007710005-0800
+Request begin: 2018-01-20T14:06:58,379312224-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:06:58,403692890-0800
+Request begin: 2018-01-20T14:07:03,779399471-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:07:03,827145290-0800
+Request begin: 2018-01-20T14:07:09,155287194-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:07:09,182890654-0800
+Request begin: 2018-01-20T14:07:14,523318288-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:07:14,547681532-0800
+Request begin: 2018-01-20T14:07:19,939302360-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:07:19,966971574-0800
+Request begin: 2018-01-20T14:07:25,335343947-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:07:25,362981716-0800
+Request begin: 2018-01-20T14:07:30,707300366-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:07:30,758976620-0800
+Request begin: 2018-01-20T14:07:36,127304394-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:07:36,151640282-0800
+Request begin: 2018-01-20T14:07:41,511285180-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:07:41,535652512-0800
+Request begin: 2018-01-20T14:07:46,919286933-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:07:46,947007953-0800
+Request begin: 2018-01-20T14:07:52,495381219-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:07:52,523053735-0800
+Request begin: 2018-01-20T14:07:57,875302526-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:07:57,899681041-0800
+Request begin: 2018-01-20T14:08:03,243317197-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:08:03,291061361-0800
+Request begin: 2018-01-20T14:08:08,639309366-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:08:08,663716200-0800
+Request begin: 2018-01-20T14:08:14,043290648-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:08:14,044413772-0800
+Request begin: 2018-01-20T14:08:19,463315224-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:08:19,499062675-0800
+Request begin: 2018-01-20T14:08:24,603321508-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:08:24,630961895-0800
+Request begin: 2018-01-20T14:08:30,011315332-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:08:30,035685398-0800
+Request begin: 2018-01-20T14:08:35,435345578-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:08:35,459563403-0800
+Request begin: 2018-01-20T14:08:40,767297127-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:08:40,794974556-0800
+Request begin: 2018-01-20T14:08:46,139306087-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:08:46,163687817-0800
+Request begin: 2018-01-20T14:08:51,531308432-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:08:51,555678987-0800
+Request begin: 2018-01-20T14:08:56,891277139-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:08:56,915662358-0800
+Request begin: 2018-01-20T14:09:02,307280061-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:09:02,334896064-0800
+Request begin: 2018-01-20T14:09:07,663328360-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:09:07,690962812-0800
+Request begin: 2018-01-20T14:09:13,291308228-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:09:13,318965820-0800
+Request begin: 2018-01-20T14:09:18,663277150-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:09:18,687689441-0800
+Request begin: 2018-01-20T14:09:24,039305110-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:09:24,063695476-0800
+Request begin: 2018-01-20T14:09:29,439320332-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:09:29,463038984-0800
+Request begin: 2018-01-20T14:09:34,779277491-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:09:34,830582028-0800
+Request begin: 2018-01-20T14:09:40,207300340-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:09:40,231025772-0800
+Request begin: 2018-01-20T14:09:45,559285843-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:09:45,583693725-0800
+Request begin: 2018-01-20T14:09:51,074954951-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:09:51,076159421-0800
+Request begin: 2018-01-20T14:09:56,367578227-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:09:56,394944005-0800
+Request begin: 2018-01-20T14:10:01,922989501-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:10:01,947061597-0800
+Request begin: 2018-01-20T14:10:07,278997492-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:10:07,286987287-0800
+Request begin: 2018-01-20T14:10:12,671023076-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:10:12,691064395-0800
+Request begin: 2018-01-20T14:10:18,042989709-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:10:18,067060312-0800
+Request begin: 2018-01-20T14:10:23,446995063-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:10:23,479002297-0800
+Request begin: 2018-01-20T14:10:28,815002803-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:10:28,839052796-0800
+Request begin: 2018-01-20T14:10:34,174983589-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:10:34,194735723-0800
+Request begin: 2018-01-20T14:10:39,587786374-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:10:39,618561196-0800
+Request begin: 2018-01-20T14:10:44,975019563-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:10:44,999108533-0800
+Request begin: 2018-01-20T14:10:50,483040852-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:10:50,507102174-0800
+Request begin: 2018-01-20T14:10:55,839019187-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:10:55,867001794-0800
+Request begin: 2018-01-20T14:11:01,187022134-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:11:01,211075311-0800
+Request begin: 2018-01-20T14:11:06,567044307-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:11:06,590743689-0800
+Request begin: 2018-01-20T14:11:11,967613898-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:11:11,991014978-0800
+Request begin: 2018-01-20T14:11:17,351047689-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:11:17,367108792-0800
+Request begin: 2018-01-20T14:11:22,730682388-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:11:22,762718765-0800
+Request begin: 2018-01-20T14:11:28,099047380-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:11:28,123112872-0800
+Request begin: 2018-01-20T14:11:33,439043469-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:11:33,443496884-0800
+Request begin: 2018-01-20T14:11:38,812047979-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:11:38,841223411-0800
+Request begin: 2018-01-20T14:11:44,190921015-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:11:44,198638369-0800
+Request begin: 2018-01-20T14:11:49,547099696-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:11:49,575102787-0800
+Request begin: 2018-01-20T14:11:54,927042545-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:11:54,951114369-0800
+Request begin: 2018-01-20T14:12:00,439016209-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:12:00,447682320-0800
+Request begin: 2018-01-20T14:12:05,731559569-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:12:05,754824056-0800
+Request begin: 2018-01-20T14:12:11,107605048-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:12:11,123004757-0800
+Request begin: 2018-01-20T14:12:16,471071803-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:12:16,495110446-0800
+Request begin: 2018-01-20T14:12:21,831043722-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:12:21,855128048-0800
+Request begin: 2018-01-20T14:12:27,199038195-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:12:27,219112094-0800
+Request begin: 2018-01-20T14:12:32,579047890-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:12:32,602756104-0800
+Request begin: 2018-01-20T14:12:37,935609088-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:12:37,955008055-0800
+Request begin: 2018-01-20T14:12:43,523058950-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:12:43,551048261-0800
+Request begin: 2018-01-20T14:12:48,918997440-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:12:48,926976275-0800
+Request begin: 2018-01-20T14:12:53,907054184-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:12:53,911688953-0800
+Request begin: 2018-01-20T14:12:59,287073046-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:12:59,299541229-0800
+Request begin: 2018-01-20T14:13:04,646939968-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:13:04,670932926-0800
+Request begin: 2018-01-20T14:13:10,007609713-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:13:10,035015730-0800
+Request begin: 2018-01-20T14:13:15,419052653-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:13:15,442804910-0800
+Request begin: 2018-01-20T14:13:20,787062716-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:13:20,811149350-0800
+Request begin: 2018-01-20T14:13:26,151553832-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:13:26,174834129-0800
+Request begin: 2018-01-20T14:13:31,531007404-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:13:31,555077636-0800
+Request begin: 2018-01-20T14:13:36,923046182-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:13:36,947128764-0800
+Request begin: 2018-01-20T14:13:42,287047348-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:13:42,311127036-0800
+Request begin: 2018-01-20T14:13:47,666945340-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:13:47,690975535-0800
+Request begin: 2018-01-20T14:13:53,035059903-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:13:53,059117009-0800
+Request begin: 2018-01-20T14:13:58,399044666-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:13:58,423116056-0800
+Request begin: 2018-01-20T14:14:03,767058608-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:14:03,791172024-0800
+Request begin: 2018-01-20T14:14:09,143577439-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:14:09,166780118-0800
+Request begin: 2018-01-20T14:14:14,531050071-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:14:14,559057274-0800
+Request begin: 2018-01-20T14:14:19,899076508-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:14:19,907121654-0800
+Request begin: 2018-01-20T14:14:25,259066497-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:14:25,283118763-0800
+Request begin: 2018-01-20T14:14:30,615053592-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:14:30,619398488-0800
+Request begin: 2018-01-20T14:14:36,003053743-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:14:36,027117758-0800
+Request begin: 2018-01-20T14:14:41,395059905-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:14:41,419118394-0800
+Request begin: 2018-01-20T14:14:46,979923013-0800
+Setting taskset '0x00000000000000000000FFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffff
+pid 49725's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's new affinity mask: ffffffffffffffffffff
+pid 49726's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's new affinity mask: ffffffffffffffffffff
+Request end  : 2018-01-20T14:14:47,543030287-0800
+Request begin: 2018-01-20T14:14:52,371078240-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's current affinity mask: ffffffffffffffffffff
+pid 49725's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's current affinity mask: ffffffffffffffffffff
+pid 49726's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-20T14:14:52,818610678-0800
+Request begin: 2018-01-20T14:14:57,739068346-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:14:57,762979421-0800
+Request begin: 2018-01-20T14:15:03,119033521-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:15:03,135103383-0800
+Request begin: 2018-01-20T14:15:08,479892202-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:15:08,530942389-0800
+Request begin: 2018-01-20T14:15:13,859306934-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:15:13,862504225-0800
+Request begin: 2018-01-20T14:15:19,219090233-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:15:19,238975515-0800
+Request begin: 2018-01-20T14:15:24,587423480-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:15:24,607000697-0800
+Request begin: 2018-01-20T14:15:29,963033646-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:15:29,987082732-0800
+Request begin: 2018-01-20T14:15:35,331027211-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:15:35,347133177-0800
+Request begin: 2018-01-20T14:15:40,746678089-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:15:40,775086832-0800
+Request begin: 2018-01-20T14:15:46,335031477-0800
+Setting taskset '0x00000000000000000000FFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffff
+pid 49725's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's new affinity mask: ffffffffffffffffffff
+pid 49726's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's new affinity mask: ffffffffffffffffffff
+Request end  : 2018-01-20T14:15:46,878682246-0800
+Request begin: 2018-01-20T14:15:51,791361685-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's current affinity mask: ffffffffffffffffffff
+pid 49725's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's current affinity mask: ffffffffffffffffffff
+pid 49726's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-20T14:15:52,330729040-0800
+Request begin: 2018-01-20T14:15:57,123099537-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:15:57,127448829-0800
+Request begin: 2018-01-20T14:16:02,483436819-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:16:02,506970922-0800
+Request begin: 2018-01-20T14:16:07,886461112-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:16:07,890907037-0800
+Request begin: 2018-01-20T14:16:13,203435803-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:16:13,234988041-0800
+Request begin: 2018-01-20T14:16:18,615093406-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:16:18,646694457-0800
+Request begin: 2018-01-20T14:16:23,966923790-0800
+Setting taskset '0x00000000000000000000FFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffff
+pid 49725's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's new affinity mask: ffffffffffffffffffff
+pid 49726's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's new affinity mask: ffffffffffffffffffff
+Request end  : 2018-01-20T14:16:24,718701274-0800
+Request begin: 2018-01-20T14:16:29,331071138-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's current affinity mask: ffffffffffffffffffff
+pid 49725's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's current affinity mask: ffffffffffffffffffff
+pid 49726's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-20T14:16:29,882566341-0800
+Request begin: 2018-01-20T14:16:34,687035577-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:16:34,714717261-0800
+Request begin: 2018-01-20T14:16:40,070309860-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:16:40,074735991-0800
+Request begin: 2018-01-20T14:16:45,467410940-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:16:45,490968957-0800
+Request begin: 2018-01-20T14:16:50,855094224-0800
+Setting taskset '0x00000000000000000000FFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffff
+pid 49725's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's new affinity mask: ffffffffffffffffffff
+pid 49726's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's new affinity mask: ffffffffffffffffffff
+Request end  : 2018-01-20T14:16:51,450703961-0800
+Request begin: 2018-01-20T14:16:56,287015876-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's current affinity mask: ffffffffffffffffffff
+pid 49725's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's current affinity mask: ffffffffffffffffffff
+pid 49726's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-20T14:16:56,902685099-0800
+Request begin: 2018-01-20T14:17:01,674693405-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:17:01,676217027-0800
+Request begin: 2018-01-20T14:17:07,019105200-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:17:07,042982408-0800
+Request begin: 2018-01-20T14:17:12,374889015-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:17:12,390510053-0800
+Request begin: 2018-01-20T14:17:17,775022354-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:17:17,799097687-0800
+Request begin: 2018-01-20T14:17:22,743031163-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:17:22,759466731-0800
+Request begin: 2018-01-20T14:17:28,119029071-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:17:28,143095910-0800
+Request begin: 2018-01-20T14:17:33,490662586-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:17:33,515077854-0800
+Request begin: 2018-01-20T14:17:38,879622738-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:17:38,906983809-0800
+Request begin: 2018-01-20T14:17:44,239044136-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:17:44,240461232-0800
+Request begin: 2018-01-20T14:17:49,591043085-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:17:49,611595226-0800
+Request begin: 2018-01-20T14:17:55,163028644-0800
+Setting taskset '0x00000000000000000000FFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffff
+pid 49725's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's new affinity mask: ffffffffffffffffffff
+pid 49726's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's new affinity mask: ffffffffffffffffffff
+Request end  : 2018-01-20T14:17:55,726733535-0800
+Request begin: 2018-01-20T14:18:00,610230219-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's current affinity mask: ffffffffffffffffffff
+pid 49725's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's current affinity mask: ffffffffffffffffffff
+pid 49726's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-20T14:18:01,330820706-0800
+Request begin: 2018-01-20T14:18:05,919064935-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:18:05,943099725-0800
+Request begin: 2018-01-20T14:18:11,519030284-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:18:11,535096752-0800
+Request begin: 2018-01-20T14:18:16,843268662-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:18:16,870558206-0800
+Request begin: 2018-01-20T14:18:22,247025360-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:18:22,271086511-0800
+Request begin: 2018-01-20T14:18:27,635001976-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:18:27,636384115-0800
+Request begin: 2018-01-20T14:18:32,971309520-0800
+Setting taskset '0x00000000000000000000FFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffff
+pid 49725's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's new affinity mask: ffffffffffffffffffff
+pid 49726's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's new affinity mask: ffffffffffffffffffff
+Request end  : 2018-01-20T14:18:33,690688634-0800
+Request begin: 2018-01-20T14:18:38,367125120-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's current affinity mask: ffffffffffffffffffff
+pid 49725's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's current affinity mask: ffffffffffffffffffff
+pid 49726's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-20T14:18:38,987565721-0800
+Request begin: 2018-01-20T14:18:43,755036053-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:18:43,779082901-0800
+Request begin: 2018-01-20T14:18:49,107305400-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:18:49,126754441-0800
+Request begin: 2018-01-20T14:18:54,507108636-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:18:54,508580578-0800
+Request begin: 2018-01-20T14:18:59,890691998-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:18:59,906721365-0800
+Request begin: 2018-01-20T14:19:05,251024406-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:19:05,252414066-0800
+Request begin: 2018-01-20T14:19:10,638669518-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:19:10,640159567-0800
+Request begin: 2018-01-20T14:19:15,979328154-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:19:16,007042538-0800
+Request begin: 2018-01-20T14:19:21,442701559-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:19:21,450674411-0800
+Request begin: 2018-01-20T14:19:26,807056023-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:19:26,808421362-0800
+Request begin: 2018-01-20T14:19:32,195014601-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:19:32,222714311-0800
+Request begin: 2018-01-20T14:19:37,663020310-0800
+Setting taskset '0x00000000000000000000FFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffff
+pid 49725's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's new affinity mask: ffffffffffffffffffff
+pid 49726's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's new affinity mask: ffffffffffffffffffff
+Request end  : 2018-01-20T14:19:38,179136364-0800
+Request begin: 2018-01-20T14:19:42,963455848-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's current affinity mask: ffffffffffffffffffff
+pid 49725's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's current affinity mask: ffffffffffffffffffff
+pid 49726's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-20T14:19:43,594452971-0800
+Request begin: 2018-01-20T14:19:48,347011860-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:19:48,367094951-0800
+Request begin: 2018-01-20T14:19:53,786464518-0800
+Setting taskset '0x00000000000000000000FFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffff
+pid 49725's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's new affinity mask: ffffffffffffffffffff
+pid 49726's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's new affinity mask: ffffffffffffffffffff
+Request end  : 2018-01-20T14:19:54,342713286-0800
+Request begin: 2018-01-20T14:19:59,050999753-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's current affinity mask: ffffffffffffffffffff
+pid 49725's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's current affinity mask: ffffffffffffffffffff
+pid 49726's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-20T14:19:59,586253428-0800
+Request begin: 2018-01-20T14:20:04,431120773-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:20:04,459088687-0800
+Request begin: 2018-01-20T14:20:09,783410164-0800
+Setting taskset '0x00000000000000000000FFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffff
+pid 49725's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's new affinity mask: ffffffffffffffffffff
+pid 49726's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's new affinity mask: ffffffffffffffffffff
+Request end  : 2018-01-20T14:20:10,262705090-0800
+Request begin: 2018-01-20T14:20:15,183098582-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 49725 49726'
+pid 49207's current affinity mask: ffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49725's current affinity mask: ffffffffffffffffffff
+pid 49725's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49726's current affinity mask: ffffffffffffffffffff
+pid 49726's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-20T14:20:15,826565519-0800
+Request begin: 2018-01-20T14:20:20,539033219-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:20:20,566718900-0800
+Request begin: 2018-01-20T14:20:25,927096505-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:20:25,950698906-0800
+Request begin: 2018-01-20T14:20:31,443982597-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:20:31,445068177-0800
+Request begin: 2018-01-20T14:20:36,323929156-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:20:36,324997356-0800
+Request begin: 2018-01-20T14:20:42,643754461-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:20:42,645096422-0800
+Request begin: 2018-01-20T14:20:48,053360055-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:20:48,076983728-0800
+Request begin: 2018-01-20T14:20:53,470895610-0800
+Setting taskset '0x00000000000000000000FFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 51053 51090'
+pid 49207's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffff
+pid 51053's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 51053's new affinity mask: ffffffffffffffffffff
+pid 51090's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 51090's new affinity mask: ffffffffffffffffffff
+Request end  : 2018-01-20T14:20:53,958772694-0800
+Request begin: 2018-01-20T14:20:58,806993934-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 51053 51090'
+pid 49207's current affinity mask: ffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 51053's current affinity mask: ffffffffffffffffffff
+pid 51053's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 51090's current affinity mask: ffffffffffffffffffff
+pid 51090's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-20T14:20:59,418630582-0800
+Request begin: 2018-01-20T14:21:04,496233443-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:21:04,498875373-0800
+Request begin: 2018-01-20T14:21:09,511473064-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:21:09,512646360-0800
+Request begin: 2018-01-20T14:21:14,577887805-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:21:14,579277679-0800
+Request begin: 2018-01-20T14:21:19,962990369-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:21:19,991045006-0800
+Request begin: 2018-01-20T14:21:25,216470624-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:21:25,217767140-0800
+Request begin: 2018-01-20T14:21:30,280359936-0800
+Setting taskset '0x00000000000000000000FFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 51522 51559'
+pid 49207's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffff
+pid 51522's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 51522's new affinity mask: ffffffffffffffffffff
+pid 51559's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 51559's new affinity mask: ffffffffffffffffffff
+Request end  : 2018-01-20T14:21:30,368200542-0800
+Request begin: 2018-01-20T14:21:35,996487825-0800
+Taskset is unchanged: 0x00000000000000000000FFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:21:36,023385642-0800
+Request begin: 2018-01-20T14:21:40,939817356-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 51752 51789'
+pid 49207's current affinity mask: ffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 51752's current affinity mask: ffffffffffffffffffff
+pid 51752's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 51789's current affinity mask: ffffffffffffffffffff
+pid 51789's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-20T14:21:41,008500291-0800
+Request begin: 2018-01-20T14:21:45,954562149-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:21:45,956354561-0800
+Request begin: 2018-01-20T14:21:51,098687645-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:21:51,099633521-0800
+Request begin: 2018-01-20T14:21:56,620882852-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:21:56,671984215-0800
+Request begin: 2018-01-20T14:22:01,990615123-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:22:01,992218493-0800
+Request begin: 2018-01-20T14:22:07,312286206-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:22:07,313669571-0800
+Request begin: 2018-01-20T14:22:12,743084396-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:22:12,766662071-0800
+Request begin: 2018-01-20T14:22:18,151044542-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:22:18,174701012-0800
+Request begin: 2018-01-20T14:22:23,555641788-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:22:23,580005588-0800
+Request begin: 2018-01-20T14:22:28,963662106-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:22:28,990978714-0800
+Request begin: 2018-01-20T14:22:34,343654215-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:22:34,367029597-0800
+Request begin: 2018-01-20T14:22:39,743114869-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:22:39,744682717-0800
+Request begin: 2018-01-20T14:22:45,135123581-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:22:45,162667576-0800
+Request begin: 2018-01-20T14:22:50,535129980-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:22:50,542986678-0800
+Request begin: 2018-01-20T14:22:55,943077484-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:22:55,971113938-0800
+Request begin: 2018-01-20T14:23:01,303697640-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:23:01,327002054-0800
+Request begin: 2018-01-20T14:23:06,715683649-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:23:06,742982665-0800
+Request begin: 2018-01-20T14:23:12,107063710-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:23:12,108493601-0800
+Request begin: 2018-01-20T14:23:17,503422510-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:23:17,504858496-0800
+Request begin: 2018-01-20T14:23:22,895056156-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:23:22,930699497-0800
+Request begin: 2018-01-20T14:23:28,291043330-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:23:28,315070411-0800
+Request begin: 2018-01-20T14:23:33,739016595-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:23:33,740367660-0800
+Request begin: 2018-01-20T14:23:39,150698702-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:23:39,152276921-0800
+Request begin: 2018-01-20T14:23:44,478998791-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:23:44,503076188-0800
+Request begin: 2018-01-20T14:23:49,855030825-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:23:49,856394133-0800
+Request begin: 2018-01-20T14:23:55,227066736-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:23:55,228566211-0800
+Request begin: 2018-01-20T14:24:00,619044083-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:24:00,620397179-0800
+Request begin: 2018-01-20T14:24:06,003042807-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:24:06,014991238-0800
+Request begin: 2018-01-20T14:24:11,379064062-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:24:11,395036160-0800
+Request begin: 2018-01-20T14:24:16,799030444-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:24:16,822709812-0800
+Request begin: 2018-01-20T14:24:22,183113022-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:24:22,187291991-0800
+Request begin: 2018-01-20T14:24:27,587037323-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:24:27,611112014-0800
+Request begin: 2018-01-20T14:24:32,983039852-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:24:33,003084422-0800
+Request begin: 2018-01-20T14:24:38,375041877-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:24:38,391093316-0800
+Request begin: 2018-01-20T14:24:43,779047630-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:24:43,803092945-0800
+Request begin: 2018-01-20T14:24:49,151048966-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:24:49,175069432-0800
+Request begin: 2018-01-20T14:24:54,523044704-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:24:54,547102297-0800
+Request begin: 2018-01-20T14:24:59,887029002-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:24:59,888422957-0800
+Request begin: 2018-01-20T14:25:05,275366290-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:25:05,303035061-0800
+Request begin: 2018-01-20T14:25:10,683066611-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:25:10,703217150-0800
+Request begin: 2018-01-20T14:25:16,063060442-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:25:16,079100780-0800
+Request begin: 2018-01-20T14:25:21,454663727-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:25:21,463037864-0800
+Request begin: 2018-01-20T14:25:26,875037536-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:25:26,876414847-0800
+Request begin: 2018-01-20T14:25:32,255034282-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:25:32,279084957-0800
+Request begin: 2018-01-20T14:25:37,662666592-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:25:37,664201505-0800
+Request begin: 2018-01-20T14:25:43,023396260-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:25:43,055047945-0800
+Request begin: 2018-01-20T14:25:48,439046216-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:25:48,463090713-0800
+Request begin: 2018-01-20T14:25:53,859673612-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:25:53,886977227-0800
+Request begin: 2018-01-20T14:25:59,238658339-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:25:59,240239431-0800
+Request begin: 2018-01-20T14:26:04,619051295-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:26:04,620444310-0800
+Request begin: 2018-01-20T14:26:09,987034787-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:26:09,988400141-0800
+Request begin: 2018-01-20T14:26:15,383059374-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:26:15,390948641-0800
+Request begin: 2018-01-20T14:26:20,315629495-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:26:20,347046833-0800
+Request begin: 2018-01-20T14:26:25,691662645-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:26:25,715001503-0800
+Request begin: 2018-01-20T14:26:31,059043060-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:26:31,082723159-0800
+Request begin: 2018-01-20T14:26:36,451022028-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:26:36,475147188-0800
+Request begin: 2018-01-20T14:26:41,827067400-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:26:41,842697868-0800
+Request begin: 2018-01-20T14:26:47,183389957-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:26:47,211021890-0800
+Request begin: 2018-01-20T14:26:52,591030866-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:26:52,615092297-0800
+Request begin: 2018-01-20T14:26:58,019048599-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:26:58,020416067-0800
+Request begin: 2018-01-20T14:27:03,431045959-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:27:03,454714937-0800
+Request begin: 2018-01-20T14:27:08,807643525-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:27:08,843093719-0800
+Request begin: 2018-01-20T14:27:14,214624211-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:27:14,243119787-0800
+Request begin: 2018-01-20T14:27:19,575462266-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:27:19,603005809-0800
+Request begin: 2018-01-20T14:27:24,991045079-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:27:25,014691307-0800
+Request begin: 2018-01-20T14:27:30,387037958-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:27:30,388393910-0800
+Request begin: 2018-01-20T14:27:35,763605551-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:27:35,783004832-0800
+Request begin: 2018-01-20T14:27:41,139033353-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:27:41,140353356-0800
+Request begin: 2018-01-20T14:27:46,515642663-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:27:46,530927707-0800
+Request begin: 2018-01-20T14:27:51,906590978-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:27:51,907985994-0800
+Request begin: 2018-01-20T14:27:57,278942498-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:27:57,280229281-0800
+Request begin: 2018-01-20T14:28:02,634998926-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:28:02,658404581-0800
+Request begin: 2018-01-20T14:28:07,986948770-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:28:07,991015908-0800
+Request begin: 2018-01-20T14:28:13,343406308-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:28:13,366559802-0800
+Request begin: 2018-01-20T14:28:18,699445436-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:28:18,726558829-0800
+Request begin: 2018-01-20T14:28:24,067417980-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:28:24,086551261-0800
+Request begin: 2018-01-20T14:28:29,415164209-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:28:29,416343246-0800
+Request begin: 2018-01-20T14:28:34,750749252-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:28:34,774901088-0800
+Request begin: 2018-01-20T14:28:40,102701115-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:28:40,103806555-0800
+Request begin: 2018-01-20T14:28:45,430722165-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:28:45,431823702-0800
+Request begin: 2018-01-20T14:28:50,758721340-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:28:50,782912855-0800
+Request begin: 2018-01-20T14:28:56,114710936-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:28:56,138450835-0800
+Request begin: 2018-01-20T14:29:01,438753388-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:29:01,462454574-0800
+Request begin: 2018-01-20T14:29:06,779048459-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:29:06,798558490-0800
+Request begin: 2018-01-20T14:29:12,130763986-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:29:12,158495949-0800
+Request begin: 2018-01-20T14:29:17,462830847-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:29:17,486837635-0800
+Request begin: 2018-01-20T14:29:22,798803977-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:29:22,822929503-0800
+Request begin: 2018-01-20T14:29:28,182765402-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:29:28,206834133-0800
+Request begin: 2018-01-20T14:29:33,474778353-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:29:33,498867448-0800
+Request begin: 2018-01-20T14:29:38,814747874-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:29:38,838835465-0800
+Request begin: 2018-01-20T14:29:44,158820421-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:29:44,186466136-0800
+Request begin: 2018-01-20T14:29:49,482764403-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:29:49,506486103-0800
+Request begin: 2018-01-20T14:29:54,855386386-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:29:54,883023442-0800
+Request begin: 2018-01-20T14:30:00,243396481-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:30:00,267798675-0800
+Request begin: 2018-01-20T14:30:05,647389724-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:30:05,675056827-0800
+Request begin: 2018-01-20T14:30:11,007374339-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:30:11,058665985-0800
+Request begin: 2018-01-20T14:30:16,443421268-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:30:16,475056249-0800
+Request begin: 2018-01-20T14:30:21,855405486-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:30:21,879801297-0800
+Request begin: 2018-01-20T14:30:27,279428033-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:30:27,300036090-0800
+Request begin: 2018-01-20T14:30:32,643435859-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:30:32,667829626-0800
+Request begin: 2018-01-20T14:30:38,047414505-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:30:38,075010780-0800
+Request begin: 2018-01-20T14:30:43,451428821-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:30:43,475829197-0800
+Request begin: 2018-01-20T14:30:48,411400925-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:30:48,436045462-0800
+Request begin: 2018-01-20T14:30:53,807422766-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:30:53,886645342-0800
+Request begin: 2018-01-20T14:30:59,223423262-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:30:59,251039617-0800
+Request begin: 2018-01-20T14:31:04,623428075-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:31:04,647763320-0800
+Request begin: 2018-01-20T14:31:10,023442518-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:31:10,047828070-0800
+Request begin: 2018-01-20T14:31:15,455444995-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:31:15,502699005-0800
+Request begin: 2018-01-20T14:31:20,863024777-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:31:20,875080359-0800
+Request begin: 2018-01-20T14:31:26,251383128-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:31:26,299140639-0800
+Request begin: 2018-01-20T14:31:31,675423838-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:31:31,723118136-0800
+Request begin: 2018-01-20T14:31:37,039392607-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:31:37,067030407-0800
+Request begin: 2018-01-20T14:31:42,463444953-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:31:42,503064514-0800
+Request begin: 2018-01-20T14:31:47,835310056-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:31:47,836615632-0800
+Request begin: 2018-01-20T14:31:53,227385251-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:31:53,254982273-0800
+Request begin: 2018-01-20T14:31:58,627375994-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:31:58,650978671-0800
+Request begin: 2018-01-20T14:32:04,087159595-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:32:04,088761984-0800
+Request begin: 2018-01-20T14:32:09,435452633-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:32:09,482734342-0800
+Request begin: 2018-01-20T14:32:14,847397951-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:32:14,879062417-0800
+Request begin: 2018-01-20T14:32:20,219398404-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:32:20,247059226-0800
+Request begin: 2018-01-20T14:32:25,647559493-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:32:25,678664320-0800
+Request begin: 2018-01-20T14:32:31,047432697-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:32:31,098700183-0800
+Request begin: 2018-01-20T14:32:36,475448453-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:32:36,503084672-0800
+Request begin: 2018-01-20T14:32:41,863450349-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:32:41,887826770-0800
+Request begin: 2018-01-20T14:32:47,287418809-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:32:47,323165039-0800
+Request begin: 2018-01-20T14:32:52,711465265-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:32:52,758692678-0800
+Request begin: 2018-01-20T14:32:58,111423810-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:32:58,139050997-0800
+Request begin: 2018-01-20T14:33:03,511440091-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:33:03,562670893-0800
+Request begin: 2018-01-20T14:33:08,895451433-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:33:08,919860116-0800
+Request begin: 2018-01-20T14:33:14,295467693-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:33:14,323050958-0800
+Request begin: 2018-01-20T14:33:19,683481296-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:33:19,723649871-0800
+Request begin: 2018-01-20T14:33:25,131424131-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:33:25,159079549-0800
+Request begin: 2018-01-20T14:33:30,507410772-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:33:30,531840219-0800
+Request begin: 2018-01-20T14:33:35,895421807-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:33:35,946687868-0800
+Request begin: 2018-01-20T14:33:41,315135091-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:33:41,316674842-0800
+Request begin: 2018-01-20T14:33:46,711480881-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:33:46,738691802-0800
+Request begin: 2018-01-20T14:33:52,179053805-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:33:52,206717276-0800
+Request begin: 2018-01-20T14:33:57,527430971-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:33:57,551845110-0800
+Request begin: 2018-01-20T14:34:02,923410884-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:34:02,947856628-0800
+Request begin: 2018-01-20T14:34:08,327522151-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:34:08,329017576-0800
+Request begin: 2018-01-20T14:34:13,743462912-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:34:13,779164775-0800
+Request begin: 2018-01-20T14:34:19,127445453-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:34:19,151854298-0800
+Request begin: 2018-01-20T14:34:24,519419365-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:34:24,543848686-0800
+Request begin: 2018-01-20T14:34:29,947437893-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:34:29,971129710-0800
+Request begin: 2018-01-20T14:34:35,355456360-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:34:35,383131333-0800
+Request begin: 2018-01-20T14:34:40,779499556-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:34:40,799720583-0800
+Request begin: 2018-01-20T14:34:46,151438161-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:34:46,199122514-0800
+Request begin: 2018-01-20T14:34:51,531401658-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:34:51,582653667-0800
+Request begin: 2018-01-20T14:34:56,946667665-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:34:56,971128348-0800
+Request begin: 2018-01-20T14:35:02,343483160-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:35:02,344934508-0800
+Request begin: 2018-01-20T14:35:07,703448317-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:35:07,731036777-0800
+Request begin: 2018-01-20T14:35:13,103421569-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:35:13,131075390-0800
+Request begin: 2018-01-20T14:35:18,099447987-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:35:18,124078758-0800
+Request begin: 2018-01-20T14:35:23,491472676-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:35:23,519139780-0800
+Request begin: 2018-01-20T14:35:28,863442123-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:35:28,891080589-0800
+Request begin: 2018-01-20T14:35:34,303489887-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:35:34,350750346-0800
+Request begin: 2018-01-20T14:35:39,711691256-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:35:39,722970183-0800
+Request begin: 2018-01-20T14:35:45,123421024-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:35:45,174677416-0800
+Request begin: 2018-01-20T14:35:50,543027539-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:35:50,567873312-0800
+Request begin: 2018-01-20T14:35:55,959495997-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:35:55,960942833-0800
+Request begin: 2018-01-20T14:36:01,387463140-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:36:01,388941099-0800
+Request begin: 2018-01-20T14:36:06,755434491-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:36:06,803138373-0800
+Request begin: 2018-01-20T14:36:12,187442845-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:36:12,215078376-0800
+Request begin: 2018-01-20T14:36:17,559424111-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:36:17,587029141-0800
+Request begin: 2018-01-20T14:36:22,971481935-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:36:23,022685520-0800
+Request begin: 2018-01-20T14:36:28,403466845-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:36:28,434699392-0800
+Request begin: 2018-01-20T14:36:33,819077760-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:36:33,839722997-0800
+Request begin: 2018-01-20T14:36:39,231431505-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:36:39,259073019-0800
+Request begin: 2018-01-20T14:36:44,607453464-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:36:44,655141909-0800
+Request begin: 2018-01-20T14:36:50,031414663-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:36:50,055830565-0800
+Request begin: 2018-01-20T14:36:55,427475508-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:36:55,474692531-0800
+Request begin: 2018-01-20T14:37:00,863411759-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:37:00,907183090-0800
+Request begin: 2018-01-20T14:37:06,291414986-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:37:06,319073246-0800
+Request begin: 2018-01-20T14:37:11,691385199-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:37:11,739132212-0800
+Request begin: 2018-01-20T14:37:17,123413480-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:37:17,150247118-0800
+Request begin: 2018-01-20T14:37:22,515036954-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:37:22,516387465-0800
+Request begin: 2018-01-20T14:37:27,895326345-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:37:27,950974565-0800
+Request begin: 2018-01-20T14:37:33,351346340-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:37:33,378737352-0800
+Request begin: 2018-01-20T14:37:38,679340356-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:37:38,726559655-0800
+Request begin: 2018-01-20T14:37:44,123375152-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:37:44,124574170-0800
+Request begin: 2018-01-20T14:37:49,475318680-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:37:49,502542576-0800
+Request begin: 2018-01-20T14:37:54,839318810-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:37:54,862980542-0800
+Request begin: 2018-01-20T14:38:00,199311828-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:38:00,222965483-0800
+Request begin: 2018-01-20T14:38:05,945798372-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:38:06,000867204-0800
+Request begin: 2018-01-20T14:38:10,956548279-0800
+Setting taskset '0x00000000000000000000FFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 52209 52246'
+pid 49207's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffff
+pid 52209's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 52209's new affinity mask: ffffffffffffffffffff
+pid 52246's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 52246's new affinity mask: ffffffffffffffffffff
+Request end  : 2018-01-20T14:38:11,006973063-0800
+Request begin: 2018-01-20T14:38:15,978938837-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 52848 52885'
+pid 49207's current affinity mask: ffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 52848's current affinity mask: ffffffffffffffffffff
+pid 52848's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 52885's current affinity mask: ffffffffffffffffffff
+pid 52885's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-20T14:38:16,047843657-0800
+Request begin: 2018-01-20T14:38:20,991558489-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:38:20,993540330-0800
+Request begin: 2018-01-20T14:38:26,003688053-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:38:26,005618064-0800
+Request begin: 2018-01-20T14:38:31,015924400-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:38:31,017856694-0800
+Request begin: 2018-01-20T14:38:36,028546428-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:38:36,029710370-0800
+Request begin: 2018-01-20T14:38:41,040554036-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:38:41,042622680-0800
+Request begin: 2018-01-20T14:38:46,052813590-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:38:46,054664283-0800
+Request begin: 2018-01-20T14:38:51,062634222-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:38:51,064524988-0800
+Request begin: 2018-01-20T14:38:56,072473208-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:38:56,074474259-0800
+Request begin: 2018-01-20T14:39:01,084486718-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:39:01,086473061-0800
+Request begin: 2018-01-20T14:39:06,130374909-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:39:06,132259393-0800
+Request begin: 2018-01-20T14:39:11,147196028-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:39:11,148322456-0800
+Request begin: 2018-01-20T14:39:16,413665836-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:39:16,414815199-0800
+Request begin: 2018-01-20T14:39:21,559807721-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:39:21,560885584-0800
+Request begin: 2018-01-20T14:39:27,114950159-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:39:27,116256921-0800
+Request begin: 2018-01-20T14:39:32,587448285-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:39:32,590544910-0800
+Request begin: 2018-01-20T14:39:38,073733292-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:39:38,118582298-0800
+Request begin: 2018-01-20T14:39:42,863200371-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:39:42,864348010-0800
+Request begin: 2018-01-20T14:39:48,279584757-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:39:48,298830523-0800
+Request begin: 2018-01-20T14:39:53,682985598-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:39:53,707075365-0800
+Request begin: 2018-01-20T14:39:59,192021969-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:39:59,194375136-0800
+Request begin: 2018-01-20T14:40:04,205279596-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:40:04,206506059-0800
+Request begin: 2018-01-20T14:40:09,510342148-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:40:09,511893650-0800
+Request begin: 2018-01-20T14:40:14,914995703-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:40:14,916256538-0800
+Request begin: 2018-01-20T14:40:20,275348490-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:40:20,326605782-0800
+Request begin: 2018-01-20T14:40:25,670903087-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:40:25,674950945-0800
+Request begin: 2018-01-20T14:40:31,434927375-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:40:31,436195575-0800
+Request begin: 2018-01-20T14:40:36,795299066-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:40:36,822549410-0800
+Request begin: 2018-01-20T14:40:42,178558011-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:40:42,198497330-0800
+Request begin: 2018-01-20T14:40:47,514861650-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:40:47,542241044-0800
+Request begin: 2018-01-20T14:40:52,842877338-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:40:52,862495799-0800
+Request begin: 2018-01-20T14:40:58,170511145-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:40:58,171651806-0800
+Request begin: 2018-01-20T14:41:03,563464900-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:41:03,582682903-0800
+Request begin: 2018-01-20T14:41:08,907398692-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:41:08,930515873-0800
+Request begin: 2018-01-20T14:41:14,299603090-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:41:14,318949906-0800
+Request begin: 2018-01-20T14:41:19,710974479-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:41:19,718931260-0800
+Request begin: 2018-01-20T14:41:25,066936022-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:41:25,094588379-0800
+Request begin: 2018-01-20T14:41:30,487615802-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:41:30,514869665-0800
+Request begin: 2018-01-20T14:41:35,931116124-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:41:35,932472054-0800
+Request begin: 2018-01-20T14:41:41,318958047-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:41:41,320227775-0800
+Request begin: 2018-01-20T14:41:46,715314786-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:41:46,731567012-0800
+Request begin: 2018-01-20T14:41:52,106953139-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:41:52,134600632-0800
+Request begin: 2018-01-20T14:41:57,468920696-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:41:57,494801296-0800
+Request begin: 2018-01-20T14:42:03,368731385-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:42:03,426246866-0800
+Request begin: 2018-01-20T14:42:09,084152738-0800
+Setting taskset '0x00000000000000000000FFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 54022 54059'
+pid 49207's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffff
+pid 54022's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 54022's new affinity mask: ffffffffffffffffffff
+pid 54059's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 54059's new affinity mask: ffffffffffffffffffff
+Request end  : 2018-01-20T14:42:09,983206765-0800
+Request begin: 2018-01-20T14:42:14,443331964-0800
+Taskset is unchanged: 0x00000000000000000000FFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:42:14,462539947-0800
+Request begin: 2018-01-20T14:42:19,767275459-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 54022 54059'
+pid 49207's current affinity mask: ffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 54022's current affinity mask: ffffffffffffffffffff
+pid 54022's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 54059's current affinity mask: ffffffffffffffffffff
+pid 54059's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-20T14:42:20,259116271-0800
+Request begin: 2018-01-20T14:42:25,399438635-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:42:25,400581094-0800
+Request begin: 2018-01-20T14:42:31,091664668-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:42:31,115966109-0800
+Request begin: 2018-01-20T14:42:36,759791277-0800
+Setting taskset '0x00000000000000000000FFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 54022 54059'
+pid 49207's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffff
+pid 54022's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 54022's new affinity mask: ffffffffffffffffffff
+pid 54059's current affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 54059's new affinity mask: ffffffffffffffffffff
+Request end  : 2018-01-20T14:42:36,830585102-0800
+Request begin: 2018-01-20T14:42:42,395039113-0800
+Taskset is unchanged: 0x00000000000000000000FFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:42:42,396160234-0800
+Request begin: 2018-01-20T14:42:48,084582633-0800
+Taskset is unchanged: 0x00000000000000000000FFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:42:48,087252179-0800
+Request begin: 2018-01-20T14:42:53,631810355-0800
+Taskset is unchanged: 0x00000000000000000000FFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:42:53,632924721-0800
+Request begin: 2018-01-20T14:42:58,648387374-0800
+Taskset is unchanged: 0x00000000000000000000FFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:42:58,649660319-0800
+Request begin: 2018-01-20T14:43:03,660994577-0800
+Setting taskset '0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' on PIDs '49207 49208 49210 49209 49211 49212 49213 49580 54022 54059'
+pid 49207's current affinity mask: ffffffffffffffffffff
+pid 49207's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49208's current affinity mask: ffffffffffffffffffff
+pid 49208's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49210's current affinity mask: ffffffffffffffffffff
+pid 49210's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49209's current affinity mask: ffffffffffffffffffff
+pid 49209's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49211's current affinity mask: ffffffffffffffffffff
+pid 49211's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49212's current affinity mask: ffffffffffffffffffff
+pid 49212's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49213's current affinity mask: ffffffffffffffffffff
+pid 49213's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 49580's current affinity mask: ffffffffffffffffffff
+pid 49580's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 54022's current affinity mask: ffffffffffffffffffff
+pid 54022's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+pid 54059's current affinity mask: ffffffffffffffffffff
+pid 54059's new affinity mask: ffffffffffffffffffffffffffffffffffffffff
+Request end  : 2018-01-20T14:43:03,710300776-0800
+Request begin: 2018-01-20T14:43:08,674460048-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:43:08,675555343-0800
+Request begin: 2018-01-20T14:43:13,687107735-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:43:13,688267140-0800
+Request begin: 2018-01-20T14:43:19,073136942-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:43:19,074660879-0800
+Request begin: 2018-01-20T14:43:24,439347968-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:43:24,486449809-0800
+Request begin: 2018-01-20T14:43:28,053393185-0800
+Taskset is unchanged: 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Request end  : 2018-01-20T14:43:28,054557977-0800
+Finished: 2018-01-20T14:43:28,098401097-0800
